@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T07:31:31.340165+00:00",
+ "generated_at": "2026-11-27T07:48:57.020625+00:00",
  "model_version": "2.0.0",
  "model_source": "ClubElo",
  "xg_snapshot_date": "2026-11-24",
@@ -37,8 +37,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5804,
-     "fair": 1.72,
+     "joint": 0.584,
+     "fair": 1.71,
      "legs": [
       {
        "label": "Under 5.5 goals",
@@ -49,7 +49,7 @@
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.8951,
+       "prob": 0.8959,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -70,7 +70,7 @@
       },
       {
        "label": "Werder Bremen cards under 3.5",
-       "prob": 0.8748,
+       "prob": 0.8738,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
@@ -78,8 +78,8 @@
      ]
     },
     "safe": {
-     "joint": 0.731,
-     "fair": 1.37,
+     "joint": 0.7349,
+     "fair": 1.36,
      "legs": [
       {
        "label": "Under 5.5 goals",
@@ -90,7 +90,7 @@
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.8951,
+       "prob": 0.8959,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -109,7 +109,7 @@
     {
      "label": "Werder Bremen cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8748,
+     "prob": 0.8738,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -117,7 +117,7 @@
     {
      "label": "M'gladbach cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8626,
+     "prob": 0.8625,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -125,7 +125,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "13/15",
-     "prob": 0.823,
+     "prob": 0.8218,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -133,7 +133,7 @@
     {
      "label": "Match shots on target over 7.5",
      "hit": "13/15",
-     "prob": 0.8951,
+     "prob": 0.8959,
      "stat": "sot",
      "direction": "over",
      "line": 7.5
@@ -142,19 +142,19 @@
    "most": [
     {
      "label": "Werder Bremen most corners",
-     "prob": 0.7388
+     "prob": 0.7372
     },
     {
      "label": "Borussia Mönchengladbach most corners",
-     "prob": 0.1809
+     "prob": 0.183
     },
     {
      "label": "Werder Bremen most cards",
-     "prob": 0.375
+     "prob": 0.3771
     },
     {
      "label": "Borussia Mönchengladbach most cards",
-     "prob": 0.3979
+     "prob": 0.3954
     }
    ],
    "form": {
@@ -188,19 +188,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5079,
-     "fair": 1.97,
+     "joint": 0.5092,
+     "fair": 1.96,
      "legs": [
       {
        "label": "Brest shots on target over 2.5",
-       "prob": 0.8905,
+       "prob": 0.8923,
        "source": "form",
        "hit": "14/15",
        "group": "sot"
       },
       {
        "label": "Brest shots over 10.5",
-       "prob": 0.8396,
+       "prob": 0.8418,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -214,7 +214,7 @@
       },
       {
        "label": "Paris FC corners under 5.5",
-       "prob": 0.8307,
+       "prob": 0.8322,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -229,19 +229,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6951,
+     "joint": 0.6956,
      "fair": 1.44,
      "legs": [
       {
        "label": "Brest shots on target over 2.5",
-       "prob": 0.8905,
+       "prob": 0.8923,
        "source": "form",
        "hit": "14/15",
        "group": "sot"
       },
       {
        "label": "Brest shots over 10.5",
-       "prob": 0.8396,
+       "prob": 0.8418,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -260,7 +260,7 @@
     {
      "label": "Brest shots on target over 2.5",
      "hit": "14/15",
-     "prob": 0.8905,
+     "prob": 0.8923,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -268,7 +268,7 @@
     {
      "label": "Paris FC corners under 5.5",
      "hit": "13/15",
-     "prob": 0.8307,
+     "prob": 0.8322,
      "stat": "corners",
      "direction": "under",
      "line": 5.5
@@ -276,7 +276,7 @@
     {
      "label": "Brest shots over 10.5",
      "hit": "13/15",
-     "prob": 0.8396,
+     "prob": 0.8418,
      "stat": "shots",
      "direction": "over",
      "line": 10.5
@@ -284,7 +284,7 @@
     {
      "label": "Brest corners under 6.5",
      "hit": "12/15",
-     "prob": 0.6694,
+     "prob": 0.6675,
      "stat": "corners",
      "direction": "under",
      "line": 6.5
@@ -293,19 +293,19 @@
    "most": [
     {
      "label": "Brest most corners",
-     "prob": 0.6465
+     "prob": 0.6463
     },
     {
      "label": "Paris FC most corners",
-     "prob": 0.259
+     "prob": 0.2598
     },
     {
      "label": "Brest most cards",
-     "prob": 0.2032
+     "prob": 0.2019
     },
     {
      "label": "Paris FC most cards",
-     "prob": 0.6189
+     "prob": 0.6158
     }
    ],
    "form": {
@@ -339,12 +339,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5396,
+     "joint": 0.5394,
      "fair": 1.85,
      "legs": [
       {
        "label": "Venezia shots over 7.5",
-       "prob": 0.9095,
+       "prob": 0.91,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -358,21 +358,21 @@
       },
       {
        "label": "Bologna cards under 3.5",
-       "prob": 0.8791,
+       "prob": 0.8822,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8778,
+       "prob": 0.8789,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.865,
+       "prob": 0.8652,
        "source": "form",
        "hit": "14/15",
        "group": "sot"
@@ -380,12 +380,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7171,
+     "joint": 0.7186,
      "fair": 1.39,
      "legs": [
       {
        "label": "Venezia shots over 7.5",
-       "prob": 0.9095,
+       "prob": 0.91,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -399,7 +399,7 @@
       },
       {
        "label": "Bologna cards under 3.5",
-       "prob": 0.8791,
+       "prob": 0.8822,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
@@ -411,7 +411,7 @@
     {
      "label": "Bologna cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8791,
+     "prob": 0.8822,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -419,7 +419,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "14/15",
-     "prob": 0.865,
+     "prob": 0.8652,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -427,7 +427,7 @@
     {
      "label": "Bologna corners under 5.5",
      "hit": "13/15",
-     "prob": 0.7404,
+     "prob": 0.7432,
      "stat": "corners",
      "direction": "under",
      "line": 5.5
@@ -435,7 +435,7 @@
     {
      "label": "Venezia shots over 7.5",
      "hit": "13/15",
-     "prob": 0.9095,
+     "prob": 0.91,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -444,7 +444,7 @@
    "most": [
     {
      "label": "Venezia most corners",
-     "prob": 0.5079
+     "prob": 0.5081
     },
     {
      "label": "Bologna most corners",
@@ -452,11 +452,11 @@
     },
     {
      "label": "Venezia most cards",
-     "prob": 0.3257
+     "prob": 0.3237
     },
     {
      "label": "Bologna most cards",
-     "prob": 0.4255
+     "prob": 0.4272
     }
    ],
    "form": {
@@ -490,8 +490,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5039,
-     "fair": 1.98,
+     "joint": 0.5068,
+     "fair": 1.97,
      "legs": [
       {
        "label": "Over 0.5 goals",
@@ -502,21 +502,21 @@
       },
       {
        "label": "Match shots over 19.5",
-       "prob": 0.8661,
+       "prob": 0.8664,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8059,
+       "prob": 0.8062,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Match corners under 13.5",
-       "prob": 0.8685,
+       "prob": 0.8698,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -531,7 +531,7 @@
      ]
     },
     "safe": {
-     "joint": 0.6981,
+     "joint": 0.6992,
      "fair": 1.43,
      "legs": [
       {
@@ -543,14 +543,14 @@
       },
       {
        "label": "Match shots over 19.5",
-       "prob": 0.8661,
+       "prob": 0.8664,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8059,
+       "prob": 0.8062,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -562,7 +562,7 @@
     {
      "label": "Nott'm Forest cards under 2.5",
      "hit": "15/15",
-     "prob": 0.8027,
+     "prob": 0.8072,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -570,7 +570,7 @@
     {
      "label": "Nott'm Forest shots over 9.5",
      "hit": "13/15",
-     "prob": 0.8706,
+     "prob": 0.87,
      "stat": "shots",
      "direction": "over",
      "line": 9.5
@@ -578,7 +578,7 @@
     {
      "label": "Match shots over 19.5",
      "hit": "13/15",
-     "prob": 0.8661,
+     "prob": 0.8664,
      "stat": "shots",
      "direction": "over",
      "line": 19.5
@@ -595,19 +595,19 @@
    "most": [
     {
      "label": "Nottingham Forest most corners",
-     "prob": 0.5369
+     "prob": 0.5357
     },
     {
      "label": "Chelsea most corners",
-     "prob": 0.3698
+     "prob": 0.3706
     },
     {
      "label": "Nottingham Forest most cards",
-     "prob": 0.2076
+     "prob": 0.2056
     },
     {
      "label": "Chelsea most cards",
-     "prob": 0.5921
+     "prob": 0.5962
     }
    ],
    "form": {
@@ -641,12 +641,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5205,
+     "joint": 0.5202,
      "fair": 1.92,
      "legs": [
       {
        "label": "Match shots over 23.5",
-       "prob": 0.8932,
+       "prob": 0.8925,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -674,7 +674,7 @@
       },
       {
        "label": "Levante most corners",
-       "prob": 0.8313,
+       "prob": 0.8327,
        "source": "form",
        "hit": "",
        "group": "most_corners"
@@ -682,12 +682,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7359,
+     "joint": 0.7332,
      "fair": 1.36,
      "legs": [
       {
        "label": "Match shots over 23.5",
-       "prob": 0.8932,
+       "prob": 0.8925,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -713,7 +713,7 @@
     {
      "label": "Match corners under 13.5",
      "hit": "14/15",
-     "prob": 0.7498,
+     "prob": 0.7481,
      "stat": "corners",
      "direction": "under",
      "line": 13.5
@@ -721,7 +721,7 @@
     {
      "label": "Match shots over 23.5",
      "hit": "13/15",
-     "prob": 0.8932,
+     "prob": 0.8925,
      "stat": "shots",
      "direction": "over",
      "line": 23.5
@@ -729,7 +729,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "12/15",
-     "prob": 0.7827,
+     "prob": 0.7856,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -737,7 +737,7 @@
     {
      "label": "Levante cards over 1.5",
      "hit": "11/15",
-     "prob": 0.6039,
+     "prob": 0.6067,
      "stat": "cards",
      "direction": "over",
      "line": 1.5
@@ -746,19 +746,19 @@
    "most": [
     {
      "label": "Levante most corners",
-     "prob": 0.8313
+     "prob": 0.8327
     },
     {
      "label": "Santander most corners",
-     "prob": 0.115
+     "prob": 0.1143
     },
     {
      "label": "Levante most cards",
-     "prob": 0.3377
+     "prob": 0.3412
     },
     {
      "label": "Santander most cards",
-     "prob": 0.4547
+     "prob": 0.4542
     }
    ],
    "form": {
@@ -792,12 +792,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5494,
-     "fair": 1.82,
+     "joint": 0.5431,
+     "fair": 1.84,
      "legs": [
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8996,
+       "prob": 0.8998,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -818,7 +818,7 @@
       },
       {
        "label": "Betis cards under 3.5",
-       "prob": 0.8479,
+       "prob": 0.8482,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
@@ -833,12 +833,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7304,
-     "fair": 1.37,
+     "joint": 0.7266,
+     "fair": 1.38,
      "legs": [
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8996,
+       "prob": 0.8998,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -864,7 +864,7 @@
     {
      "label": "Betis cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8479,
+     "prob": 0.8482,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -872,44 +872,44 @@
     {
      "label": "Match cards over 2.5",
      "hit": "13/15",
-     "prob": 0.8236,
+     "prob": 0.8247,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
     },
     {
+     "label": "Vallecano corners under 7.5",
+     "hit": "13/15",
+     "prob": 0.9386,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    },
+    {
      "label": "Match shots over 25.5",
      "hit": "13/15",
-     "prob": 0.7656,
+     "prob": 0.7659,
      "stat": "shots",
      "direction": "over",
      "line": 25.5
-    },
-    {
-     "label": "Vallecano shots on target over 2.5",
-     "hit": "13/15",
-     "prob": 0.6549,
-     "stat": "sot",
-     "direction": "over",
-     "line": 2.5
     }
    ],
    "most": [
     {
      "label": "Real Betis most corners",
-     "prob": 0.7652
+     "prob": 0.7655
     },
     {
      "label": "Rayo Vallecano most corners",
-     "prob": 0.1719
+     "prob": 0.1713
     },
     {
      "label": "Real Betis most cards",
-     "prob": 0.2144
+     "prob": 0.2149
     },
     {
      "label": "Rayo Vallecano most cards",
-     "prob": 0.6145
+     "prob": 0.612
     }
    ],
    "form": {
@@ -943,12 +943,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5385,
+     "joint": 0.5368,
      "fair": 1.86,
      "legs": [
       {
        "label": "Parma corners under 6.5",
-       "prob": 0.9141,
+       "prob": 0.9118,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -969,7 +969,7 @@
       },
       {
        "label": "Parma cards under 3.5",
-       "prob": 0.8569,
+       "prob": 0.8592,
        "source": "form",
        "hit": "15/15",
        "group": "cards"
@@ -984,12 +984,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7766,
+     "joint": 0.7734,
      "fair": 1.29,
      "legs": [
       {
        "label": "Parma corners under 6.5",
-       "prob": 0.9141,
+       "prob": 0.9118,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -1015,7 +1015,7 @@
     {
      "label": "Parma cards under 3.5",
      "hit": "15/15",
-     "prob": 0.8569,
+     "prob": 0.8592,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1023,7 +1023,7 @@
     {
      "label": "Match shots on target over 7.5",
      "hit": "14/15",
-     "prob": 0.7905,
+     "prob": 0.7951,
      "stat": "sot",
      "direction": "over",
      "line": 7.5
@@ -1031,7 +1031,7 @@
     {
      "label": "Parma corners under 6.5",
      "hit": "13/15",
-     "prob": 0.9141,
+     "prob": 0.9118,
      "stat": "corners",
      "direction": "under",
      "line": 6.5
@@ -1039,7 +1039,7 @@
     {
      "label": "Match corners under 15.5",
      "hit": "12/15",
-     "prob": 0.8194,
+     "prob": 0.8167,
      "stat": "corners",
      "direction": "under",
      "line": 15.5
@@ -1048,7 +1048,7 @@
    "most": [
     {
      "label": "Frosinone most corners",
-     "prob": 0.8367
+     "prob": 0.8393
     },
     {
      "label": "Parma most corners",
@@ -1056,11 +1056,11 @@
     },
     {
      "label": "Frosinone most cards",
-     "prob": 0.214
+     "prob": 0.2165
     },
     {
      "label": "Parma most cards",
-     "prob": 0.551
+     "prob": 0.5473
     }
    ],
    "form": {
@@ -1094,8 +1094,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5101,
-     "fair": 1.96,
+     "joint": 0.5079,
+     "fair": 1.97,
      "legs": [
       {
        "label": "Elversberg under 2.5 goals",
@@ -1113,14 +1113,14 @@
       },
       {
        "label": "FC Koln cards under 3.5",
-       "prob": 0.8834,
+       "prob": 0.8832,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
       },
       {
        "label": "FC Koln shots on target over 3.5",
-       "prob": 0.879,
+       "prob": 0.8781,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -1135,8 +1135,8 @@
      ]
     },
     "safe": {
-     "joint": 0.7105,
-     "fair": 1.41,
+     "joint": 0.7147,
+     "fair": 1.4,
      "legs": [
       {
        "label": "Elversberg under 2.5 goals",
@@ -1154,7 +1154,7 @@
       },
       {
        "label": "FC Koln cards under 3.5",
-       "prob": 0.8834,
+       "prob": 0.8832,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -1166,7 +1166,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "13/15",
-     "prob": 0.6687,
+     "prob": 0.6643,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -1174,7 +1174,7 @@
     {
      "label": "Match cards under 5.5",
      "hit": "12/15",
-     "prob": 0.7601,
+     "prob": 0.7592,
      "stat": "cards",
      "direction": "under",
      "line": 5.5
@@ -1182,7 +1182,7 @@
     {
      "label": "FC Koln cards under 3.5",
      "hit": "12/15",
-     "prob": 0.8834,
+     "prob": 0.8832,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1190,7 +1190,7 @@
     {
      "label": "FC Koln shots over 10.5",
      "hit": "12/15",
-     "prob": 0.9356,
+     "prob": 0.9361,
      "stat": "shots",
      "direction": "over",
      "line": 10.5
@@ -1199,19 +1199,19 @@
    "most": [
     {
      "label": "Köln most corners",
-     "prob": 0.7368
+     "prob": 0.738
     },
     {
      "label": "Elversberg most corners",
-     "prob": 0.1934
+     "prob": 0.1918
     },
     {
      "label": "Köln most cards",
-     "prob": 0.3066
+     "prob": 0.3074
     },
     {
      "label": "Elversberg most cards",
-     "prob": 0.4856
+     "prob": 0.4855
     }
    ],
    "form": {
@@ -1245,12 +1245,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4113,
-     "fair": 2.43,
+     "joint": 0.4065,
+     "fair": 2.46,
      "legs": [
       {
        "label": "Hamburg shots over 8.5",
-       "prob": 0.876,
+       "prob": 0.878,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -1271,7 +1271,7 @@
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.7907,
+       "prob": 0.7889,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -1286,12 +1286,12 @@
      ]
     },
     "safe": {
-     "joint": 0.6895,
-     "fair": 1.45,
+     "joint": 0.686,
+     "fair": 1.46,
      "legs": [
       {
        "label": "Hamburg shots over 8.5",
-       "prob": 0.876,
+       "prob": 0.878,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -1317,7 +1317,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "13/15",
-     "prob": 0.6939,
+     "prob": 0.6943,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -1325,7 +1325,7 @@
     {
      "label": "Hamburg corners under 5.5",
      "hit": "13/15",
-     "prob": 0.6226,
+     "prob": 0.6242,
      "stat": "corners",
      "direction": "under",
      "line": 5.5
@@ -1333,7 +1333,7 @@
     {
      "label": "Hamburg shots on target over 1.5",
      "hit": "13/15",
-     "prob": 0.9301,
+     "prob": 0.9296,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -1341,7 +1341,7 @@
     {
      "label": "Match shots on target over 7.5",
      "hit": "13/15",
-     "prob": 0.7907,
+     "prob": 0.7889,
      "stat": "sot",
      "direction": "over",
      "line": 7.5
@@ -1350,19 +1350,19 @@
    "most": [
     {
      "label": "Hamburg most corners",
-     "prob": 0.4294
+     "prob": 0.4296
     },
     {
      "label": "Bayern Munich most corners",
-     "prob": 0.4735
+     "prob": 0.472
     },
     {
      "label": "Hamburg most cards",
-     "prob": 0.3777
+     "prob": 0.3774
     },
     {
      "label": "Bayern Munich most cards",
-     "prob": 0.404
+     "prob": 0.4041
     }
    ],
    "form": {
@@ -1401,21 +1401,21 @@
      "legs": [
       {
        "label": "Mainz cards under 3.5",
-       "prob": 0.9124,
+       "prob": 0.9136,
        "source": "form",
        "hit": "15/15",
        "group": "cards"
       },
       {
        "label": "Match shots over 21.5",
-       "prob": 0.9032,
+       "prob": 0.9012,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8601,
+       "prob": 0.8603,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -1437,26 +1437,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7399,
+     "joint": 0.7423,
      "fair": 1.35,
      "legs": [
       {
        "label": "Mainz cards under 3.5",
-       "prob": 0.9124,
+       "prob": 0.9136,
        "source": "form",
        "hit": "15/15",
        "group": "cards"
       },
       {
        "label": "Match shots over 21.5",
-       "prob": 0.9032,
+       "prob": 0.9012,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8601,
+       "prob": 0.8603,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -1468,7 +1468,7 @@
     {
      "label": "Mainz cards under 3.5",
      "hit": "15/15",
-     "prob": 0.9124,
+     "prob": 0.9136,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1476,7 +1476,7 @@
     {
      "label": "Union Berlin cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8431,
+     "prob": 0.8397,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1484,7 +1484,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "13/15",
-     "prob": 0.6791,
+     "prob": 0.6782,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -1492,7 +1492,7 @@
     {
      "label": "Match cards under 5.5",
      "hit": "12/15",
-     "prob": 0.8254,
+     "prob": 0.8212,
      "stat": "cards",
      "direction": "under",
      "line": 5.5
@@ -1501,11 +1501,11 @@
    "most": [
     {
      "label": "Mainz most corners",
-     "prob": 0.8529
+     "prob": 0.8548
     },
     {
      "label": "Union Berlin most corners",
-     "prob": 0.0943
+     "prob": 0.0942
     },
     {
      "label": "Mainz most cards",
@@ -1513,7 +1513,7 @@
     },
     {
      "label": "Union Berlin most cards",
-     "prob": 0.4693
+     "prob": 0.4713
     }
    ],
    "form": {
@@ -1547,8 +1547,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4184,
-     "fair": 2.39,
+     "joint": 0.4294,
+     "fair": 2.33,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -1558,37 +1558,37 @@
        "group": "goals"
       },
       {
-       "label": "Schalke 04 corners under 5.5",
-       "prob": 0.8576,
-       "source": "form",
-       "hit": "12/15",
-       "group": "corners"
-      },
-      {
        "label": "Match shots over 23.5",
-       "prob": 0.8608,
+       "prob": 0.8643,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
-       "label": "Match cards under 4.5",
-       "prob": 0.8101,
+       "label": "Schalke 04 corners under 5.5",
+       "prob": 0.8558,
        "source": "form",
-       "hit": "13/15",
-       "group": "cards"
+       "hit": "12/15",
+       "group": "corners"
       },
       {
-       "label": "Paderborn over 0.5 goals",
-       "prob": 0.8178,
+       "label": "Paderborn under 2.5 goals",
+       "prob": 0.7565,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Schalke 04 shots on target over 1.5",
+       "prob": 0.8147,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
       }
      ]
     },
     "safe": {
-     "joint": 0.6234,
+     "joint": 0.6257,
      "fair": 1.6,
      "legs": [
       {
@@ -1599,18 +1599,18 @@
        "group": "goals"
       },
       {
-       "label": "Schalke 04 corners under 5.5",
-       "prob": 0.8576,
-       "source": "form",
-       "hit": "12/15",
-       "group": "corners"
-      },
-      {
        "label": "Match shots over 23.5",
-       "prob": 0.8608,
+       "prob": 0.8643,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
+      },
+      {
+       "label": "Schalke 04 corners under 5.5",
+       "prob": 0.8558,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
       }
      ]
     }
@@ -1619,23 +1619,15 @@
     {
      "label": "Match cards under 4.5",
      "hit": "13/15",
-     "prob": 0.8101,
+     "prob": 0.8087,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
     },
     {
-     "label": "Match shots on target over 5.5",
-     "hit": "13/15",
-     "prob": 0.9396,
-     "stat": "sot",
-     "direction": "over",
-     "line": 5.5
-    },
-    {
      "label": "Schalke 04 corners under 5.5",
      "hit": "12/15",
-     "prob": 0.8576,
+     "prob": 0.8558,
      "stat": "corners",
      "direction": "under",
      "line": 5.5
@@ -1643,28 +1635,36 @@
     {
      "label": "Schalke 04 shots over 8.5",
      "hit": "12/15",
-     "prob": 0.7569,
+     "prob": 0.7568,
      "stat": "shots",
      "direction": "over",
      "line": 8.5
+    },
+    {
+     "label": "Match shots over 23.5",
+     "hit": "12/15",
+     "prob": 0.8643,
+     "stat": "shots",
+     "direction": "over",
+     "line": 23.5
     }
    ],
    "most": [
     {
      "label": "Paderborn most corners",
-     "prob": 0.8007
+     "prob": 0.7995
     },
     {
      "label": "Schalke 04 most corners",
-     "prob": 0.1369
+     "prob": 0.1379
     },
     {
      "label": "Paderborn most cards",
-     "prob": 0.26
+     "prob": 0.2662
     },
     {
      "label": "Schalke 04 most cards",
-     "prob": 0.4746
+     "prob": 0.4685
     }
    ],
    "form": {
@@ -1698,22 +1698,36 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5471,
-     "fair": 1.83,
+     "joint": 0.4432,
+     "fair": 2.26,
      "legs": [
       {
+       "label": "Leeds under 3.5 goals",
+       "prob": 0.8794,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 3.5 goals",
+       "prob": 0.7811,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
        "label": "Leeds shots over 11.5",
-       "prob": 0.8768,
+       "prob": 0.8744,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
-       "label": "Leeds over 0.5 goals",
-       "prob": 0.8462,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8156,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
       },
       {
        "label": "No draw",
@@ -1721,47 +1735,33 @@
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Leeds most corners",
-       "prob": 0.6741,
-       "source": "form",
-       "hit": "",
-       "group": "most_corners"
-      },
-      {
-       "label": "Match shots on target over 5.5",
-       "prob": 0.8161,
-       "source": "form",
-       "hit": "14/15",
-       "group": "sot"
       }
      ]
     },
     "safe": {
-     "joint": 0.6633,
-     "fair": 1.51,
+     "joint": 0.6755,
+     "fair": 1.48,
      "legs": [
       {
-       "label": "Leeds shots over 11.5",
-       "prob": 0.8768,
-       "source": "form",
-       "hit": "12/15",
-       "group": "shots"
-      },
-      {
-       "label": "Leeds over 0.5 goals",
-       "prob": 0.8462,
+       "label": "Leeds under 3.5 goals",
+       "prob": 0.8794,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7868,
+       "label": "Under 3.5 goals",
+       "prob": 0.7811,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
+      },
+      {
+       "label": "Leeds shots over 11.5",
+       "prob": 0.8744,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
       }
      ]
     }
@@ -1770,7 +1770,7 @@
     {
      "label": "Match corners under 10.5",
      "hit": "15/15",
-     "prob": 0.7204,
+     "prob": 0.7173,
      "stat": "corners",
      "direction": "under",
      "line": 10.5
@@ -1778,7 +1778,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "14/15",
-     "prob": 0.8161,
+     "prob": 0.8156,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -1786,7 +1786,7 @@
     {
      "label": "Match cards under 4.5",
      "hit": "13/15",
-     "prob": 0.7266,
+     "prob": 0.7258,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -1794,7 +1794,7 @@
     {
      "label": "Leeds corners under 6.5",
      "hit": "12/15",
-     "prob": 0.6514,
+     "prob": 0.6498,
      "stat": "corners",
      "direction": "under",
      "line": 6.5
@@ -1803,19 +1803,19 @@
    "most": [
     {
      "label": "Leeds most corners",
-     "prob": 0.6741
+     "prob": 0.6789
     },
     {
      "label": "Coventry most corners",
-     "prob": 0.2308
+     "prob": 0.2289
     },
     {
      "label": "Leeds most cards",
-     "prob": 0.1611
+     "prob": 0.1575
     },
     {
      "label": "Coventry most cards",
-     "prob": 0.6339
+     "prob": 0.638
     }
    ],
    "form": {
@@ -1849,26 +1849,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5556,
-     "fair": 1.8,
+     "joint": 0.5589,
+     "fair": 1.79,
      "legs": [
       {
        "label": "Brentford corners under 6.5",
-       "prob": 0.8946,
+       "prob": 0.8983,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Man United shots on target over 3.5",
-       "prob": 0.8861,
+       "prob": 0.8862,
        "source": "form",
        "hit": "14/15",
        "group": "sot"
       },
       {
        "label": "Man United cards under 3.5",
-       "prob": 0.8872,
+       "prob": 0.8839,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -1890,26 +1890,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7119,
+     "joint": 0.7118,
      "fair": 1.4,
      "legs": [
       {
        "label": "Brentford corners under 6.5",
-       "prob": 0.8946,
+       "prob": 0.8983,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Man United shots on target over 3.5",
-       "prob": 0.8861,
+       "prob": 0.8862,
        "source": "form",
        "hit": "14/15",
        "group": "sot"
       },
       {
        "label": "Man United cards under 3.5",
-       "prob": 0.8872,
+       "prob": 0.8839,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -1921,7 +1921,7 @@
     {
      "label": "Man United shots on target over 3.5",
      "hit": "14/15",
-     "prob": 0.8861,
+     "prob": 0.8862,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -1929,7 +1929,7 @@
     {
      "label": "Brentford shots on target over 1.5",
      "hit": "14/15",
-     "prob": 0.7967,
+     "prob": 0.7932,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -1937,7 +1937,7 @@
     {
      "label": "Man United cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8872,
+     "prob": 0.8839,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1945,7 +1945,7 @@
     {
      "label": "Brentford cards under 3.5",
      "hit": "12/15",
-     "prob": 0.689,
+     "prob": 0.684,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -1954,19 +1954,19 @@
    "most": [
     {
      "label": "Man United most corners",
-     "prob": 0.7305
+     "prob": 0.7324
     },
     {
      "label": "Brentford most corners",
-     "prob": 0.1965
+     "prob": 0.1963
     },
     {
      "label": "Man United most cards",
-     "prob": 0.232
+     "prob": 0.2293
     },
     {
      "label": "Brentford most cards",
-     "prob": 0.5879
+     "prob": 0.59
     }
    ],
    "form": {
@@ -2000,8 +2000,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4789,
-     "fair": 2.09,
+     "joint": 0.4747,
+     "fair": 2.11,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -2019,21 +2019,21 @@
       },
       {
        "label": "Ath Bilbao shots on target over 1.5",
-       "prob": 0.8465,
+       "prob": 0.8448,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Ath Bilbao shots over 7.5",
-       "prob": 0.7823,
+       "prob": 0.7799,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Ath Bilbao cards under 3.5",
-       "prob": 0.783,
+       "prob": 0.7794,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -2041,8 +2041,8 @@
      ]
     },
     "safe": {
-     "joint": 0.703,
-     "fair": 1.42,
+     "joint": 0.7012,
+     "fair": 1.43,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -2060,7 +2060,7 @@
       },
       {
        "label": "Ath Bilbao shots on target over 1.5",
-       "prob": 0.8465,
+       "prob": 0.8448,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -2072,7 +2072,7 @@
     {
      "label": "Ath Bilbao cards under 3.5",
      "hit": "13/15",
-     "prob": 0.783,
+     "prob": 0.7794,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -2080,7 +2080,7 @@
     {
      "label": "Ath Bilbao shots over 7.5",
      "hit": "13/15",
-     "prob": 0.7823,
+     "prob": 0.7799,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -2088,7 +2088,7 @@
     {
      "label": "Match shots over 18.5",
      "hit": "13/15",
-     "prob": 0.9383,
+     "prob": 0.9396,
      "stat": "shots",
      "direction": "over",
      "line": 18.5
@@ -2096,7 +2096,7 @@
     {
      "label": "Ath Bilbao shots on target over 1.5",
      "hit": "13/15",
-     "prob": 0.8465,
+     "prob": 0.8448,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -2105,19 +2105,19 @@
    "most": [
     {
      "label": "Malaga most corners",
-     "prob": 0.673
+     "prob": 0.6712
     },
     {
      "label": "Athletic Club most corners",
-     "prob": 0.2452
+     "prob": 0.2453
     },
     {
      "label": "Malaga most cards",
-     "prob": 0.3422
+     "prob": 0.3421
     },
     {
      "label": "Athletic Club most cards",
-     "prob": 0.4495
+     "prob": 0.4502
     }
    ],
    "form": {
@@ -2151,19 +2151,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.548,
-     "fair": 1.82,
+     "joint": 0.5445,
+     "fair": 1.84,
      "legs": [
       {
        "label": "Angers shots over 7.5",
-       "prob": 0.9193,
+       "prob": 0.9172,
        "source": "form",
        "hit": "11/15",
        "group": "shots"
       },
       {
        "label": "Lens corners under 8.5",
-       "prob": 0.9087,
+       "prob": 0.9081,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -2184,7 +2184,7 @@
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8283,
+       "prob": 0.8313,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -2192,19 +2192,19 @@
      ]
     },
     "safe": {
-     "joint": 0.732,
-     "fair": 1.37,
+     "joint": 0.7264,
+     "fair": 1.38,
      "legs": [
       {
        "label": "Angers shots over 7.5",
-       "prob": 0.9193,
+       "prob": 0.9172,
        "source": "form",
        "hit": "11/15",
        "group": "shots"
       },
       {
        "label": "Lens corners under 8.5",
-       "prob": 0.9087,
+       "prob": 0.9081,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -2223,7 +2223,7 @@
     {
      "label": "Lens shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.7935,
+     "prob": 0.7974,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -2231,7 +2231,7 @@
     {
      "label": "Match cards under 4.5",
      "hit": "12/15",
-     "prob": 0.6984,
+     "prob": 0.6977,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -2239,7 +2239,7 @@
     {
      "label": "Angers corners under 6.5",
      "hit": "12/15",
-     "prob": 0.6468,
+     "prob": 0.6437,
      "stat": "corners",
      "direction": "under",
      "line": 6.5
@@ -2247,7 +2247,7 @@
     {
      "label": "Lens corners under 8.5",
      "hit": "12/15",
-     "prob": 0.9087,
+     "prob": 0.9081,
      "stat": "corners",
      "direction": "under",
      "line": 8.5
@@ -2256,19 +2256,19 @@
    "most": [
     {
      "label": "Angers most corners",
-     "prob": 0.5316
+     "prob": 0.5305
     },
     {
      "label": "Lens most corners",
-     "prob": 0.3741
+     "prob": 0.3758
     },
     {
      "label": "Angers most cards",
-     "prob": 0.2791
+     "prob": 0.2821
     },
     {
      "label": "Lens most cards",
-     "prob": 0.5092
+     "prob": 0.5018
     }
    ],
    "form": {
@@ -2302,8 +2302,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5583,
-     "fair": 1.79,
+     "joint": 0.5546,
+     "fair": 1.8,
      "legs": [
       {
        "label": "Over 0.5 goals",
@@ -2314,28 +2314,28 @@
       },
       {
        "label": "Match shots over 18.5",
-       "prob": 0.8878,
+       "prob": 0.888,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Lazio corners under 6.5",
-       "prob": 0.8905,
+       "prob": 0.8893,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Torino cards under 3.5",
-       "prob": 0.8772,
+       "prob": 0.876,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.808,
+       "prob": 0.8032,
        "source": "form",
        "hit": "11/15",
        "group": "sot"
@@ -2343,7 +2343,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7201,
+     "joint": 0.7203,
      "fair": 1.39,
      "legs": [
       {
@@ -2355,14 +2355,14 @@
       },
       {
        "label": "Match shots over 18.5",
-       "prob": 0.8878,
+       "prob": 0.888,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Lazio corners under 6.5",
-       "prob": 0.8905,
+       "prob": 0.8893,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -2374,7 +2374,7 @@
     {
      "label": "Lazio cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8738,
+     "prob": 0.8753,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -2382,7 +2382,7 @@
     {
      "label": "Torino cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8772,
+     "prob": 0.876,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -2390,7 +2390,7 @@
     {
      "label": "Lazio shots over 7.5",
      "hit": "13/15",
-     "prob": 0.7479,
+     "prob": 0.7534,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -2398,7 +2398,7 @@
     {
      "label": "Match shots over 18.5",
      "hit": "13/15",
-     "prob": 0.8878,
+     "prob": 0.888,
      "stat": "shots",
      "direction": "over",
      "line": 18.5
@@ -2407,19 +2407,19 @@
    "most": [
     {
      "label": "Torino most corners",
-     "prob": 0.6029
+     "prob": 0.6062
     },
     {
      "label": "Lazio most corners",
-     "prob": 0.2946
+     "prob": 0.2949
     },
     {
      "label": "Torino most cards",
-     "prob": 0.3829
+     "prob": 0.3873
     },
     {
      "label": "Lazio most cards",
-     "prob": 0.3864
+     "prob": 0.3835
     }
    ],
    "form": {
@@ -2453,8 +2453,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5481,
-     "fair": 1.82,
+     "joint": 0.5513,
+     "fair": 1.81,
      "legs": [
       {
        "label": "Ein Frankfurt under 2.5 goals",
@@ -2465,14 +2465,14 @@
       },
       {
        "label": "Stuttgart shots over 12.5",
-       "prob": 0.8691,
+       "prob": 0.8707,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.8525,
+       "prob": 0.8522,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -2494,7 +2494,7 @@
      ]
     },
     "safe": {
-     "joint": 0.6941,
+     "joint": 0.6968,
      "fair": 1.44,
      "legs": [
       {
@@ -2506,14 +2506,14 @@
       },
       {
        "label": "Stuttgart shots over 12.5",
-       "prob": 0.8691,
+       "prob": 0.8707,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.8525,
+       "prob": 0.8522,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -2525,7 +2525,7 @@
     {
      "label": "Ein Frankfurt cards under 3.5",
      "hit": "13/15",
-     "prob": 0.762,
+     "prob": 0.7599,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -2533,7 +2533,7 @@
     {
      "label": "Ein Frankfurt corners under 6.5",
      "hit": "13/15",
-     "prob": 0.9355,
+     "prob": 0.9363,
      "stat": "corners",
      "direction": "under",
      "line": 6.5
@@ -2541,7 +2541,7 @@
     {
      "label": "Stuttgart shots over 12.5",
      "hit": "13/15",
-     "prob": 0.8691,
+     "prob": 0.8707,
      "stat": "shots",
      "direction": "over",
      "line": 12.5
@@ -2549,7 +2549,7 @@
     {
      "label": "Stuttgart shots on target over 3.5",
      "hit": "13/15",
-     "prob": 0.9223,
+     "prob": 0.9208,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -2558,19 +2558,19 @@
    "most": [
     {
      "label": "Stuttgart most corners",
-     "prob": 0.815
+     "prob": 0.8177
     },
     {
      "label": "Eintracht Frankfurt most corners",
-     "prob": 0.1242
+     "prob": 0.1237
     },
     {
      "label": "Stuttgart most cards",
-     "prob": 0.1925
+     "prob": 0.1898
     },
     {
      "label": "Eintracht Frankfurt most cards",
-     "prob": 0.6101
+     "prob": 0.6131
     }
    ],
    "form": {
@@ -2604,8 +2604,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5035,
-     "fair": 1.99,
+     "joint": 0.4997,
+     "fair": 2.0,
      "legs": [
       {
        "label": "Ipswich under 2.5 goals",
@@ -2623,21 +2623,21 @@
       },
       {
        "label": "Aston Villa shots on target over 1.5",
-       "prob": 0.8745,
+       "prob": 0.8758,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
       },
       {
        "label": "Match corners under 11.5",
-       "prob": 0.8394,
+       "prob": 0.8398,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Aston Villa shots over 7.5",
-       "prob": 0.7668,
+       "prob": 0.7626,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
@@ -2645,8 +2645,8 @@
      ]
     },
     "safe": {
-     "joint": 0.7206,
-     "fair": 1.39,
+     "joint": 0.7231,
+     "fair": 1.38,
      "legs": [
       {
        "label": "Ipswich under 2.5 goals",
@@ -2664,7 +2664,7 @@
       },
       {
        "label": "Aston Villa shots on target over 1.5",
-       "prob": 0.8745,
+       "prob": 0.8758,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -2676,7 +2676,7 @@
     {
      "label": "Aston Villa cards under 3.5",
      "hit": "15/15",
-     "prob": 0.7452,
+     "prob": 0.7455,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -2684,7 +2684,7 @@
     {
      "label": "Ipswich cards under 2.5",
      "hit": "14/15",
-     "prob": 0.8045,
+     "prob": 0.8057,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -2692,7 +2692,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "13/15",
-     "prob": 0.7166,
+     "prob": 0.7117,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -2700,7 +2700,7 @@
     {
      "label": "Aston Villa shots over 7.5",
      "hit": "13/15",
-     "prob": 0.7668,
+     "prob": 0.7626,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -2709,19 +2709,19 @@
    "most": [
     {
      "label": "Ipswich most corners",
-     "prob": 0.54
+     "prob": 0.5438
     },
     {
      "label": "Aston Villa most corners",
-     "prob": 0.3638
+     "prob": 0.3564
     },
     {
      "label": "Ipswich most cards",
-     "prob": 0.2149
+     "prob": 0.2137
     },
     {
      "label": "Aston Villa most cards",
-     "prob": 0.5921
+     "prob": 0.5898
     }
    ],
    "form": {
@@ -2755,26 +2755,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5456,
+     "joint": 0.5459,
      "fair": 1.83,
      "legs": [
       {
        "label": "Ath Madrid cards under 4.5",
-       "prob": 0.9011,
+       "prob": 0.9008,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
       },
       {
        "label": "Elche shots over 9.5",
-       "prob": 0.8989,
+       "prob": 0.8992,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Elche corners over 2.5",
-       "prob": 0.892,
+       "prob": 0.8943,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -2796,26 +2796,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7475,
+     "joint": 0.7488,
      "fair": 1.34,
      "legs": [
       {
        "label": "Ath Madrid cards under 4.5",
-       "prob": 0.9011,
+       "prob": 0.9008,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
       },
       {
        "label": "Elche shots over 9.5",
-       "prob": 0.8989,
+       "prob": 0.8992,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Elche corners over 2.5",
-       "prob": 0.892,
+       "prob": 0.8943,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -2827,7 +2827,7 @@
     {
      "label": "Elche shots on target over 1.5",
      "hit": "14/15",
-     "prob": 0.9344,
+     "prob": 0.934,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -2835,7 +2835,7 @@
     {
      "label": "Ath Madrid cards under 4.5",
      "hit": "13/15",
-     "prob": 0.9011,
+     "prob": 0.9008,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -2843,7 +2843,7 @@
     {
      "label": "Ath Madrid shots over 7.5",
      "hit": "13/15",
-     "prob": 0.7685,
+     "prob": 0.7721,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -2851,7 +2851,7 @@
     {
      "label": "Match shots over 21.5",
      "hit": "13/15",
-     "prob": 0.8319,
+     "prob": 0.8383,
      "stat": "shots",
      "direction": "over",
      "line": 21.5
@@ -2860,19 +2860,19 @@
    "most": [
     {
      "label": "Elche most corners",
-     "prob": 0.6402
+     "prob": 0.6385
     },
     {
      "label": "Atlético Madrid most corners",
-     "prob": 0.2715
+     "prob": 0.2712
     },
     {
      "label": "Elche most cards",
-     "prob": 0.3098
+     "prob": 0.3088
     },
     {
      "label": "Atlético Madrid most cards",
-     "prob": 0.4672
+     "prob": 0.4725
     }
    ],
    "form": {
@@ -2906,12 +2906,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4816,
-     "fair": 2.08,
+     "joint": 0.4758,
+     "fair": 2.1,
      "legs": [
       {
        "label": "Le Havre shots on target over 2.5",
-       "prob": 0.9156,
+       "prob": 0.9154,
        "source": "form",
        "hit": "11/15",
        "group": "sot"
@@ -2932,14 +2932,14 @@
       },
       {
        "label": "Le Havre cards under 2.5",
-       "prob": 0.8286,
+       "prob": 0.8263,
        "source": "form",
        "hit": "11/15",
        "group": "cards"
       },
       {
        "label": "Match corners under 10.5",
-       "prob": 0.7881,
+       "prob": 0.7812,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -2947,12 +2947,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7418,
+     "joint": 0.7388,
      "fair": 1.35,
      "legs": [
       {
        "label": "Le Havre shots on target over 2.5",
-       "prob": 0.9156,
+       "prob": 0.9154,
        "source": "form",
        "hit": "11/15",
        "group": "sot"
@@ -2978,7 +2978,7 @@
     {
      "label": "Match corners under 10.5",
      "hit": "13/15",
-     "prob": 0.7881,
+     "prob": 0.7812,
      "stat": "corners",
      "direction": "under",
      "line": 10.5
@@ -2986,7 +2986,7 @@
     {
      "label": "Strasbourg shots over 7.5",
      "hit": "13/15",
-     "prob": 0.6741,
+     "prob": 0.6696,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -2994,7 +2994,7 @@
     {
      "label": "Strasbourg shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.7289,
+     "prob": 0.7328,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -3002,7 +3002,7 @@
     {
      "label": "Match cards under 4.5",
      "hit": "12/15",
-     "prob": 0.7043,
+     "prob": 0.7002,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -3011,19 +3011,19 @@
    "most": [
     {
      "label": "Le Havre most corners",
-     "prob": 0.7528
+     "prob": 0.7572
     },
     {
      "label": "Strasbourg most corners",
-     "prob": 0.1663
+     "prob": 0.1643
     },
     {
      "label": "Le Havre most cards",
-     "prob": 0.2374
+     "prob": 0.2404
     },
     {
      "label": "Strasbourg most cards",
-     "prob": 0.5524
+     "prob": 0.5497
     }
    ],
    "form": {
@@ -3057,7 +3057,7 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4824,
+     "joint": 0.4823,
      "fair": 2.07,
      "legs": [
       {
@@ -3076,21 +3076,21 @@
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8686,
+       "prob": 0.869,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8831,
+       "prob": 0.8819,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Lille cards under 3.5",
-       "prob": 0.7923,
+       "prob": 0.7928,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -3098,7 +3098,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7186,
+     "joint": 0.7192,
      "fair": 1.39,
      "legs": [
       {
@@ -3117,7 +3117,7 @@
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8686,
+       "prob": 0.869,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -3129,7 +3129,7 @@
     {
      "label": "Lille corners under 7.5",
      "hit": "15/15",
-     "prob": 0.9347,
+     "prob": 0.9326,
      "stat": "corners",
      "direction": "under",
      "line": 7.5
@@ -3137,7 +3137,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "13/15",
-     "prob": 0.8686,
+     "prob": 0.869,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -3145,7 +3145,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "13/15",
-     "prob": 0.8831,
+     "prob": 0.8819,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -3153,7 +3153,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "12/15",
-     "prob": 0.7017,
+     "prob": 0.6999,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -3162,19 +3162,19 @@
    "most": [
     {
      "label": "Le Mans most corners",
-     "prob": 0.5763
+     "prob": 0.5807
     },
     {
      "label": "Lille most corners",
-     "prob": 0.3251
+     "prob": 0.3211
     },
     {
      "label": "Le Mans most cards",
-     "prob": 0.2829
+     "prob": 0.277
     },
     {
      "label": "Lille most cards",
-     "prob": 0.5149
+     "prob": 0.5172
     }
    ],
    "form": {
@@ -3208,12 +3208,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.534,
-     "fair": 1.87,
+     "joint": 0.5319,
+     "fair": 1.88,
      "legs": [
       {
        "label": "Match shots over 18.5",
-       "prob": 0.893,
+       "prob": 0.8921,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -3234,7 +3234,7 @@
       },
       {
        "label": "Nice corners over 2.5",
-       "prob": 0.8246,
+       "prob": 0.8247,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -3249,12 +3249,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7531,
+     "joint": 0.7502,
      "fair": 1.33,
      "legs": [
       {
        "label": "Match shots over 18.5",
-       "prob": 0.893,
+       "prob": 0.8921,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -3280,7 +3280,7 @@
     {
      "label": "Troyes cards under 2.5",
      "hit": "14/15",
-     "prob": 0.7791,
+     "prob": 0.7807,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -3288,7 +3288,7 @@
     {
      "label": "Troyes corners under 5.5",
      "hit": "14/15",
-     "prob": 0.7678,
+     "prob": 0.7689,
      "stat": "corners",
      "direction": "under",
      "line": 5.5
@@ -3296,7 +3296,7 @@
     {
      "label": "Match corners under 11.5",
      "hit": "14/15",
-     "prob": 0.8051,
+     "prob": 0.8034,
      "stat": "corners",
      "direction": "under",
      "line": 11.5
@@ -3304,7 +3304,7 @@
     {
      "label": "Nice shots over 7.5",
      "hit": "13/15",
-     "prob": 0.9391,
+     "prob": 0.9395,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -3313,19 +3313,19 @@
    "most": [
     {
      "label": "Nice most corners",
-     "prob": 0.5556
+     "prob": 0.5531
     },
     {
      "label": "Troyes most corners",
-     "prob": 0.344
+     "prob": 0.3488
     },
     {
      "label": "Nice most cards",
-     "prob": 0.4771
+     "prob": 0.4863
     },
     {
      "label": "Troyes most cards",
-     "prob": 0.2943
+     "prob": 0.2927
     }
    ],
    "form": {
@@ -3359,8 +3359,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5497,
-     "fair": 1.82,
+     "joint": 0.5561,
+     "fair": 1.8,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -3378,21 +3378,21 @@
       },
       {
        "label": "Match cards under 5.5",
-       "prob": 0.8639,
+       "prob": 0.8642,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
       },
       {
        "label": "Match shots over 20.5",
-       "prob": 0.8609,
+       "prob": 0.865,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.8536,
+       "prob": 0.8548,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -3400,7 +3400,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7221,
+     "joint": 0.7257,
      "fair": 1.38,
      "legs": [
       {
@@ -3419,7 +3419,7 @@
       },
       {
        "label": "Match cards under 5.5",
-       "prob": 0.8639,
+       "prob": 0.8642,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -3431,7 +3431,7 @@
     {
      "label": "Lorient shots on target over 1.5",
      "hit": "14/15",
-     "prob": 0.6945,
+     "prob": 0.696,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -3439,7 +3439,7 @@
     {
      "label": "Paris SG cards under 2.5",
      "hit": "13/15",
-     "prob": 0.799,
+     "prob": 0.8029,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -3447,7 +3447,7 @@
     {
      "label": "Paris SG shots over 14.5",
      "hit": "13/15",
-     "prob": 0.8097,
+     "prob": 0.8113,
      "stat": "shots",
      "direction": "over",
      "line": 14.5
@@ -3455,7 +3455,7 @@
     {
      "label": "Match cards under 5.5",
      "hit": "12/15",
-     "prob": 0.8639,
+     "prob": 0.8642,
      "stat": "cards",
      "direction": "under",
      "line": 5.5
@@ -3464,19 +3464,19 @@
    "most": [
     {
      "label": "Paris Saint-Germain most corners",
-     "prob": 0.876
+     "prob": 0.8762
     },
     {
      "label": "Lorient most corners",
-     "prob": 0.0737
+     "prob": 0.0746
     },
     {
      "label": "Paris Saint-Germain most cards",
-     "prob": 0.3301
+     "prob": 0.3272
     },
     {
      "label": "Lorient most cards",
-     "prob": 0.4276
+     "prob": 0.4333
     }
    ],
    "form": {
@@ -3510,19 +3510,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.6226,
-     "fair": 1.61,
+     "joint": 0.6254,
+     "fair": 1.6,
      "legs": [
       {
        "label": "Inter shots over 13.5",
-       "prob": 0.911,
+       "prob": 0.9139,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Inter corners over 3.5",
-       "prob": 0.8929,
+       "prob": 0.8913,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -3543,7 +3543,7 @@
       },
       {
        "label": "Genoa cards under 3.5",
-       "prob": 0.9032,
+       "prob": 0.9043,
        "source": "form",
        "hit": "15/15",
        "group": "cards"
@@ -3551,19 +3551,19 @@
      ]
     },
     "safe": {
-     "joint": 0.7602,
+     "joint": 0.7597,
      "fair": 1.32,
      "legs": [
       {
        "label": "Inter shots over 13.5",
-       "prob": 0.911,
+       "prob": 0.9139,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Inter corners over 3.5",
-       "prob": 0.8929,
+       "prob": 0.8913,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -3582,7 +3582,7 @@
     {
      "label": "Genoa cards under 3.5",
      "hit": "15/15",
-     "prob": 0.9032,
+     "prob": 0.9043,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -3590,7 +3590,7 @@
     {
      "label": "Inter cards under 2.5",
      "hit": "14/15",
-     "prob": 0.8655,
+     "prob": 0.8676,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -3598,7 +3598,7 @@
     {
      "label": "Inter shots over 13.5",
      "hit": "13/15",
-     "prob": 0.911,
+     "prob": 0.9139,
      "stat": "shots",
      "direction": "over",
      "line": 13.5
@@ -3606,7 +3606,7 @@
     {
      "label": "Inter shots on target over 4.5",
      "hit": "13/15",
-     "prob": 0.8155,
+     "prob": 0.8153,
      "stat": "sot",
      "direction": "over",
      "line": 4.5
@@ -3615,19 +3615,19 @@
    "most": [
     {
      "label": "Inter most corners",
-     "prob": 0.8825
+     "prob": 0.8798
     },
     {
      "label": "Genoa most corners",
-     "prob": 0.0739
+     "prob": 0.0757
     },
     {
      "label": "Inter most cards",
-     "prob": 0.2841
+     "prob": 0.2832
     },
     {
      "label": "Genoa most cards",
-     "prob": 0.4559
+     "prob": 0.4562
     }
    ],
    "form": {
@@ -3661,26 +3661,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5949,
-     "fair": 1.68,
+     "joint": 0.5933,
+     "fair": 1.69,
      "legs": [
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.9069,
+       "prob": 0.9075,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Alaves corners under 5.5",
-       "prob": 0.9045,
+       "prob": 0.9056,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
       },
       {
        "label": "Real Madrid shots over 13.5",
-       "prob": 0.8538,
+       "prob": 0.8536,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -3702,26 +3702,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7366,
-     "fair": 1.36,
+     "joint": 0.7385,
+     "fair": 1.35,
      "legs": [
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.9069,
+       "prob": 0.9075,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Alaves corners under 5.5",
-       "prob": 0.9045,
+       "prob": 0.9056,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
       },
       {
        "label": "Real Madrid shots over 13.5",
-       "prob": 0.8538,
+       "prob": 0.8536,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -3733,7 +3733,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "15/15",
-     "prob": 0.721,
+     "prob": 0.7276,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -3741,7 +3741,7 @@
     {
      "label": "Real Madrid shots on target over 4.5",
      "hit": "14/15",
-     "prob": 0.8674,
+     "prob": 0.8659,
      "stat": "sot",
      "direction": "over",
      "line": 4.5
@@ -3749,7 +3749,7 @@
     {
      "label": "Match shots on target over 6.5",
      "hit": "13/15",
-     "prob": 0.9069,
+     "prob": 0.9075,
      "stat": "sot",
      "direction": "over",
      "line": 6.5
@@ -3757,7 +3757,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "12/15",
-     "prob": 0.7123,
+     "prob": 0.7183,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -3766,19 +3766,19 @@
    "most": [
     {
      "label": "Real Madrid most corners",
-     "prob": 0.8471
+     "prob": 0.8433
     },
     {
      "label": "Alavés most corners",
-     "prob": 0.1013
+     "prob": 0.1036
     },
     {
      "label": "Real Madrid most cards",
-     "prob": 0.2234
+     "prob": 0.2216
     },
     {
      "label": "Alavés most cards",
-     "prob": 0.5655
+     "prob": 0.5716
     }
    ],
    "form": {
@@ -3812,26 +3812,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.6051,
+     "joint": 0.607,
      "fair": 1.65,
      "legs": [
       {
        "label": "Udinese shots over 10.5",
-       "prob": 0.9011,
+       "prob": 0.9012,
        "source": "form",
        "hit": "8/10",
        "group": "shots"
       },
       {
        "label": "Udinese shots on target over 2.5",
-       "prob": 0.899,
+       "prob": 0.9004,
        "source": "form",
        "hit": "9/12",
        "group": "sot"
       },
       {
        "label": "Udinese cards under 3.5",
-       "prob": 0.8906,
+       "prob": 0.8918,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -3853,26 +3853,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7578,
-     "fair": 1.32,
+     "joint": 0.7608,
+     "fair": 1.31,
      "legs": [
       {
        "label": "Udinese shots over 10.5",
-       "prob": 0.9011,
+       "prob": 0.9012,
        "source": "form",
        "hit": "8/10",
        "group": "shots"
       },
       {
        "label": "Udinese shots on target over 2.5",
-       "prob": 0.899,
+       "prob": 0.9004,
        "source": "form",
        "hit": "9/12",
        "group": "sot"
       },
       {
        "label": "Udinese cards under 3.5",
-       "prob": 0.8906,
+       "prob": 0.8918,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -3884,7 +3884,7 @@
     {
      "label": "Udinese cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8906,
+     "prob": 0.8918,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -3892,7 +3892,7 @@
     {
      "label": "Fiorentina cards under 3.5",
      "hit": "13/15",
-     "prob": 0.834,
+     "prob": 0.8373,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -3900,7 +3900,7 @@
     {
      "label": "Udinese corners under 7.5",
      "hit": "13/15",
-     "prob": 0.7441,
+     "prob": 0.7418,
      "stat": "corners",
      "direction": "under",
      "line": 7.5
@@ -3908,7 +3908,7 @@
     {
      "label": "Match corners under 11.5",
      "hit": "12/15",
-     "prob": 0.7965,
+     "prob": 0.7906,
      "stat": "corners",
      "direction": "under",
      "line": 11.5
@@ -3917,19 +3917,19 @@
    "most": [
     {
      "label": "Udinese most corners",
-     "prob": 0.6861
+     "prob": 0.6838
     },
     {
      "label": "Fiorentina most corners",
-     "prob": 0.2259
+     "prob": 0.2261
     },
     {
      "label": "Udinese most cards",
-     "prob": 0.3299
+     "prob": 0.3275
     },
     {
      "label": "Fiorentina most cards",
-     "prob": 0.4494
+     "prob": 0.4535
     }
    ],
    "form": {
@@ -3963,8 +3963,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.575,
-     "fair": 1.74,
+     "joint": 0.5795,
+     "fair": 1.73,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -3982,21 +3982,21 @@
       },
       {
        "label": "Everton cards under 3.5",
-       "prob": 0.8886,
+       "prob": 0.8909,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8875,
+       "prob": 0.887,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Everton shots on target over 2.5",
-       "prob": 0.8636,
+       "prob": 0.8663,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -4004,8 +4004,8 @@
      ]
     },
     "safe": {
-     "joint": 0.752,
-     "fair": 1.33,
+     "joint": 0.7554,
+     "fair": 1.32,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -4023,7 +4023,7 @@
       },
       {
        "label": "Everton cards under 3.5",
-       "prob": 0.8886,
+       "prob": 0.8909,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
@@ -4035,7 +4035,7 @@
     {
      "label": "Everton cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8886,
+     "prob": 0.8909,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4043,7 +4043,7 @@
     {
      "label": "Liverpool cards under 3.5",
      "hit": "13/15",
-     "prob": 0.7574,
+     "prob": 0.7584,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4051,7 +4051,7 @@
     {
      "label": "Everton shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.8636,
+     "prob": 0.8663,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -4059,7 +4059,7 @@
     {
      "label": "Liverpool shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.7659,
+     "prob": 0.7643,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -4068,19 +4068,19 @@
    "most": [
     {
      "label": "Everton most corners",
-     "prob": 0.42
+     "prob": 0.4184
     },
     {
      "label": "Liverpool most corners",
-     "prob": 0.479
+     "prob": 0.4792
     },
     {
      "label": "Everton most cards",
-     "prob": 0.2582
+     "prob": 0.2574
     },
     {
      "label": "Liverpool most cards",
-     "prob": 0.5386
+     "prob": 0.5387
     }
    ],
    "form": {
@@ -4114,12 +4114,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5208,
+     "joint": 0.5212,
      "fair": 1.92,
      "legs": [
       {
        "label": "Valencia cards under 3.5",
-       "prob": 0.8909,
+       "prob": 0.8899,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -4147,7 +4147,7 @@
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8535,
+       "prob": 0.8526,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
@@ -4155,12 +4155,12 @@
      ]
     },
     "safe": {
-     "joint": 0.677,
-     "fair": 1.48,
+     "joint": 0.6793,
+     "fair": 1.47,
      "legs": [
       {
        "label": "Valencia cards under 3.5",
-       "prob": 0.8909,
+       "prob": 0.8899,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -4186,7 +4186,7 @@
     {
      "label": "Osasuna corners under 4.5",
      "hit": "14/15",
-     "prob": 0.83,
+     "prob": 0.8281,
      "stat": "corners",
      "direction": "under",
      "line": 4.5
@@ -4194,7 +4194,7 @@
     {
      "label": "Valencia cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8909,
+     "prob": 0.8899,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4202,7 +4202,7 @@
     {
      "label": "Osasuna cards under 4.5",
      "hit": "13/15",
-     "prob": 0.794,
+     "prob": 0.7923,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -4210,7 +4210,7 @@
     {
      "label": "Valencia corners under 7.5",
      "hit": "13/15",
-     "prob": 0.5919,
+     "prob": 0.5865,
      "stat": "corners",
      "direction": "under",
      "line": 7.5
@@ -4219,19 +4219,19 @@
    "most": [
     {
      "label": "Valencia most corners",
-     "prob": 0.8156
+     "prob": 0.8175
     },
     {
      "label": "Osasuna most corners",
-     "prob": 0.1217
+     "prob": 0.12
     },
     {
      "label": "Valencia most cards",
-     "prob": 0.1916
+     "prob": 0.1913
     },
     {
      "label": "Osasuna most cards",
-     "prob": 0.633
+     "prob": 0.6343
     }
    ],
    "form": {
@@ -4265,26 +4265,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5999,
-     "fair": 1.67,
+     "joint": 0.6011,
+     "fair": 1.66,
      "legs": [
       {
        "label": "Auxerre cards under 3.5",
-       "prob": 0.9094,
+       "prob": 0.9088,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Auxerre shots over 8.5",
-       "prob": 0.8869,
+       "prob": 0.8877,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Auxerre shots on target over 2.5",
-       "prob": 0.8525,
+       "prob": 0.8542,
        "source": "form",
        "hit": "8/10",
        "group": "sot"
@@ -4306,26 +4306,26 @@
      ]
     },
     "safe": {
-     "joint": 0.733,
+     "joint": 0.7344,
      "fair": 1.36,
      "legs": [
       {
        "label": "Auxerre cards under 3.5",
-       "prob": 0.9094,
+       "prob": 0.9088,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Auxerre shots over 8.5",
-       "prob": 0.8869,
+       "prob": 0.8877,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Auxerre shots on target over 2.5",
-       "prob": 0.8525,
+       "prob": 0.8542,
        "source": "form",
        "hit": "8/10",
        "group": "sot"
@@ -4337,7 +4337,7 @@
     {
      "label": "Auxerre cards under 3.5",
      "hit": "14/15",
-     "prob": 0.9094,
+     "prob": 0.9088,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4345,7 +4345,7 @@
     {
      "label": "Match corners under 11.5",
      "hit": "14/15",
-     "prob": 0.7656,
+     "prob": 0.7664,
      "stat": "corners",
      "direction": "under",
      "line": 11.5
@@ -4353,7 +4353,7 @@
     {
      "label": "Match cards under 4.5",
      "hit": "13/15",
-     "prob": 0.6288,
+     "prob": 0.6277,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -4361,7 +4361,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "13/15",
-     "prob": 0.8669,
+     "prob": 0.8668,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -4370,19 +4370,19 @@
    "most": [
     {
      "label": "Auxerre most corners",
-     "prob": 0.5559
+     "prob": 0.5574
     },
     {
      "label": "Marseille most corners",
-     "prob": 0.3519
+     "prob": 0.347
     },
     {
      "label": "Auxerre most cards",
-     "prob": 0.2517
+     "prob": 0.249
     },
     {
      "label": "Marseille most cards",
-     "prob": 0.5554
+     "prob": 0.5564
     }
    ],
    "form": {
@@ -4416,8 +4416,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4635,
-     "fair": 2.16,
+     "joint": 0.4645,
+     "fair": 2.15,
      "legs": [
       {
        "label": "Under 4.5 goals",
@@ -4428,14 +4428,14 @@
       },
       {
        "label": "Sassuolo cards under 3.5",
-       "prob": 0.8889,
+       "prob": 0.8893,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8872,
+       "prob": 0.8869,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
@@ -4449,7 +4449,7 @@
       },
       {
        "label": "Sassuolo shots on target over 2.5",
-       "prob": 0.7867,
+       "prob": 0.7865,
        "source": "form",
        "hit": "11/15",
        "group": "sot"
@@ -4457,7 +4457,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7019,
+     "joint": 0.7032,
      "fair": 1.42,
      "legs": [
       {
@@ -4469,14 +4469,14 @@
       },
       {
        "label": "Sassuolo cards under 3.5",
-       "prob": 0.8889,
+       "prob": 0.8893,
        "source": "form",
        "hit": "14/15",
        "group": "cards"
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8872,
+       "prob": 0.8869,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
@@ -4488,7 +4488,7 @@
     {
      "label": "Match cards under 5.5",
      "hit": "14/15",
-     "prob": 0.8284,
+     "prob": 0.8277,
      "stat": "cards",
      "direction": "under",
      "line": 5.5
@@ -4496,7 +4496,7 @@
     {
      "label": "Sassuolo cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8889,
+     "prob": 0.8893,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4504,7 +4504,7 @@
     {
      "label": "Match shots on target over 6.5",
      "hit": "13/15",
-     "prob": 0.7986,
+     "prob": 0.7972,
      "stat": "sot",
      "direction": "over",
      "line": 6.5
@@ -4521,19 +4521,19 @@
    "most": [
     {
      "label": "Sassuolo most corners",
-     "prob": 0.5221
+     "prob": 0.5253
     },
     {
      "label": "Napoli most corners",
-     "prob": 0.3759
+     "prob": 0.3735
     },
     {
      "label": "Sassuolo most cards",
-     "prob": 0.3704
+     "prob": 0.3676
     },
     {
      "label": "Napoli most cards",
-     "prob": 0.4014
+     "prob": 0.4002
     }
    ],
    "form": {
@@ -4567,19 +4567,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.6408,
-     "fair": 1.56,
+     "joint": 0.5952,
+     "fair": 1.68,
      "legs": [
       {
-       "label": "Brighton shots on target over 2.5",
-       "prob": 0.9197,
-       "source": "form",
-       "hit": "12/15",
-       "group": "sot"
-      },
-      {
        "label": "Brighton cards under 3.5",
-       "prob": 0.9157,
+       "prob": 0.9143,
        "source": "form",
        "hit": "11/15",
        "group": "cards"
@@ -4599,8 +4592,15 @@
        "group": "goals"
       },
       {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8725,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
        "label": "Brighton shots over 11.5",
-       "prob": 0.8575,
+       "prob": 0.857,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -4608,19 +4608,12 @@
      ]
     },
     "safe": {
-     "joint": 0.755,
-     "fair": 1.32,
+     "joint": 0.7923,
+     "fair": 1.26,
      "legs": [
       {
-       "label": "Brighton shots on target over 2.5",
-       "prob": 0.9197,
-       "source": "form",
-       "hit": "12/15",
-       "group": "sot"
-      },
-      {
        "label": "Brighton cards under 3.5",
-       "prob": 0.9157,
+       "prob": 0.9143,
        "source": "form",
        "hit": "11/15",
        "group": "cards"
@@ -4631,6 +4624,13 @@
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8886,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -4639,7 +4639,7 @@
     {
      "label": "Newcastle cards under 3.5",
      "hit": "13/15",
-     "prob": 0.7145,
+     "prob": 0.7143,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4647,7 +4647,7 @@
     {
      "label": "Brighton corners over 3.5",
      "hit": "13/15",
-     "prob": 0.7944,
+     "prob": 0.797,
      "stat": "corners",
      "direction": "over",
      "line": 3.5
@@ -4655,7 +4655,7 @@
     {
      "label": "Match corners under 11.5",
      "hit": "13/15",
-     "prob": 0.6843,
+     "prob": 0.6877,
      "stat": "corners",
      "direction": "under",
      "line": 11.5
@@ -4663,7 +4663,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "13/15",
-     "prob": 0.8744,
+     "prob": 0.8725,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -4672,19 +4672,19 @@
    "most": [
     {
      "label": "Brighton most corners",
-     "prob": 0.6356
+     "prob": 0.6367
     },
     {
      "label": "Newcastle most corners",
-     "prob": 0.2769
+     "prob": 0.2756
     },
     {
      "label": "Brighton most cards",
-     "prob": 0.2104
+     "prob": 0.21
     },
     {
      "label": "Newcastle most cards",
-     "prob": 0.6024
+     "prob": 0.5997
     }
    ],
    "form": {
@@ -4718,12 +4718,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.625,
+     "joint": 0.6256,
      "fair": 1.6,
      "legs": [
       {
        "label": "Crystal Palace shots over 9.5",
-       "prob": 0.9146,
+       "prob": 0.9155,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -4737,7 +4737,7 @@
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.9005,
+       "prob": 0.8998,
        "source": "form",
        "hit": "15/15",
        "group": "sot"
@@ -4759,12 +4759,12 @@
      ]
     },
     "safe": {
-     "joint": 0.781,
+     "joint": 0.7829,
      "fair": 1.28,
      "legs": [
       {
        "label": "Crystal Palace shots over 9.5",
-       "prob": 0.9146,
+       "prob": 0.9155,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -4778,7 +4778,7 @@
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.9005,
+       "prob": 0.8998,
        "source": "form",
        "hit": "15/15",
        "group": "sot"
@@ -4790,7 +4790,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "15/15",
-     "prob": 0.9005,
+     "prob": 0.8998,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -4798,7 +4798,7 @@
     {
      "label": "Match shots over 22.5",
      "hit": "14/15",
-     "prob": 0.7957,
+     "prob": 0.7955,
      "stat": "shots",
      "direction": "over",
      "line": 22.5
@@ -4806,7 +4806,7 @@
     {
      "label": "Crystal Palace cards under 2.5",
      "hit": "13/15",
-     "prob": 0.8445,
+     "prob": 0.8479,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -4814,7 +4814,7 @@
     {
      "label": "Crystal Palace corners over 2.5",
      "hit": "13/15",
-     "prob": 0.9225,
+     "prob": 0.9208,
      "stat": "corners",
      "direction": "over",
      "line": 2.5
@@ -4823,19 +4823,19 @@
    "most": [
     {
      "label": "Crystal Palace most corners",
-     "prob": 0.6689
+     "prob": 0.6735
     },
     {
      "label": "Hull most corners",
-     "prob": 0.2511
+     "prob": 0.2464
     },
     {
      "label": "Crystal Palace most cards",
-     "prob": 0.1086
+     "prob": 0.1054
     },
     {
      "label": "Hull most cards",
-     "prob": 0.7686
+     "prob": 0.7711
     }
    ],
    "form": {
@@ -4869,23 +4869,9 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5601,
-     "fair": 1.79,
+     "joint": 0.5718,
+     "fair": 1.75,
      "legs": [
-      {
-       "label": "Match shots over 20.5",
-       "prob": 0.8949,
-       "source": "form",
-       "hit": "12/15",
-       "group": "shots"
-      },
-      {
-       "label": "Match shots on target over 5.5",
-       "prob": 0.8865,
-       "source": "form",
-       "hit": "13/15",
-       "group": "sot"
-      },
       {
        "label": "Bournemouth under 2.5 goals",
        "prob": 0.8967,
@@ -4901,8 +4887,22 @@
        "group": "goals"
       },
       {
+       "label": "Match shots over 20.5",
+       "prob": 0.8936,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Fulham shots on target over 2.5",
+       "prob": 0.8805,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
        "label": "Fulham corners over 3.5",
-       "prob": 0.8255,
+       "prob": 0.8314,
        "source": "form",
        "hit": "9/12",
        "group": "corners"
@@ -4910,29 +4910,29 @@
      ]
     },
     "safe": {
-     "joint": 0.7212,
-     "fair": 1.39,
+     "joint": 0.7306,
+     "fair": 1.37,
      "legs": [
-      {
-       "label": "Match shots over 20.5",
-       "prob": 0.8949,
-       "source": "form",
-       "hit": "12/15",
-       "group": "shots"
-      },
-      {
-       "label": "Match shots on target over 5.5",
-       "prob": 0.8865,
-       "source": "form",
-       "hit": "13/15",
-       "group": "sot"
-      },
       {
        "label": "Bournemouth under 2.5 goals",
        "prob": 0.8967,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8698,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8936,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
       }
      ]
     }
@@ -4941,7 +4941,7 @@
     {
      "label": "Bournemouth shots on target over 2.5",
      "hit": "14/15",
-     "prob": 0.6766,
+     "prob": 0.6699,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -4949,7 +4949,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "13/15",
-     "prob": 0.7585,
+     "prob": 0.7574,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -4957,7 +4957,7 @@
     {
      "label": "Bournemouth cards under 3.5",
      "hit": "13/15",
-     "prob": 0.6587,
+     "prob": 0.662,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -4965,7 +4965,7 @@
     {
      "label": "Bournemouth shots over 8.5",
      "hit": "13/15",
-     "prob": 0.6491,
+     "prob": 0.6446,
      "stat": "shots",
      "direction": "over",
      "line": 8.5
@@ -4974,19 +4974,19 @@
    "most": [
     {
      "label": "Fulham most corners",
-     "prob": 0.6268
+     "prob": 0.6322
     },
     {
      "label": "Bournemouth most corners",
-     "prob": 0.2876
+     "prob": 0.2831
     },
     {
      "label": "Fulham most cards",
-     "prob": 0.1579
+     "prob": 0.1594
     },
     {
      "label": "Bournemouth most cards",
-     "prob": 0.6713
+     "prob": 0.6653
     }
    ],
    "form": {
@@ -5020,12 +5020,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5181,
-     "fair": 1.93,
+     "joint": 0.521,
+     "fair": 1.92,
      "legs": [
       {
        "label": "Sunderland shots on target over 1.5",
-       "prob": 0.892,
+       "prob": 0.8911,
        "source": "form",
        "hit": "15/15",
        "group": "sot"
@@ -5039,34 +5039,34 @@
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8828,
+       "prob": 0.8844,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
       },
       {
        "label": "Sunderland cards under 3.5",
-       "prob": 0.8656,
+       "prob": 0.8663,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
       },
       {
-       "label": "Sunderland under 2.5 goals",
-       "prob": 0.8887,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
+       "label": "Sunderland shots over 10.5",
+       "prob": 0.8082,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
       }
      ]
     },
     "safe": {
-     "joint": 0.6989,
-     "fair": 1.43,
+     "joint": 0.7018,
+     "fair": 1.42,
      "legs": [
       {
        "label": "Sunderland shots on target over 1.5",
-       "prob": 0.892,
+       "prob": 0.8911,
        "source": "form",
        "hit": "15/15",
        "group": "sot"
@@ -5080,7 +5080,7 @@
       },
       {
        "label": "Match corners under 12.5",
-       "prob": 0.8828,
+       "prob": 0.8844,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -5092,7 +5092,7 @@
     {
      "label": "Sunderland shots on target over 1.5",
      "hit": "15/15",
-     "prob": 0.892,
+     "prob": 0.8911,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -5100,7 +5100,7 @@
     {
      "label": "Sunderland cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8656,
+     "prob": 0.8663,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -5108,7 +5108,7 @@
     {
      "label": "Tottenham cards under 3.5",
      "hit": "13/15",
-     "prob": 0.6454,
+     "prob": 0.6483,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -5116,7 +5116,7 @@
     {
      "label": "Match corners under 12.5",
      "hit": "13/15",
-     "prob": 0.8828,
+     "prob": 0.8844,
      "stat": "corners",
      "direction": "under",
      "line": 12.5
@@ -5125,19 +5125,19 @@
    "most": [
     {
      "label": "Sunderland most corners",
-     "prob": 0.5194
+     "prob": 0.5122
     },
     {
      "label": "Tottenham most corners",
-     "prob": 0.3824
+     "prob": 0.3888
     },
     {
      "label": "Sunderland most cards",
-     "prob": 0.2253
+     "prob": 0.2271
     },
     {
      "label": "Tottenham most cards",
-     "prob": 0.6092
+     "prob": 0.6033
     }
    ],
    "form": {
@@ -5171,26 +5171,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.628,
+     "joint": 0.6282,
      "fair": 1.59,
      "legs": [
       {
        "label": "Freiburg shots on target over 3.5",
-       "prob": 0.8986,
+       "prob": 0.8991,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Freiburg shots over 10.5",
-       "prob": 0.8981,
+       "prob": 0.8978,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Freiburg corners over 2.5",
-       "prob": 0.8965,
+       "prob": 0.8973,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -5212,26 +5212,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7823,
+     "joint": 0.7827,
      "fair": 1.28,
      "legs": [
       {
        "label": "Freiburg shots on target over 3.5",
-       "prob": 0.8986,
+       "prob": 0.8991,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Freiburg shots over 10.5",
-       "prob": 0.8981,
+       "prob": 0.8978,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Freiburg corners over 2.5",
-       "prob": 0.8965,
+       "prob": 0.8973,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -5243,7 +5243,7 @@
     {
      "label": "Match cards under 4.5",
      "hit": "14/15",
-     "prob": 0.7726,
+     "prob": 0.7717,
      "stat": "cards",
      "direction": "under",
      "line": 4.5
@@ -5251,7 +5251,7 @@
     {
      "label": "RB Leipzig shots on target over 2.5",
      "hit": "14/15",
-     "prob": 0.6854,
+     "prob": 0.686,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -5259,7 +5259,7 @@
     {
      "label": "Freiburg shots on target over 3.5",
      "hit": "13/15",
-     "prob": 0.8986,
+     "prob": 0.8991,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -5267,7 +5267,7 @@
     {
      "label": "RB Leipzig cards under 2.5",
      "hit": "12/15",
-     "prob": 0.748,
+     "prob": 0.7498,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -5276,19 +5276,19 @@
    "most": [
     {
      "label": "Freiburg most corners",
-     "prob": 0.704
+     "prob": 0.7063
     },
     {
      "label": "RB Leipzig most corners",
-     "prob": 0.2141
+     "prob": 0.2112
     },
     {
      "label": "Freiburg most cards",
-     "prob": 0.3028
+     "prob": 0.3057
     },
     {
      "label": "RB Leipzig most cards",
-     "prob": 0.4382
+     "prob": 0.4383
     }
    ],
    "form": {
@@ -5322,12 +5322,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4356,
-     "fair": 2.3,
+     "joint": 0.4328,
+     "fair": 2.31,
      "legs": [
       {
        "label": "Barcelona corners under 6.5",
-       "prob": 0.8861,
+       "prob": 0.8864,
        "source": "form",
        "hit": "9/12",
        "group": "corners"
@@ -5348,14 +5348,14 @@
       },
       {
        "label": "Barcelona cards under 3.5",
-       "prob": 0.8254,
+       "prob": 0.8233,
        "source": "form",
        "hit": "15/15",
        "group": "cards"
       },
       {
        "label": "Match shots over 20.5",
-       "prob": 0.8185,
+       "prob": 0.817,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -5363,12 +5363,12 @@
      ]
     },
     "safe": {
-     "joint": 0.6675,
+     "joint": 0.6647,
      "fair": 1.5,
      "legs": [
       {
        "label": "Barcelona corners under 6.5",
-       "prob": 0.8861,
+       "prob": 0.8864,
        "source": "form",
        "hit": "9/12",
        "group": "corners"
@@ -5394,7 +5394,7 @@
     {
      "label": "Barcelona cards under 3.5",
      "hit": "15/15",
-     "prob": 0.8254,
+     "prob": 0.8233,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -5402,7 +5402,7 @@
     {
      "label": "Match shots on target over 5.5",
      "hit": "14/15",
-     "prob": 0.9299,
+     "prob": 0.9292,
      "stat": "sot",
      "direction": "over",
      "line": 5.5
@@ -5410,7 +5410,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "13/15",
-     "prob": 0.6889,
+     "prob": 0.682,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -5418,7 +5418,7 @@
     {
      "label": "Barcelona shots over 8.5",
      "hit": "13/15",
-     "prob": 0.7649,
+     "prob": 0.7668,
      "stat": "shots",
      "direction": "over",
      "line": 8.5
@@ -5427,19 +5427,19 @@
    "most": [
     {
      "label": "Deportivo most corners",
-     "prob": 0.6246
+     "prob": 0.626
     },
     {
      "label": "Barcelona most corners",
-     "prob": 0.2789
+     "prob": 0.2797
     },
     {
      "label": "Deportivo most cards",
-     "prob": 0.2974
+     "prob": 0.2972
     },
     {
      "label": "Barcelona most cards",
-     "prob": 0.4738
+     "prob": 0.4744
     }
    ],
    "form": {
@@ -5473,12 +5473,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4506,
-     "fair": 2.22,
+     "joint": 0.4544,
+     "fair": 2.2,
      "legs": [
       {
        "label": "Toulouse corners over 2.5",
-       "prob": 0.9079,
+       "prob": 0.9107,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -5506,7 +5506,7 @@
       },
       {
        "label": "Toulouse cards under 3.5",
-       "prob": 0.8011,
+       "prob": 0.8047,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
@@ -5514,12 +5514,12 @@
      ]
     },
     "safe": {
-     "joint": 0.6855,
-     "fair": 1.46,
+     "joint": 0.6876,
+     "fair": 1.45,
      "legs": [
       {
        "label": "Toulouse corners over 2.5",
-       "prob": 0.9079,
+       "prob": 0.9107,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -5545,7 +5545,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "14/15",
-     "prob": 0.7925,
+     "prob": 0.7964,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -5553,7 +5553,7 @@
     {
      "label": "Toulouse cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8011,
+     "prob": 0.8047,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -5561,7 +5561,7 @@
     {
      "label": "Match shots over 19.5",
      "hit": "13/15",
-     "prob": 0.9384,
+     "prob": 0.9359,
      "stat": "shots",
      "direction": "over",
      "line": 19.5
@@ -5569,7 +5569,7 @@
     {
      "label": "Rennes shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.7091,
+     "prob": 0.7103,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -5578,19 +5578,19 @@
    "most": [
     {
      "label": "Toulouse most corners",
-     "prob": 0.665
+     "prob": 0.6643
     },
     {
      "label": "Rennes most corners",
-     "prob": 0.2499
+     "prob": 0.2487
     },
     {
      "label": "Toulouse most cards",
-     "prob": 0.3676
+     "prob": 0.3693
     },
     {
      "label": "Rennes most cards",
-     "prob": 0.4365
+     "prob": 0.4356
     }
    ],
    "form": {
@@ -5624,12 +5624,12 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5689,
+     "joint": 0.5674,
      "fair": 1.76,
      "legs": [
       {
        "label": "Hoffenheim cards under 3.5",
-       "prob": 0.8901,
+       "prob": 0.8902,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -5650,14 +5650,14 @@
       },
       {
        "label": "Match shots over 25.5",
-       "prob": 0.853,
+       "prob": 0.8512,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Augsburg shots on target over 1.5",
-       "prob": 0.8566,
+       "prob": 0.8575,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -5665,12 +5665,12 @@
      ]
     },
     "safe": {
-     "joint": 0.7414,
+     "joint": 0.7408,
      "fair": 1.35,
      "legs": [
       {
        "label": "Hoffenheim cards under 3.5",
-       "prob": 0.8901,
+       "prob": 0.8902,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -5696,7 +5696,7 @@
     {
      "label": "Augsburg cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8439,
+     "prob": 0.8433,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -5704,7 +5704,7 @@
     {
      "label": "Augsburg shots over 7.5",
      "hit": "13/15",
-     "prob": 0.8196,
+     "prob": 0.8195,
      "stat": "shots",
      "direction": "over",
      "line": 7.5
@@ -5712,7 +5712,7 @@
     {
      "label": "Match shots over 25.5",
      "hit": "13/15",
-     "prob": 0.853,
+     "prob": 0.8512,
      "stat": "shots",
      "direction": "over",
      "line": 25.5
@@ -5720,7 +5720,7 @@
     {
      "label": "Augsburg shots on target over 1.5",
      "hit": "13/15",
-     "prob": 0.8566,
+     "prob": 0.8575,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -5729,19 +5729,19 @@
    "most": [
     {
      "label": "Hoffenheim most corners",
-     "prob": 0.787
+     "prob": 0.7891
     },
     {
      "label": "Augsburg most corners",
-     "prob": 0.1477
+     "prob": 0.1468
     },
     {
      "label": "Hoffenheim most cards",
-     "prob": 0.3315
+     "prob": 0.3293
     },
     {
      "label": "Augsburg most cards",
-     "prob": 0.4447
+     "prob": 0.4462
     }
    ],
    "form": {
@@ -5775,8 +5775,8 @@
    },
    "builder": {
     "best": {
-     "joint": 0.532,
-     "fair": 1.88,
+     "joint": 0.5362,
+     "fair": 1.87,
      "legs": [
       {
        "label": "Over 0.5 goals",
@@ -5787,10 +5787,17 @@
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8429,
+       "prob": 0.8454,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
+      },
+      {
+       "label": "Arsenal cards under 2.5",
+       "prob": 0.8614,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
       },
       {
        "label": "Arsenal over 0.5 goals",
@@ -5805,19 +5812,12 @@
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Arsenal cards under 2.5",
-       "prob": 0.8592,
-       "source": "form",
-       "hit": "15/15",
-       "group": "cards"
       }
      ]
     },
     "safe": {
-     "joint": 0.6869,
-     "fair": 1.46,
+     "joint": 0.6891,
+     "fair": 1.45,
      "legs": [
       {
        "label": "Over 0.5 goals",
@@ -5828,17 +5828,17 @@
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8429,
+       "prob": 0.8454,
        "source": "form",
        "hit": "12/15",
        "group": "sot"
       },
       {
-       "label": "Arsenal over 0.5 goals",
-       "prob": 0.7732,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
+       "label": "Arsenal cards under 2.5",
+       "prob": 0.8614,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
       }
      ]
     }
@@ -5847,7 +5847,7 @@
     {
      "label": "Arsenal cards under 2.5",
      "hit": "15/15",
-     "prob": 0.8592,
+     "prob": 0.8614,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -5855,7 +5855,7 @@
     {
      "label": "Match shots over 22.5",
      "hit": "13/15",
-     "prob": 0.6969,
+     "prob": 0.6911,
      "stat": "shots",
      "direction": "over",
      "line": 22.5
@@ -5863,7 +5863,7 @@
     {
      "label": "Arsenal shots on target over 3.5",
      "hit": "13/15",
-     "prob": 0.7426,
+     "prob": 0.7459,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -5871,7 +5871,7 @@
     {
      "label": "Match cards over 2.5",
      "hit": "12/15",
-     "prob": 0.715,
+     "prob": 0.7151,
      "stat": "cards",
      "direction": "over",
      "line": 2.5
@@ -5880,19 +5880,19 @@
    "most": [
     {
      "label": "Arsenal most corners",
-     "prob": 0.6212
+     "prob": 0.622
     },
     {
      "label": "Man City most corners",
-     "prob": 0.2904
+     "prob": 0.2893
     },
     {
      "label": "Arsenal most cards",
-     "prob": 0.1381
+     "prob": 0.1341
     },
     {
      "label": "Man City most cards",
-     "prob": 0.6847
+     "prob": 0.6889
     }
    ],
    "form": {
@@ -5926,19 +5926,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.6361,
-     "fair": 1.57,
+     "joint": 0.6757,
+     "fair": 1.48,
      "legs": [
       {
        "label": "Roma shots over 11.5",
-       "prob": 0.9064,
+       "prob": 0.9059,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Roma shots on target over 3.5",
-       "prob": 0.8836,
+       "prob": 0.8824,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -5951,35 +5951,35 @@
        "group": "team_goals"
       },
       {
-       "label": "Roma cards under 3.5",
-       "prob": 0.8925,
-       "source": "form",
-       "hit": "15/15",
-       "group": "cards"
-      },
-      {
        "label": "No draw",
        "prob": 0.8345,
        "source": "model",
        "hit": "",
        "group": "result"
+      },
+      {
+       "label": "Roma most corners",
+       "prob": 0.8303,
+       "source": "form",
+       "hit": "",
+       "group": "most_corners"
       }
      ]
     },
     "safe": {
-     "joint": 0.7825,
+     "joint": 0.7799,
      "fair": 1.28,
      "legs": [
       {
        "label": "Roma shots over 11.5",
-       "prob": 0.9064,
+       "prob": 0.9059,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Roma shots on target over 3.5",
-       "prob": 0.8836,
+       "prob": 0.8824,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -5998,7 +5998,7 @@
     {
      "label": "Roma cards under 3.5",
      "hit": "15/15",
-     "prob": 0.8925,
+     "prob": 0.8899,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -6006,7 +6006,7 @@
     {
      "label": "Monza cards under 3.5",
      "hit": "14/15",
-     "prob": 0.8175,
+     "prob": 0.8187,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -6014,7 +6014,7 @@
     {
      "label": "Roma shots over 11.5",
      "hit": "13/15",
-     "prob": 0.9064,
+     "prob": 0.9059,
      "stat": "shots",
      "direction": "over",
      "line": 11.5
@@ -6022,7 +6022,7 @@
     {
      "label": "Roma shots on target over 3.5",
      "hit": "13/15",
-     "prob": 0.8836,
+     "prob": 0.8824,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -6031,19 +6031,19 @@
    "most": [
     {
      "label": "Roma most corners",
-     "prob": 0.8286
+     "prob": 0.8303
     },
     {
      "label": "Monza most corners",
-     "prob": 0.1115
+     "prob": 0.1113
     },
     {
      "label": "Roma most cards",
-     "prob": 0.3214
+     "prob": 0.3209
     },
     {
      "label": "Monza most cards",
-     "prob": 0.4724
+     "prob": 0.4715
     }
    ],
    "form": {
@@ -6077,19 +6077,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5317,
+     "joint": 0.5307,
      "fair": 1.88,
      "legs": [
       {
        "label": "Celta shots on target over 2.5",
-       "prob": 0.9067,
+       "prob": 0.9093,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Celta corners over 2.5",
-       "prob": 0.896,
+       "prob": 0.8954,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -6110,7 +6110,7 @@
       },
       {
        "label": "Match shots over 21.5",
-       "prob": 0.7919,
+       "prob": 0.792,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
@@ -6118,19 +6118,19 @@
      ]
     },
     "safe": {
-     "joint": 0.7418,
+     "joint": 0.7397,
      "fair": 1.35,
      "legs": [
       {
        "label": "Celta shots on target over 2.5",
-       "prob": 0.9067,
+       "prob": 0.9093,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
       },
       {
        "label": "Celta corners over 2.5",
-       "prob": 0.896,
+       "prob": 0.8954,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
@@ -6149,7 +6149,7 @@
     {
      "label": "Celta cards under 2.5",
      "hit": "15/15",
-     "prob": 0.7691,
+     "prob": 0.768,
      "stat": "cards",
      "direction": "under",
      "line": 2.5
@@ -6157,7 +6157,7 @@
     {
      "label": "Celta shots on target over 2.5",
      "hit": "13/15",
-     "prob": 0.9067,
+     "prob": 0.9093,
      "stat": "sot",
      "direction": "over",
      "line": 2.5
@@ -6165,7 +6165,7 @@
     {
      "label": "Villarreal shots on target over 1.5",
      "hit": "13/15",
-     "prob": 0.79,
+     "prob": 0.7884,
      "stat": "sot",
      "direction": "over",
      "line": 1.5
@@ -6173,7 +6173,7 @@
     {
      "label": "Match shots on target over 6.5",
      "hit": "13/15",
-     "prob": 0.7836,
+     "prob": 0.7839,
      "stat": "sot",
      "direction": "over",
      "line": 6.5
@@ -6182,11 +6182,11 @@
    "most": [
     {
      "label": "Celta Vigo most corners",
-     "prob": 0.7111
+     "prob": 0.7152
     },
     {
      "label": "Villarreal most corners",
-     "prob": 0.2041
+     "prob": 0.1991
     },
     {
      "label": "Celta Vigo most cards",
@@ -6194,7 +6194,7 @@
     },
     {
      "label": "Villarreal most cards",
-     "prob": 0.5641
+     "prob": 0.5672
     }
    ],
    "form": {
@@ -6228,19 +6228,19 @@
    },
    "builder": {
     "best": {
-     "joint": 0.4675,
-     "fair": 2.14,
+     "joint": 0.4705,
+     "fair": 2.13,
      "legs": [
       {
        "label": "Match corners under 14.5",
-       "prob": 0.8856,
+       "prob": 0.8878,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
       },
       {
        "label": "Leverkusen cards under 3.5",
-       "prob": 0.8728,
+       "prob": 0.87,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -6261,7 +6261,7 @@
       },
       {
        "label": "Match shots on target over 7.5",
-       "prob": 0.8224,
+       "prob": 0.8221,
        "source": "form",
        "hit": "6/8",
        "group": "sot"
@@ -6269,19 +6269,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6639,
+     "joint": 0.6641,
      "fair": 1.51,
      "legs": [
       {
        "label": "Match corners under 14.5",
-       "prob": 0.8856,
+       "prob": 0.8878,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
       },
       {
        "label": "Leverkusen cards under 3.5",
-       "prob": 0.8728,
+       "prob": 0.87,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -6300,7 +6300,7 @@
     {
      "label": "Leverkusen corners over 2.5",
      "hit": "13/15",
-     "prob": 0.5727,
+     "prob": 0.5715,
      "stat": "corners",
      "direction": "over",
      "line": 2.5
@@ -6308,7 +6308,7 @@
     {
      "label": "Match corners under 14.5",
      "hit": "13/15",
-     "prob": 0.8856,
+     "prob": 0.8878,
      "stat": "corners",
      "direction": "under",
      "line": 14.5
@@ -6316,7 +6316,7 @@
     {
      "label": "Dortmund shots over 10.5",
      "hit": "13/15",
-     "prob": 0.9279,
+     "prob": 0.9281,
      "stat": "shots",
      "direction": "over",
      "line": 10.5
@@ -6324,7 +6324,7 @@
     {
      "label": "Match shots over 23.5",
      "hit": "13/15",
-     "prob": 0.7984,
+     "prob": 0.7963,
      "stat": "shots",
      "direction": "over",
      "line": 23.5
@@ -6333,19 +6333,19 @@
    "most": [
     {
      "label": "Dortmund most corners",
-     "prob": 0.7947
+     "prob": 0.7959
     },
     {
      "label": "Bayer Leverkusen most corners",
-     "prob": 0.1435
+     "prob": 0.1408
     },
     {
      "label": "Dortmund most cards",
-     "prob": 0.4274
+     "prob": 0.428
     },
     {
      "label": "Bayer Leverkusen most cards",
-     "prob": 0.339
+     "prob": 0.3409
     }
    ],
    "form": {
@@ -6379,26 +6379,26 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5819,
-     "fair": 1.72,
+     "joint": 0.5961,
+     "fair": 1.68,
      "legs": [
       {
-       "label": "Monaco corners under 7.5",
-       "prob": 0.8985,
+       "label": "Lyon corners over 2.5",
+       "prob": 0.8996,
        "source": "form",
-       "hit": "13/15",
+       "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Match shots over 20.5",
-       "prob": 0.8984,
+       "prob": 0.8976,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.846,
+       "prob": 0.8445,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -6420,26 +6420,26 @@
      ]
     },
     "safe": {
-     "joint": 0.7115,
-     "fair": 1.41,
+     "joint": 0.7325,
+     "fair": 1.37,
      "legs": [
       {
-       "label": "Monaco corners under 7.5",
-       "prob": 0.8985,
+       "label": "Lyon corners over 2.5",
+       "prob": 0.8996,
        "source": "form",
-       "hit": "13/15",
+       "hit": "12/15",
        "group": "corners"
       },
       {
        "label": "Match shots over 20.5",
-       "prob": 0.8984,
+       "prob": 0.8976,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Match shots on target over 6.5",
-       "prob": 0.846,
+       "prob": 0.8445,
        "source": "form",
        "hit": "13/15",
        "group": "sot"
@@ -6451,7 +6451,7 @@
     {
      "label": "Monaco cards under 3.5",
      "hit": "14/15",
-     "prob": 0.7725,
+     "prob": 0.7738,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -6459,7 +6459,7 @@
     {
      "label": "Monaco corners under 7.5",
      "hit": "13/15",
-     "prob": 0.8985,
+     "prob": 0.8978,
      "stat": "corners",
      "direction": "under",
      "line": 7.5
@@ -6467,7 +6467,7 @@
     {
      "label": "Match corners under 11.5",
      "hit": "13/15",
-     "prob": 0.6621,
+     "prob": 0.6633,
      "stat": "corners",
      "direction": "under",
      "line": 11.5
@@ -6475,7 +6475,7 @@
     {
      "label": "Match shots over 20.5",
      "hit": "13/15",
-     "prob": 0.8984,
+     "prob": 0.8976,
      "stat": "shots",
      "direction": "over",
      "line": 20.5
@@ -6484,11 +6484,11 @@
    "most": [
     {
      "label": "Lyon most corners",
-     "prob": 0.6076
+     "prob": 0.6065
     },
     {
      "label": "Monaco most corners",
-     "prob": 0.3053
+     "prob": 0.3056
     },
     {
      "label": "Lyon most cards",
@@ -6496,7 +6496,7 @@
     },
     {
      "label": "Monaco most cards",
-     "prob": 0.6068
+     "prob": 0.6089
     }
    ],
    "form": {
@@ -6530,7 +6530,7 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5807,
+     "joint": 0.5823,
      "fair": 1.72,
      "legs": [
       {
@@ -6542,28 +6542,28 @@
       },
       {
        "label": "Match shots over 19.5",
-       "prob": 0.897,
+       "prob": 0.8994,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Como corners over 2.5",
-       "prob": 0.9025,
+       "prob": 0.9029,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
       },
       {
        "label": "Match shots on target over 5.5",
-       "prob": 0.8468,
+       "prob": 0.8455,
        "source": "form",
        "hit": "11/15",
        "group": "sot"
       },
       {
        "label": "Como cards under 2.5",
-       "prob": 0.8341,
+       "prob": 0.8383,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
@@ -6571,7 +6571,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7522,
+     "joint": 0.7538,
      "fair": 1.33,
      "legs": [
       {
@@ -6583,14 +6583,14 @@
       },
       {
        "label": "Match shots over 19.5",
-       "prob": 0.897,
+       "prob": 0.8994,
        "source": "form",
        "hit": "12/15",
        "group": "shots"
       },
       {
        "label": "Como corners over 2.5",
-       "prob": 0.9025,
+       "prob": 0.9029,
        "source": "form",
        "hit": "13/15",
        "group": "corners"
@@ -6602,7 +6602,7 @@
     {
      "label": "Juventus cards under 3.5",
      "hit": "15/15",
-     "prob": 0.8373,
+     "prob": 0.843,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -6610,7 +6610,7 @@
     {
      "label": "Como shots on target over 3.5",
      "hit": "14/15",
-     "prob": 0.7528,
+     "prob": 0.7522,
      "stat": "sot",
      "direction": "over",
      "line": 3.5
@@ -6618,7 +6618,7 @@
     {
      "label": "Como corners over 2.5",
      "hit": "13/15",
-     "prob": 0.9025,
+     "prob": 0.9029,
      "stat": "corners",
      "direction": "over",
      "line": 2.5
@@ -6626,7 +6626,7 @@
     {
      "label": "Como shots over 12.5",
      "hit": "13/15",
-     "prob": 0.8105,
+     "prob": 0.8125,
      "stat": "shots",
      "direction": "over",
      "line": 12.5
@@ -6639,15 +6639,15 @@
     },
     {
      "label": "Juventus most corners",
-     "prob": 0.2144
+     "prob": 0.2151
     },
     {
      "label": "Como most cards",
-     "prob": 0.2517
+     "prob": 0.2503
     },
     {
      "label": "Juventus most cards",
-     "prob": 0.5089
+     "prob": 0.5125
     }
    ],
    "form": {
@@ -6681,29 +6681,22 @@
    },
    "builder": {
     "best": {
-     "joint": 0.5259,
-     "fair": 1.9,
+     "joint": 0.5308,
+     "fair": 1.88,
      "legs": [
       {
        "label": "Sociedad shots over 8.5",
-       "prob": 0.9183,
+       "prob": 0.9174,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Sociedad cards under 3.5",
-       "prob": 0.8782,
+       "prob": 0.8818,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
-      },
-      {
-       "label": "Sevilla corners under 5.5",
-       "prob": 0.8645,
-       "source": "form",
-       "hit": "12/15",
-       "group": "corners"
       },
       {
        "label": "Under 4.5 goals",
@@ -6711,6 +6704,13 @@
        "source": "model",
        "hit": "",
        "group": "goals"
+      },
+      {
+       "label": "Sevilla corners under 5.5",
+       "prob": 0.8633,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
       },
       {
        "label": "Sevilla under 1.5 goals",
@@ -6722,29 +6722,29 @@
      ]
     },
     "safe": {
-     "joint": 0.7151,
-     "fair": 1.4,
+     "joint": 0.7171,
+     "fair": 1.39,
      "legs": [
       {
        "label": "Sociedad shots over 8.5",
-       "prob": 0.9183,
+       "prob": 0.9174,
        "source": "form",
        "hit": "13/15",
        "group": "shots"
       },
       {
        "label": "Sociedad cards under 3.5",
-       "prob": 0.8782,
+       "prob": 0.8818,
        "source": "form",
        "hit": "13/15",
        "group": "cards"
       },
       {
-       "label": "Sevilla corners under 5.5",
-       "prob": 0.8645,
-       "source": "form",
-       "hit": "12/15",
-       "group": "corners"
+       "label": "Under 4.5 goals",
+       "prob": 0.8812,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -6753,7 +6753,7 @@
     {
      "label": "Sociedad cards under 3.5",
      "hit": "13/15",
-     "prob": 0.8782,
+     "prob": 0.8818,
      "stat": "cards",
      "direction": "under",
      "line": 3.5
@@ -6761,7 +6761,7 @@
     {
      "label": "Match corners under 13.5",
      "hit": "13/15",
-     "prob": 0.8629,
+     "prob": 0.8592,
      "stat": "corners",
      "direction": "under",
      "line": 13.5
@@ -6769,7 +6769,7 @@
     {
      "label": "Sociedad shots over 8.5",
      "hit": "13/15",
-     "prob": 0.9183,
+     "prob": 0.9174,
      "stat": "shots",
      "direction": "over",
      "line": 8.5
@@ -6777,7 +6777,7 @@
     {
      "label": "Match shots over 22.5",
      "hit": "13/15",
-     "prob": 0.6391,
+     "prob": 0.6353,
      "stat": "shots",
      "direction": "over",
      "line": 22.5
@@ -6786,477 +6786,24 @@
    "most": [
     {
      "label": "Real Sociedad most corners",
-     "prob": 0.7596
+     "prob": 0.7575
     },
     {
      "label": "Sevilla most corners",
-     "prob": 0.1705
+     "prob": 0.1701
     },
     {
      "label": "Real Sociedad most cards",
-     "prob": 0.1901
+     "prob": 0.1903
     },
     {
      "label": "Sevilla most cards",
-     "prob": 0.6402
+     "prob": 0.6392
     }
    ],
    "form": {
     "home": "LWLWW",
     "away": "DDLWL"
-   }
-  },
-  {
-   "league": "serie_a",
-   "date": "2026-12-01",
-   "kickoff": "01:30",
-   "home": "Lecce",
-   "away": "Atalanta",
-   "home_name": "Lecce",
-   "away_name": "Atalanta",
-   "probabilities": {
-    "H": 0.2439,
-    "D": 0.279,
-    "A": 0.4771
-   },
-   "expected_goals": [
-    0.957,
-    1.443
-   ],
-   "pick": "Atalanta win 48% · Under 2.5 goals 57% · BTTS no 52%",
-   "elo_source": "ClubElo",
-   "xg_used": true,
-   "main_total": {
-    "label": "Under 2.5 goals",
-    "prob": 0.5698
-   },
-   "builder": {
-    "best": {
-     "joint": 0.4808,
-     "fair": 2.08,
-     "legs": [
-      {
-       "label": "Match corners under 13.5",
-       "prob": 0.9076,
-       "source": "form",
-       "hit": "13/15",
-       "group": "corners"
-      },
-      {
-       "label": "Lecce shots on target over 2.5",
-       "prob": 0.8621,
-       "source": "form",
-       "hit": "10/12",
-       "group": "sot"
-      },
-      {
-       "label": "Match cards under 5.5",
-       "prob": 0.8486,
-       "source": "form",
-       "hit": "13/15",
-       "group": "cards"
-      },
-      {
-       "label": "Atalanta under 2.5 goals",
-       "prob": 0.8231,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Under 3.5 goals",
-       "prob": 0.7788,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      }
-     ]
-    },
-    "safe": {
-     "joint": 0.656,
-     "fair": 1.52,
-     "legs": [
-      {
-       "label": "Match corners under 13.5",
-       "prob": 0.9076,
-       "source": "form",
-       "hit": "13/15",
-       "group": "corners"
-      },
-      {
-       "label": "Lecce shots on target over 2.5",
-       "prob": 0.8621,
-       "source": "form",
-       "hit": "10/12",
-       "group": "sot"
-      },
-      {
-       "label": "Match cards under 5.5",
-       "prob": 0.8486,
-       "source": "form",
-       "hit": "13/15",
-       "group": "cards"
-      }
-     ]
-    }
-   },
-   "form_notes": [
-    {
-     "label": "Lecce cards under 3.5",
-     "hit": "15/15",
-     "prob": 0.9304,
-     "stat": "cards",
-     "direction": "under",
-     "line": 3.5
-    },
-    {
-     "label": "Match cards under 5.5",
-     "hit": "13/15",
-     "prob": 0.8486,
-     "stat": "cards",
-     "direction": "under",
-     "line": 5.5
-    },
-    {
-     "label": "Atalanta cards over 1.5",
-     "hit": "13/15",
-     "prob": 0.5536,
-     "stat": "cards",
-     "direction": "over",
-     "line": 1.5
-    },
-    {
-     "label": "Lecce corners under 6.5",
-     "hit": "13/15",
-     "prob": 0.5881,
-     "stat": "corners",
-     "direction": "under",
-     "line": 6.5
-    }
-   ],
-   "most": [
-    {
-     "label": "Lecce most corners",
-     "prob": 0.7408
-    },
-    {
-     "label": "Atalanta most corners",
-     "prob": 0.1812
-    },
-    {
-     "label": "Lecce most cards",
-     "prob": 0.2775
-    },
-    {
-     "label": "Atalanta most cards",
-     "prob": 0.4919
-    }
-   ],
-   "form": {
-    "home": "LDLLL",
-    "away": "DWLDD"
-   }
-  },
-  {
-   "league": "serie_a",
-   "date": "2026-12-01",
-   "kickoff": "03:45",
-   "home": "Cagliari",
-   "away": "Milan",
-   "home_name": "Cagliari",
-   "away_name": "AC Milan",
-   "probabilities": {
-    "H": 0.2087,
-    "D": 0.2842,
-    "A": 0.5071
-   },
-   "expected_goals": [
-    0.812,
-    1.419
-   ],
-   "pick": "AC Milan win 51% · Under 2.5 goals 61% · BTTS no 57%",
-   "elo_source": "ClubElo",
-   "xg_used": true,
-   "main_total": {
-    "label": "Under 2.5 goals",
-    "prob": 0.6145
-   },
-   "builder": {
-    "best": {
-     "joint": 0.5659,
-     "fair": 1.77,
-     "legs": [
-      {
-       "label": "Over 0.5 goals",
-       "prob": 0.8864,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Milan shots on target over 1.5",
-       "prob": 0.8965,
-       "source": "form",
-       "hit": "12/15",
-       "group": "sot"
-      },
-      {
-       "label": "Cagliari shots over 7.5",
-       "prob": 0.8996,
-       "source": "form",
-       "hit": "11/15",
-       "group": "shots"
-      },
-      {
-       "label": "Milan over 0.5 goals",
-       "prob": 0.758,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Milan or draw",
-       "prob": 0.7913,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      }
-     ]
-    },
-    "safe": {
-     "joint": 0.7358,
-     "fair": 1.36,
-     "legs": [
-      {
-       "label": "Over 0.5 goals",
-       "prob": 0.8864,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Milan shots on target over 1.5",
-       "prob": 0.8965,
-       "source": "form",
-       "hit": "12/15",
-       "group": "sot"
-      },
-      {
-       "label": "Cagliari shots over 7.5",
-       "prob": 0.8996,
-       "source": "form",
-       "hit": "11/15",
-       "group": "shots"
-      }
-     ]
-    }
-   },
-   "form_notes": [
-    {
-     "label": "Match shots on target over 6.5",
-     "hit": "14/15",
-     "prob": 0.7205,
-     "stat": "sot",
-     "direction": "over",
-     "line": 6.5
-    },
-    {
-     "label": "Cagliari cards under 2.5",
-     "hit": "12/15",
-     "prob": 0.8315,
-     "stat": "cards",
-     "direction": "under",
-     "line": 2.5
-    },
-    {
-     "label": "Cagliari corners under 7.5",
-     "hit": "12/15",
-     "prob": 0.8247,
-     "stat": "corners",
-     "direction": "under",
-     "line": 7.5
-    },
-    {
-     "label": "Match corners under 11.5",
-     "hit": "12/15",
-     "prob": 0.791,
-     "stat": "corners",
-     "direction": "under",
-     "line": 11.5
-    }
-   ],
-   "most": [
-    {
-     "label": "Cagliari most corners",
-     "prob": 0.5463
-    },
-    {
-     "label": "AC Milan most corners",
-     "prob": 0.356
-    },
-    {
-     "label": "Cagliari most cards",
-     "prob": 0.2759
-    },
-    {
-     "label": "AC Milan most cards",
-     "prob": 0.4878
-    }
-   ],
-   "form": {
-    "home": "LWLLL",
-    "away": "WWWLW"
-   }
-  },
-  {
-   "league": "la_liga",
-   "date": "2026-12-01",
-   "kickoff": "04:00",
-   "home": "Espanol",
-   "away": "Getafe",
-   "home_name": "Espanyol",
-   "away_name": "Getafe",
-   "probabilities": {
-    "H": 0.5299,
-    "D": 0.2871,
-    "A": 0.183
-   },
-   "expected_goals": [
-    1.401,
-    0.709
-   ],
-   "pick": "Espanyol win 53% · Over 1.5 goals 63% · BTTS no 61%",
-   "elo_source": "ClubElo",
-   "xg_used": true,
-   "main_total": {
-    "label": "Over 1.5 goals",
-    "prob": 0.629
-   },
-   "builder": {
-    "best": {
-     "joint": 0.593,
-     "fair": 1.69,
-     "legs": [
-      {
-       "label": "Espanol shots on target over 2.5",
-       "prob": 0.9129,
-       "source": "form",
-       "hit": "13/15",
-       "group": "sot"
-      },
-      {
-       "label": "Over 0.5 goals",
-       "prob": 0.8727,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Match shots over 19.5",
-       "prob": 0.8425,
-       "source": "form",
-       "hit": "12/15",
-       "group": "shots"
-      },
-      {
-       "label": "Espanol over 0.5 goals",
-       "prob": 0.7537,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Espanol or draw",
-       "prob": 0.817,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      }
-     ]
-    },
-    "safe": {
-     "joint": 0.731,
-     "fair": 1.37,
-     "legs": [
-      {
-       "label": "Espanol shots on target over 2.5",
-       "prob": 0.9129,
-       "source": "form",
-       "hit": "13/15",
-       "group": "sot"
-      },
-      {
-       "label": "Over 0.5 goals",
-       "prob": 0.8727,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Match shots over 19.5",
-       "prob": 0.8425,
-       "source": "form",
-       "hit": "12/15",
-       "group": "shots"
-      }
-     ]
-    }
-   },
-   "form_notes": [
-    {
-     "label": "Match cards over 2.5",
-     "hit": "14/15",
-     "prob": 0.8658,
-     "stat": "cards",
-     "direction": "over",
-     "line": 2.5
-    },
-    {
-     "label": "Espanol corners under 8.5",
-     "hit": "13/15",
-     "prob": 0.8221,
-     "stat": "corners",
-     "direction": "under",
-     "line": 8.5
-    },
-    {
-     "label": "Getafe corners under 4.5",
-     "hit": "13/15",
-     "prob": 0.6949,
-     "stat": "corners",
-     "direction": "under",
-     "line": 4.5
-    },
-    {
-     "label": "Match corners under 14.5",
-     "hit": "13/15",
-     "prob": 0.9316,
-     "stat": "corners",
-     "direction": "under",
-     "line": 14.5
-    }
-   ],
-   "most": [
-    {
-     "label": "Espanyol most corners",
-     "prob": 0.6639
-    },
-    {
-     "label": "Getafe most corners",
-     "prob": 0.2487
-    },
-    {
-     "label": "Espanyol most cards",
-     "prob": 0.2414
-    },
-    {
-     "label": "Getafe most cards",
-     "prob": 0.599
-    }
-   ],
-   "form": {
-    "home": "WDWLL",
-    "away": "LLWLD"
    }
   }
  ],
