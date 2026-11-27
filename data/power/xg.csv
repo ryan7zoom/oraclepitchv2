@@ -1,0 +1,385 @@
+date,league,team,venue,kind,value,n
+2026-11-24,epl,Arsenal,home,for,1.2283,5
+2026-11-24,epl,Arsenal,home,against,0.4883,5
+2026-11-24,epl,Arsenal,away,for,0.8116,6
+2026-11-24,epl,Arsenal,away,against,0.9305,6
+2026-11-24,epl,Aston Villa,home,for,0.9379,6
+2026-11-24,epl,Aston Villa,home,against,0.9522,6
+2026-11-24,epl,Aston Villa,away,for,0.9119,5
+2026-11-24,epl,Aston Villa,away,against,1.2430,5
+2026-11-24,epl,Bournemouth,home,for,1.3878,6
+2026-11-24,epl,Bournemouth,home,against,0.6684,6
+2026-11-24,epl,Bournemouth,away,for,1.0003,5
+2026-11-24,epl,Bournemouth,away,against,1.0727,5
+2026-11-24,epl,Brentford,home,for,1.1902,6
+2026-11-24,epl,Brentford,home,against,0.5911,6
+2026-11-24,epl,Brentford,away,for,0.7211,5
+2026-11-24,epl,Brentford,away,against,1.2505,5
+2026-11-24,epl,Brighton,home,for,1.4596,5
+2026-11-24,epl,Brighton,home,against,0.7080,5
+2026-11-24,epl,Brighton,away,for,1.0513,6
+2026-11-24,epl,Brighton,away,against,1.0569,6
+2026-11-24,epl,Chelsea,home,for,1.0602,6
+2026-11-24,epl,Chelsea,home,against,0.9063,6
+2026-11-24,epl,Chelsea,away,for,0.6444,5
+2026-11-24,epl,Chelsea,away,against,1.2316,5
+2026-11-24,epl,Coventry,home,for,0.9989,6
+2026-11-24,epl,Coventry,home,against,0.8207,6
+2026-11-24,epl,Coventry,away,for,0.6571,5
+2026-11-24,epl,Coventry,away,against,1.0618,5
+2026-11-24,epl,Crystal Palace,home,for,1.1129,5
+2026-11-24,epl,Crystal Palace,home,against,1.1211,5
+2026-11-24,epl,Crystal Palace,away,for,0.7331,6
+2026-11-24,epl,Crystal Palace,away,against,1.5336,6
+2026-11-24,epl,Everton,home,for,1.0673,5
+2026-11-24,epl,Everton,home,against,0.8130,5
+2026-11-24,epl,Everton,away,for,0.8081,6
+2026-11-24,epl,Everton,away,against,1.1564,6
+2026-11-24,epl,Fulham,home,for,1.1240,5
+2026-11-24,epl,Fulham,home,against,0.7985,5
+2026-11-24,epl,Fulham,away,for,0.6813,6
+2026-11-24,epl,Fulham,away,against,1.0520,6
+2026-11-24,epl,Hull,home,for,0.9246,6
+2026-11-24,epl,Hull,home,against,0.9858,6
+2026-11-24,epl,Hull,away,for,0.6380,5
+2026-11-24,epl,Hull,away,against,1.0051,5
+2026-11-24,epl,Ipswich,home,for,0.9208,5
+2026-11-24,epl,Ipswich,home,against,0.9306,5
+2026-11-24,epl,Ipswich,away,for,0.8654,6
+2026-11-24,epl,Ipswich,away,against,1.4217,6
+2026-11-24,epl,Leeds,home,for,1.0771,5
+2026-11-24,epl,Leeds,home,against,0.6330,5
+2026-11-24,epl,Leeds,away,for,0.7529,6
+2026-11-24,epl,Leeds,away,against,0.9782,6
+2026-11-24,epl,Liverpool,home,for,1.2664,6
+2026-11-24,epl,Liverpool,home,against,0.7189,6
+2026-11-24,epl,Liverpool,away,for,0.9742,5
+2026-11-24,epl,Liverpool,away,against,0.9416,5
+2026-11-24,epl,Man City,home,for,1.4188,6
+2026-11-24,epl,Man City,home,against,0.8795,6
+2026-11-24,epl,Man City,away,for,0.9520,5
+2026-11-24,epl,Man City,away,against,0.8414,5
+2026-11-24,epl,Man United,home,for,1.3825,5
+2026-11-24,epl,Man United,home,against,1.1326,5
+2026-11-24,epl,Man United,away,for,0.6602,6
+2026-11-24,epl,Man United,away,against,1.5112,6
+2026-11-24,epl,Newcastle,home,for,0.9291,6
+2026-11-24,epl,Newcastle,home,against,1.0378,6
+2026-11-24,epl,Newcastle,away,for,0.6596,5
+2026-11-24,epl,Newcastle,away,against,0.9839,5
+2026-11-24,epl,Nott'm Forest,home,for,0.8560,5
+2026-11-24,epl,Nott'm Forest,home,against,0.7429,5
+2026-11-24,epl,Nott'm Forest,away,for,1.1679,6
+2026-11-24,epl,Nott'm Forest,away,against,1.0086,6
+2026-11-24,epl,Sunderland,home,for,1.0682,5
+2026-11-24,epl,Sunderland,home,against,0.6382,5
+2026-11-24,epl,Sunderland,away,for,0.8018,6
+2026-11-24,epl,Sunderland,away,against,1.2904,6
+2026-11-24,epl,Tottenham,home,for,1.1825,6
+2026-11-24,epl,Tottenham,home,against,0.5813,6
+2026-11-24,epl,Tottenham,away,for,0.6395,5
+2026-11-24,epl,Tottenham,away,against,0.9687,5
+2026-11-24,la_liga,Alaves,home,for,1.1599,7
+2026-11-24,la_liga,Alaves,home,against,0.7042,7
+2026-11-24,la_liga,Alaves,away,for,0.7314,6
+2026-11-24,la_liga,Alaves,away,against,1.1424,6
+2026-11-24,la_liga,Ath Bilbao,home,for,1.1866,7
+2026-11-24,la_liga,Ath Bilbao,home,against,0.5730,7
+2026-11-24,la_liga,Ath Bilbao,away,for,0.9114,5
+2026-11-24,la_liga,Ath Bilbao,away,against,1.0242,5
+2026-11-24,la_liga,Ath Madrid,home,for,1.1343,6
+2026-11-24,la_liga,Ath Madrid,home,against,0.8312,6
+2026-11-24,la_liga,Ath Madrid,away,for,1.1688,7
+2026-11-24,la_liga,Ath Madrid,away,against,0.7672,7
+2026-11-24,la_liga,Barcelona,home,for,1.8526,7
+2026-11-24,la_liga,Barcelona,home,against,0.6271,7
+2026-11-24,la_liga,Barcelona,away,for,1.6555,6
+2026-11-24,la_liga,Barcelona,away,against,0.9192,6
+2026-11-24,la_liga,Betis,home,for,1.0603,6
+2026-11-24,la_liga,Betis,home,against,1.1269,6
+2026-11-24,la_liga,Betis,away,for,0.8341,7
+2026-11-24,la_liga,Betis,away,against,1.0958,7
+2026-11-24,la_liga,Celta,home,for,1.0051,7
+2026-11-24,la_liga,Celta,home,against,0.8229,7
+2026-11-24,la_liga,Celta,away,for,0.6437,6
+2026-11-24,la_liga,Celta,away,against,0.9663,6
+2026-11-24,la_liga,Elche,home,for,0.8218,6
+2026-11-24,la_liga,Elche,home,against,1.0009,6
+2026-11-24,la_liga,Elche,away,for,0.7678,7
+2026-11-24,la_liga,Elche,away,against,1.0381,7
+2026-11-24,la_liga,Espanol,home,for,0.8804,6
+2026-11-24,la_liga,Espanol,home,against,0.7538,6
+2026-11-24,la_liga,Espanol,away,for,0.5544,7
+2026-11-24,la_liga,Espanol,away,against,0.9724,7
+2026-11-24,la_liga,Getafe,home,for,0.6984,7
+2026-11-24,la_liga,Getafe,home,against,0.9817,7
+2026-11-24,la_liga,Getafe,away,for,0.4719,6
+2026-11-24,la_liga,Getafe,away,against,1.0535,6
+2026-11-24,la_liga,La Coruna,home,for,1.0757,6
+2026-11-24,la_liga,La Coruna,home,against,0.6880,6
+2026-11-24,la_liga,La Coruna,away,for,0.7015,7
+2026-11-24,la_liga,La Coruna,away,against,1.0723,7
+2026-11-24,la_liga,Levante,home,for,1.0824,6
+2026-11-24,la_liga,Levante,home,against,0.8785,6
+2026-11-24,la_liga,Levante,away,for,0.5001,7
+2026-11-24,la_liga,Levante,away,against,1.4235,7
+2026-11-24,la_liga,Malaga,home,for,0.9904,6
+2026-11-24,la_liga,Malaga,home,against,1.0703,6
+2026-11-24,la_liga,Malaga,away,for,0.5139,7
+2026-11-24,la_liga,Malaga,away,against,0.9830,7
+2026-11-24,la_liga,Osasuna,home,for,0.9898,7
+2026-11-24,la_liga,Osasuna,home,against,0.7780,7
+2026-11-24,la_liga,Osasuna,away,for,0.8206,6
+2026-11-24,la_liga,Osasuna,away,against,1.2830,6
+2026-11-24,la_liga,Real Madrid,home,for,1.5645,6
+2026-11-24,la_liga,Real Madrid,home,against,0.6291,6
+2026-11-24,la_liga,Real Madrid,away,for,1.3894,7
+2026-11-24,la_liga,Real Madrid,away,against,0.8275,7
+2026-11-24,la_liga,Santander,home,for,1.2741,7
+2026-11-24,la_liga,Santander,home,against,1.1128,7
+2026-11-24,la_liga,Santander,away,for,0.7803,6
+2026-11-24,la_liga,Santander,away,against,1.7088,6
+2026-11-24,la_liga,Sevilla,home,for,1.0007,7
+2026-11-24,la_liga,Sevilla,home,against,0.6822,7
+2026-11-24,la_liga,Sevilla,away,for,0.6268,6
+2026-11-24,la_liga,Sevilla,away,against,1.0590,6
+2026-11-24,la_liga,Sociedad,home,for,0.9982,6
+2026-11-24,la_liga,Sociedad,home,against,0.8439,6
+2026-11-24,la_liga,Sociedad,away,for,1.1073,7
+2026-11-24,la_liga,Sociedad,away,against,1.5497,7
+2026-11-24,la_liga,Valencia,home,for,0.8457,7
+2026-11-24,la_liga,Valencia,home,against,1.0552,7
+2026-11-24,la_liga,Valencia,away,for,0.6025,6
+2026-11-24,la_liga,Valencia,away,against,0.8904,6
+2026-11-24,la_liga,Vallecano,home,for,0.8967,6
+2026-11-24,la_liga,Vallecano,home,against,0.8940,6
+2026-11-24,la_liga,Vallecano,away,for,0.9877,6
+2026-11-24,la_liga,Vallecano,away,against,1.0896,6
+2026-11-24,la_liga,Villarreal,home,for,1.3339,6
+2026-11-24,la_liga,Villarreal,home,against,0.6646,6
+2026-11-24,la_liga,Villarreal,away,for,0.9429,7
+2026-11-24,la_liga,Villarreal,away,against,1.0393,7
+2026-11-24,bundesliga,Augsburg,home,for,1.6814,6
+2026-11-24,bundesliga,Augsburg,home,against,1.3608,6
+2026-11-24,bundesliga,Augsburg,away,for,1.3700,4
+2026-11-24,bundesliga,Augsburg,away,against,1.6925,4
+2026-11-24,bundesliga,Bayern Munich,home,for,2.0046,5
+2026-11-24,bundesliga,Bayern Munich,home,against,0.7693,5
+2026-11-24,bundesliga,Bayern Munich,away,for,1.5740,5
+2026-11-24,bundesliga,Bayern Munich,away,against,1.0812,5
+2026-11-24,bundesliga,Dortmund,home,for,1.3147,5
+2026-11-24,bundesliga,Dortmund,home,against,0.8548,5
+2026-11-24,bundesliga,Dortmund,away,for,1.0587,5
+2026-11-24,bundesliga,Dortmund,away,against,1.2420,5
+2026-11-24,bundesliga,Ein Frankfurt,home,for,1.4680,5
+2026-11-24,bundesliga,Ein Frankfurt,home,against,1.2389,5
+2026-11-24,bundesliga,Ein Frankfurt,away,for,1.0648,5
+2026-11-24,bundesliga,Ein Frankfurt,away,against,1.6417,5
+2026-11-24,bundesliga,Elversberg,home,for,1.2379,5
+2026-11-24,bundesliga,Elversberg,home,against,1.2186,5
+2026-11-24,bundesliga,Elversberg,away,for,0.9813,5
+2026-11-24,bundesliga,Elversberg,away,against,1.3877,5
+2026-11-24,bundesliga,FC Koln,home,for,1.2335,5
+2026-11-24,bundesliga,FC Koln,home,against,0.9933,5
+2026-11-24,bundesliga,FC Koln,away,for,1.0644,5
+2026-11-24,bundesliga,FC Koln,away,against,1.2771,5
+2026-11-24,bundesliga,Freiburg,home,for,1.3975,5
+2026-11-24,bundesliga,Freiburg,home,against,0.8540,5
+2026-11-24,bundesliga,Freiburg,away,for,1.1269,5
+2026-11-24,bundesliga,Freiburg,away,against,1.2344,5
+2026-11-24,bundesliga,Hamburg,home,for,1.2785,4
+2026-11-24,bundesliga,Hamburg,home,against,1.3540,4
+2026-11-24,bundesliga,Hamburg,away,for,0.9329,6
+2026-11-24,bundesliga,Hamburg,away,against,1.2043,6
+2026-11-24,bundesliga,Hoffenheim,home,for,1.3969,5
+2026-11-24,bundesliga,Hoffenheim,home,against,1.2259,5
+2026-11-24,bundesliga,Hoffenheim,away,for,1.1763,5
+2026-11-24,bundesliga,Hoffenheim,away,against,1.1713,5
+2026-11-24,bundesliga,Leverkusen,home,for,1.7301,5
+2026-11-24,bundesliga,Leverkusen,home,against,0.9288,5
+2026-11-24,bundesliga,Leverkusen,away,for,1.0643,5
+2026-11-24,bundesliga,Leverkusen,away,against,1.4890,5
+2026-11-24,bundesliga,M'gladbach,home,for,1.2629,5
+2026-11-24,bundesliga,M'gladbach,home,against,1.1313,5
+2026-11-24,bundesliga,M'gladbach,away,for,1.1873,5
+2026-11-24,bundesliga,M'gladbach,away,against,1.5315,5
+2026-11-24,bundesliga,Mainz,home,for,1.2939,5
+2026-11-24,bundesliga,Mainz,home,against,1.2639,5
+2026-11-24,bundesliga,Mainz,away,for,1.2198,5
+2026-11-24,bundesliga,Mainz,away,against,1.4291,5
+2026-11-24,bundesliga,Paderborn,home,for,1.1820,5
+2026-11-24,bundesliga,Paderborn,home,against,1.0743,5
+2026-11-24,bundesliga,Paderborn,away,for,0.7561,5
+2026-11-24,bundesliga,Paderborn,away,against,1.6899,5
+2026-11-24,bundesliga,RB Leipzig,home,for,1.8625,5
+2026-11-24,bundesliga,RB Leipzig,home,against,1.0859,5
+2026-11-24,bundesliga,RB Leipzig,away,for,1.4881,5
+2026-11-24,bundesliga,RB Leipzig,away,against,1.2147,5
+2026-11-24,bundesliga,Schalke 04,home,for,0.9910,5
+2026-11-24,bundesliga,Schalke 04,home,against,1.3523,5
+2026-11-24,bundesliga,Schalke 04,away,for,1.0757,5
+2026-11-24,bundesliga,Schalke 04,away,against,1.3680,5
+2026-11-24,bundesliga,Stuttgart,home,for,1.2222,4
+2026-11-24,bundesliga,Stuttgart,home,against,1.2551,4
+2026-11-24,bundesliga,Stuttgart,away,for,1.4014,6
+2026-11-24,bundesliga,Stuttgart,away,against,1.4623,6
+2026-11-24,bundesliga,Union Berlin,home,for,0.9642,6
+2026-11-24,bundesliga,Union Berlin,home,against,1.4253,6
+2026-11-24,bundesliga,Union Berlin,away,for,0.8315,4
+2026-11-24,bundesliga,Union Berlin,away,against,1.6628,4
+2026-11-24,bundesliga,Werder Bremen,home,for,1.3996,5
+2026-11-24,bundesliga,Werder Bremen,home,against,1.0788,5
+2026-11-24,bundesliga,Werder Bremen,away,for,1.0996,5
+2026-11-24,bundesliga,Werder Bremen,away,against,1.2221,5
+2026-11-24,serie_a,Atalanta,home,for,1.3251,7
+2026-11-24,serie_a,Atalanta,home,against,1.2236,7
+2026-11-24,serie_a,Atalanta,away,for,0.8631,5
+2026-11-24,serie_a,Atalanta,away,against,1.2164,5
+2026-11-24,serie_a,Bologna,home,for,1.0747,6
+2026-11-24,serie_a,Bologna,home,against,1.0994,6
+2026-11-24,serie_a,Bologna,away,for,1.1897,6
+2026-11-24,serie_a,Bologna,away,against,0.9181,6
+2026-11-24,serie_a,Cagliari,home,for,0.7365,5
+2026-11-24,serie_a,Cagliari,home,against,1.1625,5
+2026-11-24,serie_a,Cagliari,away,for,0.9353,7
+2026-11-24,serie_a,Cagliari,away,against,1.1263,7
+2026-11-24,serie_a,Como,home,for,1.1916,5
+2026-11-24,serie_a,Como,home,against,0.7374,5
+2026-11-24,serie_a,Como,away,for,1.0650,7
+2026-11-24,serie_a,Como,away,against,1.1924,7
+2026-11-24,serie_a,Fiorentina,home,for,1.2251,6
+2026-11-24,serie_a,Fiorentina,home,against,1.0267,6
+2026-11-24,serie_a,Fiorentina,away,for,1.0034,6
+2026-11-24,serie_a,Fiorentina,away,against,1.1307,6
+2026-11-24,serie_a,Frosinone,home,for,1.3128,6
+2026-11-24,serie_a,Frosinone,home,against,1.1155,6
+2026-11-24,serie_a,Frosinone,away,for,1.0887,6
+2026-11-24,serie_a,Frosinone,away,against,1.3717,6
+2026-11-24,serie_a,Genoa,home,for,0.8652,7
+2026-11-24,serie_a,Genoa,home,against,0.7974,7
+2026-11-24,serie_a,Genoa,away,for,0.8806,5
+2026-11-24,serie_a,Genoa,away,against,0.9911,5
+2026-11-24,serie_a,Inter,home,for,1.5647,6
+2026-11-24,serie_a,Inter,home,against,0.7572,6
+2026-11-24,serie_a,Inter,away,for,1.6058,6
+2026-11-24,serie_a,Inter,away,against,1.0067,6
+2026-11-24,serie_a,Juventus,home,for,0.8992,6
+2026-11-24,serie_a,Juventus,home,against,0.5583,6
+2026-11-24,serie_a,Juventus,away,for,1.1500,6
+2026-11-24,serie_a,Juventus,away,against,0.9302,6
+2026-11-24,serie_a,Lazio,home,for,1.1245,6
+2026-11-24,serie_a,Lazio,home,against,0.6920,6
+2026-11-24,serie_a,Lazio,away,for,0.9425,6
+2026-11-24,serie_a,Lazio,away,against,0.9218,6
+2026-11-24,serie_a,Lecce,home,for,0.9102,5
+2026-11-24,serie_a,Lecce,home,against,1.2122,5
+2026-11-24,serie_a,Lecce,away,for,0.9180,7
+2026-11-24,serie_a,Lecce,away,against,1.1746,7
+2026-11-24,serie_a,Milan,home,for,1.2718,6
+2026-11-24,serie_a,Milan,home,against,0.9570,6
+2026-11-24,serie_a,Milan,away,for,1.0767,6
+2026-11-24,serie_a,Milan,away,against,1.0462,6
+2026-11-24,serie_a,Monza,home,for,1.1354,6
+2026-11-24,serie_a,Monza,home,against,1.0206,6
+2026-11-24,serie_a,Monza,away,for,0.9910,6
+2026-11-24,serie_a,Monza,away,against,1.0800,6
+2026-11-24,serie_a,Napoli,home,for,1.3706,6
+2026-11-24,serie_a,Napoli,home,against,0.7649,6
+2026-11-24,serie_a,Napoli,away,for,1.0031,6
+2026-11-24,serie_a,Napoli,away,against,0.9669,6
+2026-11-24,serie_a,Parma,home,for,0.9619,7
+2026-11-24,serie_a,Parma,home,against,1.2118,7
+2026-11-24,serie_a,Parma,away,for,0.6790,5
+2026-11-24,serie_a,Parma,away,against,1.3817,5
+2026-11-24,serie_a,Roma,home,for,1.4403,6
+2026-11-24,serie_a,Roma,home,against,0.8655,6
+2026-11-24,serie_a,Roma,away,for,1.3894,6
+2026-11-24,serie_a,Roma,away,against,1.1010,6
+2026-11-24,serie_a,Sassuolo,home,for,0.8969,6
+2026-11-24,serie_a,Sassuolo,home,against,1.3373,6
+2026-11-24,serie_a,Sassuolo,away,for,0.8981,6
+2026-11-24,serie_a,Sassuolo,away,against,1.3316,6
+2026-11-24,serie_a,Torino,home,for,0.9839,6
+2026-11-24,serie_a,Torino,home,against,0.9054,6
+2026-11-24,serie_a,Torino,away,for,0.7667,6
+2026-11-24,serie_a,Torino,away,against,0.9920,6
+2026-11-24,serie_a,Udinese,home,for,0.9648,6
+2026-11-24,serie_a,Udinese,home,against,1.4089,6
+2026-11-24,serie_a,Udinese,away,for,0.8038,6
+2026-11-24,serie_a,Udinese,away,against,1.2645,6
+2026-11-24,serie_a,Venezia,home,for,0.9768,6
+2026-11-24,serie_a,Venezia,home,against,1.3578,6
+2026-11-24,serie_a,Venezia,away,for,0.9093,6
+2026-11-24,serie_a,Venezia,away,against,1.1156,6
+2026-11-24,ligue_1,Angers,home,for,1.1265,6
+2026-11-24,ligue_1,Angers,home,against,1.0162,6
+2026-11-24,ligue_1,Angers,away,for,0.6697,5
+2026-11-24,ligue_1,Angers,away,against,1.6030,5
+2026-11-24,ligue_1,Auxerre,home,for,0.9910,5
+2026-11-24,ligue_1,Auxerre,home,against,0.7588,5
+2026-11-24,ligue_1,Auxerre,away,for,0.7741,6
+2026-11-24,ligue_1,Auxerre,away,against,1.6349,6
+2026-11-24,ligue_1,Brest,home,for,1.4737,5
+2026-11-24,ligue_1,Brest,home,against,0.7479,5
+2026-11-24,ligue_1,Brest,away,for,0.9104,6
+2026-11-24,ligue_1,Brest,away,against,1.1589,6
+2026-11-24,ligue_1,Le Havre,home,for,1.1473,6
+2026-11-24,ligue_1,Le Havre,home,against,1.1749,6
+2026-11-24,ligue_1,Le Havre,away,for,1.0100,5
+2026-11-24,ligue_1,Le Havre,away,against,1.2540,5
+2026-11-24,ligue_1,Le Mans,home,for,1.0074,5
+2026-11-24,ligue_1,Le Mans,home,against,0.8231,5
+2026-11-24,ligue_1,Le Mans,away,for,1.1850,6
+2026-11-24,ligue_1,Le Mans,away,against,1.5104,6
+2026-11-24,ligue_1,Lens,home,for,1.4972,6
+2026-11-24,ligue_1,Lens,home,against,0.7749,6
+2026-11-24,ligue_1,Lens,away,for,0.9036,5
+2026-11-24,ligue_1,Lens,away,against,1.2328,5
+2026-11-24,ligue_1,Lille,home,for,1.2213,6
+2026-11-24,ligue_1,Lille,home,against,0.6187,6
+2026-11-24,ligue_1,Lille,away,for,0.7441,5
+2026-11-24,ligue_1,Lille,away,against,1.3864,5
+2026-11-24,ligue_1,Lorient,home,for,1.0046,6
+2026-11-24,ligue_1,Lorient,home,against,0.7821,6
+2026-11-24,ligue_1,Lorient,away,for,0.7635,5
+2026-11-24,ligue_1,Lorient,away,against,0.9027,5
+2026-11-24,ligue_1,Lyon,home,for,1.4714,5
+2026-11-24,ligue_1,Lyon,home,against,0.6967,5
+2026-11-24,ligue_1,Lyon,away,for,0.4811,6
+2026-11-24,ligue_1,Lyon,away,against,1.0580,6
+2026-11-24,ligue_1,Marseille,home,for,1.1454,6
+2026-11-24,ligue_1,Marseille,home,against,1.7096,6
+2026-11-24,ligue_1,Marseille,away,for,1.1047,5
+2026-11-24,ligue_1,Marseille,away,against,1.3357,5
+2026-11-24,ligue_1,Monaco,home,for,1.3407,5
+2026-11-24,ligue_1,Monaco,home,against,0.7435,5
+2026-11-24,ligue_1,Monaco,away,for,0.6190,6
+2026-11-24,ligue_1,Monaco,away,against,1.2343,6
+2026-11-24,ligue_1,Nice,home,for,1.2201,6
+2026-11-24,ligue_1,Nice,home,against,0.9394,6
+2026-11-24,ligue_1,Nice,away,for,0.8669,5
+2026-11-24,ligue_1,Nice,away,against,1.2177,5
+2026-11-24,ligue_1,Paris FC,home,for,1.5620,6
+2026-11-24,ligue_1,Paris FC,home,against,0.7186,6
+2026-11-24,ligue_1,Paris FC,away,for,0.8047,5
+2026-11-24,ligue_1,Paris FC,away,against,0.9187,5
+2026-11-24,ligue_1,Paris SG,home,for,1.5108,4
+2026-11-24,ligue_1,Paris SG,home,against,0.6544,4
+2026-11-24,ligue_1,Paris SG,away,for,1.4792,7
+2026-11-24,ligue_1,Paris SG,away,against,1.0722,7
+2026-11-24,ligue_1,Rennes,home,for,1.2266,6
+2026-11-24,ligue_1,Rennes,home,against,0.8869,6
+2026-11-24,ligue_1,Rennes,away,for,1.1821,5
+2026-11-24,ligue_1,Rennes,away,against,1.6418,5
+2026-11-24,ligue_1,Strasbourg,home,for,1.2449,5
+2026-11-24,ligue_1,Strasbourg,home,against,0.9883,5
+2026-11-24,ligue_1,Strasbourg,away,for,0.6235,6
+2026-11-24,ligue_1,Strasbourg,away,against,1.2125,6
+2026-11-24,ligue_1,Toulouse,home,for,1.2761,5
+2026-11-24,ligue_1,Toulouse,home,against,0.7537,5
+2026-11-24,ligue_1,Toulouse,away,for,0.8430,6
+2026-11-24,ligue_1,Toulouse,away,against,1.1541,6
+2026-11-24,ligue_1,Troyes,home,for,1.3218,6
+2026-11-24,ligue_1,Troyes,home,against,0.8244,6
+2026-11-24,ligue_1,Troyes,away,for,0.6734,5
+2026-11-24,ligue_1,Troyes,away,against,1.2386,5

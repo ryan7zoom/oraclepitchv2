@@ -1,0 +1,7267 @@
+{
+ "generated_at": "2026-11-27T07:31:31.340165+00:00",
+ "model_version": "2.0.0",
+ "model_source": "ClubElo",
+ "xg_snapshot_date": "2026-11-24",
+ "data_through": {
+  "epl": "2026-11-23",
+  "la_liga": "2026-11-23",
+  "bundesliga": "2026-11-22",
+  "serie_a": "2026-11-23",
+  "ligue_1": "2026-11-22"
+ },
+ "fixtures": [
+  {
+   "league": "bundesliga",
+   "date": "2026-11-28",
+   "kickoff": "03:30",
+   "home": "Werder Bremen",
+   "away": "M'gladbach",
+   "home_name": "Werder Bremen",
+   "away_name": "Borussia Mönchengladbach",
+   "probabilities": {
+    "H": 0.6658,
+    "D": 0.1958,
+    "A": 0.1384
+   },
+   "expected_goals": [
+    2.241,
+    0.93
+   ],
+   "pick": "Werder Bremen win 67% · Under 3.5 goals 61% · BTTS yes 55%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 3.5 goals",
+    "prob": 0.6089
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5804,
+     "fair": 1.72,
+     "legs": [
+      {
+       "label": "Under 5.5 goals",
+       "prob": 0.8978,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.8951,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Werder Bremen over 0.5 goals",
+       "prob": 0.8936,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Werder Bremen or draw",
+       "prob": 0.8616,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Werder Bremen cards under 3.5",
+       "prob": 0.8748,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.731,
+     "fair": 1.37,
+     "legs": [
+      {
+       "label": "Under 5.5 goals",
+       "prob": 0.8978,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.8951,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Werder Bremen over 0.5 goals",
+       "prob": 0.8936,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Werder Bremen cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8748,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "M'gladbach cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8626,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 12.5",
+     "hit": "13/15",
+     "prob": 0.823,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    },
+    {
+     "label": "Match shots on target over 7.5",
+     "hit": "13/15",
+     "prob": 0.8951,
+     "stat": "sot",
+     "direction": "over",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Werder Bremen most corners",
+     "prob": 0.7388
+    },
+    {
+     "label": "Borussia Mönchengladbach most corners",
+     "prob": 0.1809
+    },
+    {
+     "label": "Werder Bremen most cards",
+     "prob": 0.375
+    },
+    {
+     "label": "Borussia Mönchengladbach most cards",
+     "prob": 0.3979
+    }
+   ],
+   "form": {
+    "home": "WLWWD",
+    "away": "LLDWL"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-28",
+   "kickoff": "03:45",
+   "home": "Brest",
+   "away": "Paris FC",
+   "home_name": "Brest",
+   "away_name": "Paris FC",
+   "probabilities": {
+    "H": 0.4821,
+    "D": 0.2701,
+    "A": 0.2478
+   },
+   "expected_goals": [
+    1.517,
+    1.017
+   ],
+   "pick": "Brest win 48% · Under 2.5 goals 54% · BTTS yes 50%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5351
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5079,
+     "fair": 1.97,
+     "legs": [
+      {
+       "label": "Brest shots on target over 2.5",
+       "prob": 0.8905,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      },
+      {
+       "label": "Brest shots over 10.5",
+       "prob": 0.8396,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8866,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Paris FC corners under 5.5",
+       "prob": 0.8307,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Brest under 2.5 goals",
+       "prob": 0.8046,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6951,
+     "fair": 1.44,
+     "legs": [
+      {
+       "label": "Brest shots on target over 2.5",
+       "prob": 0.8905,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      },
+      {
+       "label": "Brest shots over 10.5",
+       "prob": 0.8396,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8866,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Brest shots on target over 2.5",
+     "hit": "14/15",
+     "prob": 0.8905,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Paris FC corners under 5.5",
+     "hit": "13/15",
+     "prob": 0.8307,
+     "stat": "corners",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Brest shots over 10.5",
+     "hit": "13/15",
+     "prob": 0.8396,
+     "stat": "shots",
+     "direction": "over",
+     "line": 10.5
+    },
+    {
+     "label": "Brest corners under 6.5",
+     "hit": "12/15",
+     "prob": 0.6694,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Brest most corners",
+     "prob": 0.6465
+    },
+    {
+     "label": "Paris FC most corners",
+     "prob": 0.259
+    },
+    {
+     "label": "Brest most cards",
+     "prob": 0.2032
+    },
+    {
+     "label": "Paris FC most cards",
+     "prob": 0.6189
+    }
+   ],
+   "form": {
+    "home": "WWWLD",
+    "away": "WWWLW"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-28",
+   "kickoff": "03:45",
+   "home": "Venezia",
+   "away": "Bologna",
+   "home_name": "Venezia",
+   "away_name": "Bologna",
+   "probabilities": {
+    "H": 0.1711,
+    "D": 0.2492,
+    "A": 0.5797
+   },
+   "expected_goals": [
+    0.812,
+    1.701
+   ],
+   "pick": "Bologna win 58% · Under 2.5 goals 54% · BTTS no 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5404
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5396,
+     "fair": 1.85,
+     "legs": [
+      {
+       "label": "Venezia shots over 7.5",
+       "prob": 0.9095,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8894,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Bologna cards under 3.5",
+       "prob": 0.8791,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8778,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.865,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7171,
+     "fair": 1.39,
+     "legs": [
+      {
+       "label": "Venezia shots over 7.5",
+       "prob": 0.9095,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8894,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Bologna cards under 3.5",
+       "prob": 0.8791,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Bologna cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8791,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "14/15",
+     "prob": 0.865,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Bologna corners under 5.5",
+     "hit": "13/15",
+     "prob": 0.7404,
+     "stat": "corners",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Venezia shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.9095,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Venezia most corners",
+     "prob": 0.5079
+    },
+    {
+     "label": "Bologna most corners",
+     "prob": 0.3916
+    },
+    {
+     "label": "Venezia most cards",
+     "prob": 0.3257
+    },
+    {
+     "label": "Bologna most cards",
+     "prob": 0.4255
+    }
+   ],
+   "form": {
+    "home": "LWLLL",
+    "away": "DWWWW"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-28",
+   "kickoff": "04:00",
+   "home": "Nott'm Forest",
+   "away": "Chelsea",
+   "home_name": "Nottingham Forest",
+   "away_name": "Chelsea",
+   "probabilities": {
+    "H": 0.4799,
+    "D": 0.2889,
+    "A": 0.2312
+   },
+   "expected_goals": [
+    1.373,
+    0.869
+   ],
+   "pick": "Nottingham Forest win 48% · Under 2.5 goals 61% · BTTS no 56%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.6113
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5039,
+     "fair": 1.98,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8875,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.8661,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8059,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Match corners under 13.5",
+       "prob": 0.8685,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Nott'm Forest over 0.5 goals",
+       "prob": 0.7467,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6981,
+     "fair": 1.43,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8875,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.8661,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8059,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Nott'm Forest cards under 2.5",
+     "hit": "15/15",
+     "prob": 0.8027,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Nott'm Forest shots over 9.5",
+     "hit": "13/15",
+     "prob": 0.8706,
+     "stat": "shots",
+     "direction": "over",
+     "line": 9.5
+    },
+    {
+     "label": "Match shots over 19.5",
+     "hit": "13/15",
+     "prob": 0.8661,
+     "stat": "shots",
+     "direction": "over",
+     "line": 19.5
+    },
+    {
+     "label": "Nott'm Forest shots on target over 1.5",
+     "hit": "13/15",
+     "prob": 0.9283,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Nottingham Forest most corners",
+     "prob": 0.5369
+    },
+    {
+     "label": "Chelsea most corners",
+     "prob": 0.3698
+    },
+    {
+     "label": "Nottingham Forest most cards",
+     "prob": 0.2076
+    },
+    {
+     "label": "Chelsea most cards",
+     "prob": 0.5921
+    }
+   ],
+   "form": {
+    "home": "LWLDL",
+    "away": "LLWLW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-28",
+   "kickoff": "04:00",
+   "home": "Levante",
+   "away": "Santander",
+   "home_name": "Levante",
+   "away_name": "Racing Santander",
+   "probabilities": {
+    "H": 0.655,
+    "D": 0.2006,
+    "A": 0.1444
+   },
+   "expected_goals": [
+    2.194,
+    0.939
+   ],
+   "pick": "Levante win 65% · Over 2.5 goals 61% · BTTS yes 55%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.6059
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5205,
+     "fair": 1.92,
+     "legs": [
+      {
+       "label": "Match shots over 23.5",
+       "prob": 0.8932,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Levante over 0.5 goals",
+       "prob": 0.8886,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Levante or draw",
+       "prob": 0.8556,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8243,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Levante most corners",
+       "prob": 0.8313,
+       "source": "form",
+       "hit": "",
+       "group": "most_corners"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7359,
+     "fair": 1.36,
+     "legs": [
+      {
+       "label": "Match shots over 23.5",
+       "prob": 0.8932,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Levante over 0.5 goals",
+       "prob": 0.8886,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Levante or draw",
+       "prob": 0.8556,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match corners under 13.5",
+     "hit": "14/15",
+     "prob": 0.7498,
+     "stat": "corners",
+     "direction": "under",
+     "line": 13.5
+    },
+    {
+     "label": "Match shots over 23.5",
+     "hit": "13/15",
+     "prob": 0.8932,
+     "stat": "shots",
+     "direction": "over",
+     "line": 23.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "12/15",
+     "prob": 0.7827,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Levante cards over 1.5",
+     "hit": "11/15",
+     "prob": 0.6039,
+     "stat": "cards",
+     "direction": "over",
+     "line": 1.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Levante most corners",
+     "prob": 0.8313
+    },
+    {
+     "label": "Santander most corners",
+     "prob": 0.115
+    },
+    {
+     "label": "Levante most cards",
+     "prob": 0.3377
+    },
+    {
+     "label": "Santander most cards",
+     "prob": 0.4547
+    }
+   ],
+   "form": {
+    "home": "DDLLW",
+    "away": "WWLWL"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-28",
+   "kickoff": "21:00",
+   "home": "Betis",
+   "away": "Vallecano",
+   "home_name": "Real Betis",
+   "away_name": "Rayo Vallecano",
+   "probabilities": {
+    "H": 0.6367,
+    "D": 0.2211,
+    "A": 0.1422
+   },
+   "expected_goals": [
+    1.94,
+    0.801
+   ],
+   "pick": "Real Betis win 64% · Over 2.5 goals 52% · BTTS no 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5164
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5494,
+     "fair": 1.82,
+     "legs": [
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8996,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Betis over 0.5 goals",
+       "prob": 0.8563,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Betis or draw",
+       "prob": 0.8578,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Betis cards under 3.5",
+       "prob": 0.8479,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.7637,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7304,
+     "fair": 1.37,
+     "legs": [
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8996,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Betis over 0.5 goals",
+       "prob": 0.8563,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Betis or draw",
+       "prob": 0.8578,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Betis cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8479,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "13/15",
+     "prob": 0.8236,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Match shots over 25.5",
+     "hit": "13/15",
+     "prob": 0.7656,
+     "stat": "shots",
+     "direction": "over",
+     "line": 25.5
+    },
+    {
+     "label": "Vallecano shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.6549,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Real Betis most corners",
+     "prob": 0.7652
+    },
+    {
+     "label": "Rayo Vallecano most corners",
+     "prob": 0.1719
+    },
+    {
+     "label": "Real Betis most cards",
+     "prob": 0.2144
+    },
+    {
+     "label": "Rayo Vallecano most cards",
+     "prob": 0.6145
+    }
+   ],
+   "form": {
+    "home": "DWWDL",
+    "away": "LLWLD"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-28",
+   "kickoff": "22:00",
+   "home": "Frosinone",
+   "away": "Parma",
+   "home_name": "Frosinone",
+   "away_name": "Parma",
+   "probabilities": {
+    "H": 0.6012,
+    "D": 0.236,
+    "A": 0.1628
+   },
+   "expected_goals": [
+    1.82,
+    0.836
+   ],
+   "pick": "Frosinone win 60% · Under 2.5 goals 50% · BTTS no 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5045
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5385,
+     "fair": 1.86,
+     "legs": [
+      {
+       "label": "Parma corners under 6.5",
+       "prob": 0.9141,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Frosinone under 3.5 goals",
+       "prob": 0.8881,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8694,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Parma cards under 3.5",
+       "prob": 0.8569,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      },
+      {
+       "label": "Frosinone or draw",
+       "prob": 0.8372,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7766,
+     "fair": 1.29,
+     "legs": [
+      {
+       "label": "Parma corners under 6.5",
+       "prob": 0.9141,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Frosinone under 3.5 goals",
+       "prob": 0.8881,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8694,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Parma cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.8569,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match shots on target over 7.5",
+     "hit": "14/15",
+     "prob": 0.7905,
+     "stat": "sot",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Parma corners under 6.5",
+     "hit": "13/15",
+     "prob": 0.9141,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    },
+    {
+     "label": "Match corners under 15.5",
+     "hit": "12/15",
+     "prob": 0.8194,
+     "stat": "corners",
+     "direction": "under",
+     "line": 15.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Frosinone most corners",
+     "prob": 0.8367
+    },
+    {
+     "label": "Parma most corners",
+     "prob": 0.1085
+    },
+    {
+     "label": "Frosinone most cards",
+     "prob": 0.214
+    },
+    {
+     "label": "Parma most cards",
+     "prob": 0.551
+    }
+   ],
+   "form": {
+    "home": "LLWWD",
+    "away": "LLWDL"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-28",
+   "kickoff": "22:30",
+   "home": "FC Koln",
+   "away": "Elversberg",
+   "home_name": "FC Cologne",
+   "away_name": "SV Elversberg",
+   "probabilities": {
+    "H": 0.4906,
+    "D": 0.2531,
+    "A": 0.2563
+   },
+   "expected_goals": [
+    1.677,
+    1.152
+   ],
+   "pick": "Köln win 49% · Over 2.5 goals 54% · BTTS yes 56%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5376
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5101,
+     "fair": 1.96,
+     "legs": [
+      {
+       "label": "Elversberg under 2.5 goals",
+       "prob": 0.8896,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.843,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "FC Koln cards under 3.5",
+       "prob": 0.8834,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "FC Koln shots on target over 3.5",
+       "prob": 0.879,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "FC Koln or draw",
+       "prob": 0.7437,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7105,
+     "fair": 1.41,
+     "legs": [
+      {
+       "label": "Elversberg under 2.5 goals",
+       "prob": 0.8896,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.843,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "FC Koln cards under 3.5",
+       "prob": 0.8834,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match corners under 12.5",
+     "hit": "13/15",
+     "prob": 0.6687,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    },
+    {
+     "label": "Match cards under 5.5",
+     "hit": "12/15",
+     "prob": 0.7601,
+     "stat": "cards",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "FC Koln cards under 3.5",
+     "hit": "12/15",
+     "prob": 0.8834,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "FC Koln shots over 10.5",
+     "hit": "12/15",
+     "prob": 0.9356,
+     "stat": "shots",
+     "direction": "over",
+     "line": 10.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Köln most corners",
+     "prob": 0.7368
+    },
+    {
+     "label": "Elversberg most corners",
+     "prob": 0.1934
+    },
+    {
+     "label": "Köln most cards",
+     "prob": 0.3066
+    },
+    {
+     "label": "Elversberg most cards",
+     "prob": 0.4856
+    }
+   ],
+   "form": {
+    "home": "DLDDL",
+    "away": "LLWLW"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-28",
+   "kickoff": "22:30",
+   "home": "Hamburg",
+   "away": "Bayern Munich",
+   "home_name": "Hamburg SV",
+   "away_name": "Bayern Munich",
+   "probabilities": {
+    "H": 0.1972,
+    "D": 0.2258,
+    "A": 0.5769
+   },
+   "expected_goals": [
+    1.077,
+    1.975
+   ],
+   "pick": "Bayern Munich win 58% · Over 2.5 goals 59% · BTTS yes 57%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5884
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4113,
+     "fair": 2.43,
+     "legs": [
+      {
+       "label": "Hamburg shots over 8.5",
+       "prob": 0.876,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Bayern Munich under 3.5 goals",
+       "prob": 0.8617,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8064,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.7907,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.7742,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6895,
+     "fair": 1.45,
+     "legs": [
+      {
+       "label": "Hamburg shots over 8.5",
+       "prob": 0.876,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Bayern Munich under 3.5 goals",
+       "prob": 0.8617,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8064,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards over 2.5",
+     "hit": "13/15",
+     "prob": 0.6939,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Hamburg corners under 5.5",
+     "hit": "13/15",
+     "prob": 0.6226,
+     "stat": "corners",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Hamburg shots on target over 1.5",
+     "hit": "13/15",
+     "prob": 0.9301,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Match shots on target over 7.5",
+     "hit": "13/15",
+     "prob": 0.7907,
+     "stat": "sot",
+     "direction": "over",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Hamburg most corners",
+     "prob": 0.4294
+    },
+    {
+     "label": "Bayern Munich most corners",
+     "prob": 0.4735
+    },
+    {
+     "label": "Hamburg most cards",
+     "prob": 0.3777
+    },
+    {
+     "label": "Bayern Munich most cards",
+     "prob": 0.404
+    }
+   ],
+   "form": {
+    "home": "LWLLW",
+    "away": "DWDWW"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-28",
+   "kickoff": "22:30",
+   "home": "Mainz",
+   "away": "Union Berlin",
+   "home_name": "Mainz",
+   "away_name": "1. FC Union Berlin",
+   "probabilities": {
+    "H": 0.5901,
+    "D": 0.2229,
+    "A": 0.187
+   },
+   "expected_goals": [
+    1.998,
+    1.043
+   ],
+   "pick": "Mainz win 59% · Over 2.5 goals 59% · BTTS yes 56%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5859
+   },
+   "builder": {
+    "best": {
+     "joint": 0.6199,
+     "fair": 1.61,
+     "legs": [
+      {
+       "label": "Mainz cards under 3.5",
+       "prob": 0.9124,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match shots over 21.5",
+       "prob": 0.9032,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8601,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Mainz over 0.5 goals",
+       "prob": 0.8644,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8119,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7399,
+     "fair": 1.35,
+     "legs": [
+      {
+       "label": "Mainz cards under 3.5",
+       "prob": 0.9124,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match shots over 21.5",
+       "prob": 0.9032,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8601,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Mainz cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.9124,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Union Berlin cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8431,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 12.5",
+     "hit": "13/15",
+     "prob": 0.6791,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    },
+    {
+     "label": "Match cards under 5.5",
+     "hit": "12/15",
+     "prob": 0.8254,
+     "stat": "cards",
+     "direction": "under",
+     "line": 5.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Mainz most corners",
+     "prob": 0.8529
+    },
+    {
+     "label": "Union Berlin most corners",
+     "prob": 0.0943
+    },
+    {
+     "label": "Mainz most cards",
+     "prob": 0.2966
+    },
+    {
+     "label": "Union Berlin most cards",
+     "prob": 0.4693
+    }
+   ],
+   "form": {
+    "home": "LLLLW",
+    "away": "LLDDD"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-28",
+   "kickoff": "22:30",
+   "home": "Paderborn",
+   "away": "Schalke 04",
+   "home_name": "SC Paderborn 07",
+   "away_name": "Schalke 04",
+   "probabilities": {
+    "H": 0.5191,
+    "D": 0.2514,
+    "A": 0.2295
+   },
+   "expected_goals": [
+    1.703,
+    1.057
+   ],
+   "pick": "Paderborn win 52% · Over 2.5 goals 52% · BTTS yes 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.521
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4184,
+     "fair": 2.39,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8538,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Schalke 04 corners under 5.5",
+       "prob": 0.8576,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots over 23.5",
+       "prob": 0.8608,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match cards under 4.5",
+       "prob": 0.8101,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Paderborn over 0.5 goals",
+       "prob": 0.8178,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6234,
+     "fair": 1.6,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8538,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Schalke 04 corners under 5.5",
+       "prob": 0.8576,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots over 23.5",
+       "prob": 0.8608,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards under 4.5",
+     "hit": "13/15",
+     "prob": 0.8101,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "13/15",
+     "prob": 0.9396,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Schalke 04 corners under 5.5",
+     "hit": "12/15",
+     "prob": 0.8576,
+     "stat": "corners",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Schalke 04 shots over 8.5",
+     "hit": "12/15",
+     "prob": 0.7569,
+     "stat": "shots",
+     "direction": "over",
+     "line": 8.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Paderborn most corners",
+     "prob": 0.8007
+    },
+    {
+     "label": "Schalke 04 most corners",
+     "prob": 0.1369
+    },
+    {
+     "label": "Paderborn most cards",
+     "prob": 0.26
+    },
+    {
+     "label": "Schalke 04 most cards",
+     "prob": 0.4746
+    }
+   ],
+   "form": {
+    "home": "LDDWD",
+    "away": "DLLDL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-28",
+   "kickoff": "23:00",
+   "home": "Leeds",
+   "away": "Coventry",
+   "home_name": "Leeds United",
+   "away_name": "Coventry City",
+   "probabilities": {
+    "H": 0.6973,
+    "D": 0.2132,
+    "A": 0.0895
+   },
+   "expected_goals": [
+    1.872,
+    0.516
+   ],
+   "pick": "Leeds win 70% · Under 2.5 goals 57% · BTTS no 65%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5727
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5471,
+     "fair": 1.83,
+     "legs": [
+      {
+       "label": "Leeds shots over 11.5",
+       "prob": 0.8768,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Leeds over 0.5 goals",
+       "prob": 0.8462,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.7868,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Leeds most corners",
+       "prob": 0.6741,
+       "source": "form",
+       "hit": "",
+       "group": "most_corners"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8161,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6633,
+     "fair": 1.51,
+     "legs": [
+      {
+       "label": "Leeds shots over 11.5",
+       "prob": 0.8768,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Leeds over 0.5 goals",
+       "prob": 0.8462,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.7868,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match corners under 10.5",
+     "hit": "15/15",
+     "prob": 0.7204,
+     "stat": "corners",
+     "direction": "under",
+     "line": 10.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "14/15",
+     "prob": 0.8161,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Match cards under 4.5",
+     "hit": "13/15",
+     "prob": 0.7266,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Leeds corners under 6.5",
+     "hit": "12/15",
+     "prob": 0.6514,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Leeds most corners",
+     "prob": 0.6741
+    },
+    {
+     "label": "Coventry most corners",
+     "prob": 0.2308
+    },
+    {
+     "label": "Leeds most cards",
+     "prob": 0.1611
+    },
+    {
+     "label": "Coventry most cards",
+     "prob": 0.6339
+    }
+   ],
+   "form": {
+    "home": "WWLDD",
+    "away": "WLWLL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-28",
+   "kickoff": "23:00",
+   "home": "Man United",
+   "away": "Brentford",
+   "home_name": "Manchester United",
+   "away_name": "Brentford",
+   "probabilities": {
+    "H": 0.567,
+    "D": 0.2368,
+    "A": 0.1962
+   },
+   "expected_goals": [
+    1.846,
+    0.999
+   ],
+   "pick": "Man United win 57% · Over 2.5 goals 54% · BTTS yes 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5413
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5556,
+     "fair": 1.8,
+     "legs": [
+      {
+       "label": "Brentford corners under 6.5",
+       "prob": 0.8946,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Man United shots on target over 3.5",
+       "prob": 0.8861,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      },
+      {
+       "label": "Man United cards under 3.5",
+       "prob": 0.8872,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Man United over 0.5 goals",
+       "prob": 0.8422,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Man United or draw",
+       "prob": 0.8038,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7119,
+     "fair": 1.4,
+     "legs": [
+      {
+       "label": "Brentford corners under 6.5",
+       "prob": 0.8946,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Man United shots on target over 3.5",
+       "prob": 0.8861,
+       "source": "form",
+       "hit": "14/15",
+       "group": "sot"
+      },
+      {
+       "label": "Man United cards under 3.5",
+       "prob": 0.8872,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Man United shots on target over 3.5",
+     "hit": "14/15",
+     "prob": 0.8861,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    },
+    {
+     "label": "Brentford shots on target over 1.5",
+     "hit": "14/15",
+     "prob": 0.7967,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Man United cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8872,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Brentford cards under 3.5",
+     "hit": "12/15",
+     "prob": 0.689,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Man United most corners",
+     "prob": 0.7305
+    },
+    {
+     "label": "Brentford most corners",
+     "prob": 0.1965
+    },
+    {
+     "label": "Man United most cards",
+     "prob": 0.232
+    },
+    {
+     "label": "Brentford most cards",
+     "prob": 0.5879
+    }
+   ],
+   "form": {
+    "home": "LDLLD",
+    "away": "WLWDL"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-28",
+   "kickoff": "23:15",
+   "home": "Malaga",
+   "away": "Ath Bilbao",
+   "home_name": "Málaga",
+   "away_name": "Athletic Club",
+   "probabilities": {
+    "H": 0.3286,
+    "D": 0.28,
+    "A": 0.3914
+   },
+   "expected_goals": [
+    1.2,
+    1.333
+   ],
+   "pick": "Athletic Club win 39% · Under 2.5 goals 54% · BTTS yes 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5354
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4789,
+     "fair": 2.09,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8867,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Malaga under 2.5 goals",
+       "prob": 0.8794,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Ath Bilbao shots on target over 1.5",
+       "prob": 0.8465,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Ath Bilbao shots over 7.5",
+       "prob": 0.7823,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Ath Bilbao cards under 3.5",
+       "prob": 0.783,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.703,
+     "fair": 1.42,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8867,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Malaga under 2.5 goals",
+       "prob": 0.8794,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Ath Bilbao shots on target over 1.5",
+       "prob": 0.8465,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Ath Bilbao cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.783,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Ath Bilbao shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.7823,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Match shots over 18.5",
+     "hit": "13/15",
+     "prob": 0.9383,
+     "stat": "shots",
+     "direction": "over",
+     "line": 18.5
+    },
+    {
+     "label": "Ath Bilbao shots on target over 1.5",
+     "hit": "13/15",
+     "prob": 0.8465,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Malaga most corners",
+     "prob": 0.673
+    },
+    {
+     "label": "Athletic Club most corners",
+     "prob": 0.2452
+    },
+    {
+     "label": "Malaga most cards",
+     "prob": 0.3422
+    },
+    {
+     "label": "Athletic Club most cards",
+     "prob": 0.4495
+    }
+   ],
+   "form": {
+    "home": "LLLDL",
+    "away": "LDWWL"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "00:15",
+   "home": "Angers",
+   "away": "Lens",
+   "home_name": "Angers",
+   "away_name": "Lens",
+   "probabilities": {
+    "H": 0.3274,
+    "D": 0.2729,
+    "A": 0.3997
+   },
+   "expected_goals": [
+    1.243,
+    1.399
+   ],
+   "pick": "Lens win 40% · Under 2.5 goals 51% · BTTS yes 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5081
+   },
+   "builder": {
+    "best": {
+     "joint": 0.548,
+     "fair": 1.82,
+     "legs": [
+      {
+       "label": "Angers shots over 7.5",
+       "prob": 0.9193,
+       "source": "form",
+       "hit": "11/15",
+       "group": "shots"
+      },
+      {
+       "label": "Lens corners under 8.5",
+       "prob": 0.9087,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8715,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Angers under 2.5 goals",
+       "prob": 0.87,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8283,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.732,
+     "fair": 1.37,
+     "legs": [
+      {
+       "label": "Angers shots over 7.5",
+       "prob": 0.9193,
+       "source": "form",
+       "hit": "11/15",
+       "group": "shots"
+      },
+      {
+       "label": "Lens corners under 8.5",
+       "prob": 0.9087,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8715,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Lens shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.7935,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Match cards under 4.5",
+     "hit": "12/15",
+     "prob": 0.6984,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Angers corners under 6.5",
+     "hit": "12/15",
+     "prob": 0.6468,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    },
+    {
+     "label": "Lens corners under 8.5",
+     "hit": "12/15",
+     "prob": 0.9087,
+     "stat": "corners",
+     "direction": "under",
+     "line": 8.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Angers most corners",
+     "prob": 0.5316
+    },
+    {
+     "label": "Lens most corners",
+     "prob": 0.3741
+    },
+    {
+     "label": "Angers most cards",
+     "prob": 0.2791
+    },
+    {
+     "label": "Lens most cards",
+     "prob": 0.5092
+    }
+   ],
+   "form": {
+    "home": "LLLDL",
+    "away": "DLLWW"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-29",
+   "kickoff": "01:00",
+   "home": "Torino",
+   "away": "Lazio",
+   "home_name": "Torino",
+   "away_name": "Lazio",
+   "probabilities": {
+    "H": 0.2475,
+    "D": 0.2883,
+    "A": 0.4642
+   },
+   "expected_goals": [
+    0.924,
+    1.366
+   ],
+   "pick": "Lazio win 46% · Under 2.5 goals 60% · BTTS no 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5986
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5583,
+     "fair": 1.79,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8924,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 18.5",
+       "prob": 0.8878,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Lazio corners under 6.5",
+       "prob": 0.8905,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Torino cards under 3.5",
+       "prob": 0.8772,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.808,
+       "source": "form",
+       "hit": "11/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7201,
+     "fair": 1.39,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8924,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 18.5",
+       "prob": 0.8878,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Lazio corners under 6.5",
+       "prob": 0.8905,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Lazio cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8738,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Torino cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8772,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Lazio shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.7479,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Match shots over 18.5",
+     "hit": "13/15",
+     "prob": 0.8878,
+     "stat": "shots",
+     "direction": "over",
+     "line": 18.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Torino most corners",
+     "prob": 0.6029
+    },
+    {
+     "label": "Lazio most corners",
+     "prob": 0.2946
+    },
+    {
+     "label": "Torino most cards",
+     "prob": 0.3829
+    },
+    {
+     "label": "Lazio most cards",
+     "prob": 0.3864
+    }
+   ],
+   "form": {
+    "home": "LDLLW",
+    "away": "WDWWW"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-29",
+   "kickoff": "01:30",
+   "home": "Stuttgart",
+   "away": "Ein Frankfurt",
+   "home_name": "VfB Stuttgart",
+   "away_name": "Eintracht Frankfurt",
+   "probabilities": {
+    "H": 0.5729,
+    "D": 0.2234,
+    "A": 0.2036
+   },
+   "expected_goals": [
+    2.011,
+    1.128
+   ],
+   "pick": "Stuttgart win 57% · Over 2.5 goals 61% · BTTS yes 59%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.6072
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5481,
+     "fair": 1.82,
+     "legs": [
+      {
+       "label": "Ein Frankfurt under 2.5 goals",
+       "prob": 0.8946,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Stuttgart shots over 12.5",
+       "prob": 0.8691,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.8525,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8256,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Stuttgart or draw",
+       "prob": 0.7964,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6941,
+     "fair": 1.44,
+     "legs": [
+      {
+       "label": "Ein Frankfurt under 2.5 goals",
+       "prob": 0.8946,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Stuttgart shots over 12.5",
+       "prob": 0.8691,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.8525,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Ein Frankfurt cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.762,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Ein Frankfurt corners under 6.5",
+     "hit": "13/15",
+     "prob": 0.9355,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    },
+    {
+     "label": "Stuttgart shots over 12.5",
+     "hit": "13/15",
+     "prob": 0.8691,
+     "stat": "shots",
+     "direction": "over",
+     "line": 12.5
+    },
+    {
+     "label": "Stuttgart shots on target over 3.5",
+     "hit": "13/15",
+     "prob": 0.9223,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Stuttgart most corners",
+     "prob": 0.815
+    },
+    {
+     "label": "Eintracht Frankfurt most corners",
+     "prob": 0.1242
+    },
+    {
+     "label": "Stuttgart most cards",
+     "prob": 0.1925
+    },
+    {
+     "label": "Eintracht Frankfurt most cards",
+     "prob": 0.6101
+    }
+   ],
+   "form": {
+    "home": "DWWLL",
+    "away": "WDWLW"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "01:30",
+   "home": "Ipswich",
+   "away": "Aston Villa",
+   "home_name": "Ipswich Town",
+   "away_name": "Aston Villa",
+   "probabilities": {
+    "H": 0.2928,
+    "D": 0.2728,
+    "A": 0.4343
+   },
+   "expected_goals": [
+    1.147,
+    1.45
+   ],
+   "pick": "Aston Villa win 43% · Under 2.5 goals 52% · BTTS yes 53%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.519
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5035,
+     "fair": 1.99,
+     "legs": [
+      {
+       "label": "Ipswich under 2.5 goals",
+       "prob": 0.8907,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8777,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Aston Villa shots on target over 1.5",
+       "prob": 0.8745,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Match corners under 11.5",
+       "prob": 0.8394,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Aston Villa shots over 7.5",
+       "prob": 0.7668,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7206,
+     "fair": 1.39,
+     "legs": [
+      {
+       "label": "Ipswich under 2.5 goals",
+       "prob": 0.8907,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8777,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Aston Villa shots on target over 1.5",
+       "prob": 0.8745,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Aston Villa cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.7452,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Ipswich cards under 2.5",
+     "hit": "14/15",
+     "prob": 0.8045,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "13/15",
+     "prob": 0.7166,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Aston Villa shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.7668,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Ipswich most corners",
+     "prob": 0.54
+    },
+    {
+     "label": "Aston Villa most corners",
+     "prob": 0.3638
+    },
+    {
+     "label": "Ipswich most cards",
+     "prob": 0.2149
+    },
+    {
+     "label": "Aston Villa most cards",
+     "prob": 0.5921
+    }
+   ],
+   "form": {
+    "home": "LLDDL",
+    "away": "DDDWW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-29",
+   "kickoff": "01:30",
+   "home": "Elche",
+   "away": "Ath Madrid",
+   "home_name": "Elche",
+   "away_name": "Atlético Madrid",
+   "probabilities": {
+    "H": 0.1996,
+    "D": 0.2681,
+    "A": 0.5324
+   },
+   "expected_goals": [
+    0.847,
+    1.548
+   ],
+   "pick": "Atlético Madrid win 53% · Under 2.5 goals 57% · BTTS no 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.571
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5456,
+     "fair": 1.83,
+     "legs": [
+      {
+       "label": "Ath Madrid cards under 4.5",
+       "prob": 0.9011,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Elche shots over 9.5",
+       "prob": 0.8989,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Elche corners over 2.5",
+       "prob": 0.892,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Ath Madrid under 2.5 goals",
+       "prob": 0.7967,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 3.5 goals",
+       "prob": 0.7797,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7475,
+     "fair": 1.34,
+     "legs": [
+      {
+       "label": "Ath Madrid cards under 4.5",
+       "prob": 0.9011,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Elche shots over 9.5",
+       "prob": 0.8989,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Elche corners over 2.5",
+       "prob": 0.892,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Elche shots on target over 1.5",
+     "hit": "14/15",
+     "prob": 0.9344,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Ath Madrid cards under 4.5",
+     "hit": "13/15",
+     "prob": 0.9011,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Ath Madrid shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.7685,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Match shots over 21.5",
+     "hit": "13/15",
+     "prob": 0.8319,
+     "stat": "shots",
+     "direction": "over",
+     "line": 21.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Elche most corners",
+     "prob": 0.6402
+    },
+    {
+     "label": "Atlético Madrid most corners",
+     "prob": 0.2715
+    },
+    {
+     "label": "Elche most cards",
+     "prob": 0.3098
+    },
+    {
+     "label": "Atlético Madrid most cards",
+     "prob": 0.4672
+    }
+   ],
+   "form": {
+    "home": "DLLWD",
+    "away": "WLWWW"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "03:45",
+   "home": "Le Havre",
+   "away": "Strasbourg",
+   "home_name": "Le Havre AC",
+   "away_name": "Strasbourg",
+   "probabilities": {
+    "H": 0.4295,
+    "D": 0.269,
+    "A": 0.3015
+   },
+   "expected_goals": [
+    1.475,
+    1.198
+   ],
+   "pick": "Le Havre win 43% · Under 2.5 goals 50% · BTTS yes 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5003
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4816,
+     "fair": 2.08,
+     "legs": [
+      {
+       "label": "Le Havre shots on target over 2.5",
+       "prob": 0.9156,
+       "source": "form",
+       "hit": "11/15",
+       "group": "sot"
+      },
+      {
+       "label": "Strasbourg under 2.5 goals",
+       "prob": 0.88,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8669,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Le Havre cards under 2.5",
+       "prob": 0.8286,
+       "source": "form",
+       "hit": "11/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match corners under 10.5",
+       "prob": 0.7881,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7418,
+     "fair": 1.35,
+     "legs": [
+      {
+       "label": "Le Havre shots on target over 2.5",
+       "prob": 0.9156,
+       "source": "form",
+       "hit": "11/15",
+       "group": "sot"
+      },
+      {
+       "label": "Strasbourg under 2.5 goals",
+       "prob": 0.88,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8669,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match corners under 10.5",
+     "hit": "13/15",
+     "prob": 0.7881,
+     "stat": "corners",
+     "direction": "under",
+     "line": 10.5
+    },
+    {
+     "label": "Strasbourg shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.6741,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Strasbourg shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.7289,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Match cards under 4.5",
+     "hit": "12/15",
+     "prob": 0.7043,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Le Havre most corners",
+     "prob": 0.7528
+    },
+    {
+     "label": "Strasbourg most corners",
+     "prob": 0.1663
+    },
+    {
+     "label": "Le Havre most cards",
+     "prob": 0.2374
+    },
+    {
+     "label": "Strasbourg most cards",
+     "prob": 0.5524
+    }
+   ],
+   "form": {
+    "home": "LLLLL",
+    "away": "LLWLL"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "03:45",
+   "home": "Le Mans",
+   "away": "Lille",
+   "home_name": "Le Mans",
+   "away_name": "Lille",
+   "probabilities": {
+    "H": 0.3881,
+    "D": 0.2794,
+    "A": 0.3325
+   },
+   "expected_goals": [
+    1.331,
+    1.213
+   ],
+   "pick": "Le Mans win 39% · Under 2.5 goals 53% · BTTS yes 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5326
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4824,
+     "fair": 2.07,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8852,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Lille under 2.5 goals",
+       "prob": 0.8766,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8686,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8831,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Lille cards under 3.5",
+       "prob": 0.7923,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7186,
+     "fair": 1.39,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8852,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Lille under 2.5 goals",
+       "prob": 0.8766,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8686,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Lille corners under 7.5",
+     "hit": "15/15",
+     "prob": 0.9347,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    },
+    {
+     "label": "Match corners under 12.5",
+     "hit": "13/15",
+     "prob": 0.8686,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "13/15",
+     "prob": 0.8831,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "12/15",
+     "prob": 0.7017,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Le Mans most corners",
+     "prob": 0.5763
+    },
+    {
+     "label": "Lille most corners",
+     "prob": 0.3251
+    },
+    {
+     "label": "Le Mans most cards",
+     "prob": 0.2829
+    },
+    {
+     "label": "Lille most cards",
+     "prob": 0.5149
+    }
+   ],
+   "form": {
+    "home": "WDLDL",
+    "away": "LWWDD"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "03:45",
+   "home": "Nice",
+   "away": "Troyes",
+   "home_name": "Nice",
+   "away_name": "Troyes",
+   "probabilities": {
+    "H": 0.6327,
+    "D": 0.2292,
+    "A": 0.1381
+   },
+   "expected_goals": [
+    1.847,
+    0.738
+   ],
+   "pick": "Nice win 63% · Under 2.5 goals 52% · BTTS no 56%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5223
+   },
+   "builder": {
+    "best": {
+     "joint": 0.534,
+     "fair": 1.87,
+     "legs": [
+      {
+       "label": "Match shots over 18.5",
+       "prob": 0.893,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Nice under 3.5 goals",
+       "prob": 0.8836,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8796,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Nice corners over 2.5",
+       "prob": 0.8246,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Nice or draw",
+       "prob": 0.8619,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7531,
+     "fair": 1.33,
+     "legs": [
+      {
+       "label": "Match shots over 18.5",
+       "prob": 0.893,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Nice under 3.5 goals",
+       "prob": 0.8836,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8796,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Troyes cards under 2.5",
+     "hit": "14/15",
+     "prob": 0.7791,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Troyes corners under 5.5",
+     "hit": "14/15",
+     "prob": 0.7678,
+     "stat": "corners",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "14/15",
+     "prob": 0.8051,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    },
+    {
+     "label": "Nice shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.9391,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Nice most corners",
+     "prob": 0.5556
+    },
+    {
+     "label": "Troyes most corners",
+     "prob": 0.344
+    },
+    {
+     "label": "Nice most cards",
+     "prob": 0.4771
+    },
+    {
+     "label": "Troyes most cards",
+     "prob": 0.2943
+    }
+   ],
+   "form": {
+    "home": "LWWWL",
+    "away": "WLWDL"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "03:45",
+   "home": "Paris SG",
+   "away": "Lorient",
+   "home_name": "Paris Saint-Germain",
+   "away_name": "Lorient",
+   "probabilities": {
+    "H": 0.7233,
+    "D": 0.1983,
+    "A": 0.0785
+   },
+   "expected_goals": [
+    1.973,
+    0.494
+   ],
+   "pick": "Paris Saint-Germain win 72% · Under 2.5 goals 55% · BTTS no 66%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5522
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5497,
+     "fair": 1.82,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8955,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Paris SG under 3.5 goals",
+       "prob": 0.8619,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match cards under 5.5",
+       "prob": 0.8639,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8609,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.8536,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7221,
+     "fair": 1.38,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8955,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Paris SG under 3.5 goals",
+       "prob": 0.8619,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match cards under 5.5",
+       "prob": 0.8639,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Lorient shots on target over 1.5",
+     "hit": "14/15",
+     "prob": 0.6945,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Paris SG cards under 2.5",
+     "hit": "13/15",
+     "prob": 0.799,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Paris SG shots over 14.5",
+     "hit": "13/15",
+     "prob": 0.8097,
+     "stat": "shots",
+     "direction": "over",
+     "line": 14.5
+    },
+    {
+     "label": "Match cards under 5.5",
+     "hit": "12/15",
+     "prob": 0.8639,
+     "stat": "cards",
+     "direction": "under",
+     "line": 5.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Paris Saint-Germain most corners",
+     "prob": 0.876
+    },
+    {
+     "label": "Lorient most corners",
+     "prob": 0.0737
+    },
+    {
+     "label": "Paris Saint-Germain most cards",
+     "prob": 0.3301
+    },
+    {
+     "label": "Lorient most cards",
+     "prob": 0.4276
+    }
+   ],
+   "form": {
+    "home": "WWWWW",
+    "away": "DWLDW"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-29",
+   "kickoff": "03:45",
+   "home": "Inter",
+   "away": "Genoa",
+   "home_name": "Internazionale",
+   "away_name": "Genoa",
+   "probabilities": {
+    "H": 0.7147,
+    "D": 0.1995,
+    "A": 0.0858
+   },
+   "expected_goals": [
+    1.992,
+    0.54
+   ],
+   "pick": "Inter win 71% · Under 2.5 goals 54% · BTTS no 64%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5355
+   },
+   "builder": {
+    "best": {
+     "joint": 0.6226,
+     "fair": 1.61,
+     "legs": [
+      {
+       "label": "Inter shots over 13.5",
+       "prob": 0.911,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Inter corners over 3.5",
+       "prob": 0.8929,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Genoa under 1.5 goals",
+       "prob": 0.8974,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8868,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Genoa cards under 3.5",
+       "prob": 0.9032,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7602,
+     "fair": 1.32,
+     "legs": [
+      {
+       "label": "Inter shots over 13.5",
+       "prob": 0.911,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Inter corners over 3.5",
+       "prob": 0.8929,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Genoa under 1.5 goals",
+       "prob": 0.8974,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Genoa cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.9032,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Inter cards under 2.5",
+     "hit": "14/15",
+     "prob": 0.8655,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Inter shots over 13.5",
+     "hit": "13/15",
+     "prob": 0.911,
+     "stat": "shots",
+     "direction": "over",
+     "line": 13.5
+    },
+    {
+     "label": "Inter shots on target over 4.5",
+     "hit": "13/15",
+     "prob": 0.8155,
+     "stat": "sot",
+     "direction": "over",
+     "line": 4.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Inter most corners",
+     "prob": 0.8825
+    },
+    {
+     "label": "Genoa most corners",
+     "prob": 0.0739
+    },
+    {
+     "label": "Inter most cards",
+     "prob": 0.2841
+    },
+    {
+     "label": "Genoa most cards",
+     "prob": 0.4559
+    }
+   ],
+   "form": {
+    "home": "DWLWW",
+    "away": "WLWWW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-29",
+   "kickoff": "04:00",
+   "home": "Real Madrid",
+   "away": "Alaves",
+   "home_name": "Real Madrid",
+   "away_name": "Alavés",
+   "probabilities": {
+    "H": 0.7826,
+    "D": 0.1548,
+    "A": 0.0626
+   },
+   "expected_goals": [
+    2.393,
+    0.542
+   ],
+   "pick": "Real Madrid win 78% · Over 2.5 goals 56% · BTTS no 62%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5621
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5949,
+     "fair": 1.68,
+     "legs": [
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.9069,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Alaves corners under 5.5",
+       "prob": 0.9045,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
+      },
+      {
+       "label": "Real Madrid shots over 13.5",
+       "prob": 0.8538,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Alaves under 1.5 goals",
+       "prob": 0.8967,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.8452,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7366,
+     "fair": 1.36,
+     "legs": [
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.9069,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Alaves corners under 5.5",
+       "prob": 0.9045,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
+      },
+      {
+       "label": "Real Madrid shots over 13.5",
+       "prob": 0.8538,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match corners under 12.5",
+     "hit": "15/15",
+     "prob": 0.721,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    },
+    {
+     "label": "Real Madrid shots on target over 4.5",
+     "hit": "14/15",
+     "prob": 0.8674,
+     "stat": "sot",
+     "direction": "over",
+     "line": 4.5
+    },
+    {
+     "label": "Match shots on target over 6.5",
+     "hit": "13/15",
+     "prob": 0.9069,
+     "stat": "sot",
+     "direction": "over",
+     "line": 6.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "12/15",
+     "prob": 0.7123,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Real Madrid most corners",
+     "prob": 0.8471
+    },
+    {
+     "label": "Alavés most corners",
+     "prob": 0.1013
+    },
+    {
+     "label": "Real Madrid most cards",
+     "prob": 0.2234
+    },
+    {
+     "label": "Alavés most cards",
+     "prob": 0.5655
+    }
+   ],
+   "form": {
+    "home": "WWWWW",
+    "away": "WDLDL"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-29",
+   "kickoff": "19:30",
+   "home": "Udinese",
+   "away": "Fiorentina",
+   "home_name": "Udinese",
+   "away_name": "Fiorentina",
+   "probabilities": {
+    "H": 0.3452,
+    "D": 0.2774,
+    "A": 0.3774
+   },
+   "expected_goals": [
+    1.256,
+    1.325
+   ],
+   "pick": "Fiorentina win 38% · Under 2.5 goals 52% · BTTS yes 53%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5231
+   },
+   "builder": {
+    "best": {
+     "joint": 0.6051,
+     "fair": 1.65,
+     "legs": [
+      {
+       "label": "Udinese shots over 10.5",
+       "prob": 0.9011,
+       "source": "form",
+       "hit": "8/10",
+       "group": "shots"
+      },
+      {
+       "label": "Udinese shots on target over 2.5",
+       "prob": 0.899,
+       "source": "form",
+       "hit": "9/12",
+       "group": "sot"
+      },
+      {
+       "label": "Udinese cards under 3.5",
+       "prob": 0.8906,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.88,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Fiorentina under 2.5 goals",
+       "prob": 0.8513,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7578,
+     "fair": 1.32,
+     "legs": [
+      {
+       "label": "Udinese shots over 10.5",
+       "prob": 0.9011,
+       "source": "form",
+       "hit": "8/10",
+       "group": "shots"
+      },
+      {
+       "label": "Udinese shots on target over 2.5",
+       "prob": 0.899,
+       "source": "form",
+       "hit": "9/12",
+       "group": "sot"
+      },
+      {
+       "label": "Udinese cards under 3.5",
+       "prob": 0.8906,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Udinese cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8906,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Fiorentina cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.834,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Udinese corners under 7.5",
+     "hit": "13/15",
+     "prob": 0.7441,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "12/15",
+     "prob": 0.7965,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Udinese most corners",
+     "prob": 0.6861
+    },
+    {
+     "label": "Fiorentina most corners",
+     "prob": 0.2259
+    },
+    {
+     "label": "Udinese most cards",
+     "prob": 0.3299
+    },
+    {
+     "label": "Fiorentina most cards",
+     "prob": 0.4494
+    }
+   ],
+   "form": {
+    "home": "DLLDL",
+    "away": "LDWDL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "20:00",
+   "home": "Everton",
+   "away": "Liverpool",
+   "home_name": "Everton",
+   "away_name": "Liverpool",
+   "probabilities": {
+    "H": 0.4099,
+    "D": 0.2831,
+    "A": 0.3069
+   },
+   "expected_goals": [
+    1.341,
+    1.125
+   ],
+   "pick": "Everton win 41% · Under 2.5 goals 55% · BTTS yes 51%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5526
+   },
+   "builder": {
+    "best": {
+     "joint": 0.575,
+     "fair": 1.74,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8957,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Liverpool under 2.5 goals",
+       "prob": 0.8953,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Everton cards under 3.5",
+       "prob": 0.8886,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8875,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Everton shots on target over 2.5",
+       "prob": 0.8636,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.752,
+     "fair": 1.33,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8957,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Liverpool under 2.5 goals",
+       "prob": 0.8953,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Everton cards under 3.5",
+       "prob": 0.8886,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Everton cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8886,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Liverpool cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.7574,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Everton shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.8636,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Liverpool shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.7659,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Everton most corners",
+     "prob": 0.42
+    },
+    {
+     "label": "Liverpool most corners",
+     "prob": 0.479
+    },
+    {
+     "label": "Everton most cards",
+     "prob": 0.2582
+    },
+    {
+     "label": "Liverpool most cards",
+     "prob": 0.5386
+    }
+   ],
+   "form": {
+    "home": "LWWLL",
+    "away": "WWLWW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-29",
+   "kickoff": "21:00",
+   "home": "Valencia",
+   "away": "Osasuna",
+   "home_name": "Valencia",
+   "away_name": "Osasuna",
+   "probabilities": {
+    "H": 0.5948,
+    "D": 0.2435,
+    "A": 0.1616
+   },
+   "expected_goals": [
+    1.745,
+    0.793
+   ],
+   "pick": "Valencia win 59% · Under 2.5 goals 53% · BTTS no 54%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5341
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5208,
+     "fair": 1.92,
+     "legs": [
+      {
+       "label": "Valencia cards under 3.5",
+       "prob": 0.8909,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.886,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Osasuna under 1.5 goals",
+       "prob": 0.8111,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Valencia or draw",
+       "prob": 0.8384,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8535,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.677,
+     "fair": 1.48,
+     "legs": [
+      {
+       "label": "Valencia cards under 3.5",
+       "prob": 0.8909,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.886,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Osasuna under 1.5 goals",
+       "prob": 0.8111,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Osasuna corners under 4.5",
+     "hit": "14/15",
+     "prob": 0.83,
+     "stat": "corners",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Valencia cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8909,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Osasuna cards under 4.5",
+     "hit": "13/15",
+     "prob": 0.794,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Valencia corners under 7.5",
+     "hit": "13/15",
+     "prob": 0.5919,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Valencia most corners",
+     "prob": 0.8156
+    },
+    {
+     "label": "Osasuna most corners",
+     "prob": 0.1217
+    },
+    {
+     "label": "Valencia most cards",
+     "prob": 0.1916
+    },
+    {
+     "label": "Osasuna most cards",
+     "prob": 0.633
+    }
+   ],
+   "form": {
+    "home": "WLWLD",
+    "away": "WDLLW"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-29",
+   "kickoff": "22:00",
+   "home": "Auxerre",
+   "away": "Marseille",
+   "home_name": "AJ Auxerre",
+   "away_name": "Marseille",
+   "probabilities": {
+    "H": 0.3892,
+    "D": 0.2792,
+    "A": 0.3315
+   },
+   "expected_goals": [
+    1.334,
+    1.212
+   ],
+   "pick": "Auxerre win 39% · Under 2.5 goals 53% · BTTS yes 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.532
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5999,
+     "fair": 1.67,
+     "legs": [
+      {
+       "label": "Auxerre cards under 3.5",
+       "prob": 0.9094,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Auxerre shots over 8.5",
+       "prob": 0.8869,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Auxerre shots on target over 2.5",
+       "prob": 0.8525,
+       "source": "form",
+       "hit": "8/10",
+       "group": "sot"
+      },
+      {
+       "label": "Marseille under 2.5 goals",
+       "prob": 0.8768,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8849,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.733,
+     "fair": 1.36,
+     "legs": [
+      {
+       "label": "Auxerre cards under 3.5",
+       "prob": 0.9094,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Auxerre shots over 8.5",
+       "prob": 0.8869,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Auxerre shots on target over 2.5",
+       "prob": 0.8525,
+       "source": "form",
+       "hit": "8/10",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Auxerre cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.9094,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "14/15",
+     "prob": 0.7656,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    },
+    {
+     "label": "Match cards under 4.5",
+     "hit": "13/15",
+     "prob": 0.6288,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "13/15",
+     "prob": 0.8669,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Auxerre most corners",
+     "prob": 0.5559
+    },
+    {
+     "label": "Marseille most corners",
+     "prob": 0.3519
+    },
+    {
+     "label": "Auxerre most cards",
+     "prob": 0.2517
+    },
+    {
+     "label": "Marseille most cards",
+     "prob": 0.5554
+    }
+   ],
+   "form": {
+    "home": "DLLDW",
+    "away": "LWWWW"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-29",
+   "kickoff": "22:00",
+   "home": "Sassuolo",
+   "away": "Napoli",
+   "home_name": "Sassuolo",
+   "away_name": "Napoli",
+   "probabilities": {
+    "H": 0.2024,
+    "D": 0.2595,
+    "A": 0.5382
+   },
+   "expected_goals": [
+    0.9,
+    1.623
+   ],
+   "pick": "Napoli win 54% · Under 2.5 goals 54% · BTTS no 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5378
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4635,
+     "fair": 2.16,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.888,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Sassuolo cards under 3.5",
+       "prob": 0.8889,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8872,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
+      },
+      {
+       "label": "Napoli under 2.5 goals",
+       "prob": 0.7773,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Sassuolo shots on target over 2.5",
+       "prob": 0.7867,
+       "source": "form",
+       "hit": "11/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7019,
+     "fair": 1.42,
+     "legs": [
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.888,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Sassuolo cards under 3.5",
+       "prob": 0.8889,
+       "source": "form",
+       "hit": "14/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8872,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards under 5.5",
+     "hit": "14/15",
+     "prob": 0.8284,
+     "stat": "cards",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Sassuolo cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8889,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match shots on target over 6.5",
+     "hit": "13/15",
+     "prob": 0.7986,
+     "stat": "sot",
+     "direction": "over",
+     "line": 6.5
+    },
+    {
+     "label": "Napoli cards under 2.5",
+     "hit": "12/15",
+     "prob": 0.7269,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Sassuolo most corners",
+     "prob": 0.5221
+    },
+    {
+     "label": "Napoli most corners",
+     "prob": 0.3759
+    },
+    {
+     "label": "Sassuolo most cards",
+     "prob": 0.3704
+    },
+    {
+     "label": "Napoli most cards",
+     "prob": 0.4014
+    }
+   ],
+   "form": {
+    "home": "LLLLL",
+    "away": "WDLWD"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "22:05",
+   "home": "Brighton",
+   "away": "Newcastle",
+   "home_name": "Brighton & Hove Albion",
+   "away_name": "Newcastle United",
+   "probabilities": {
+    "H": 0.6052,
+    "D": 0.2413,
+    "A": 0.1535
+   },
+   "expected_goals": [
+    1.755,
+    0.763
+   ],
+   "pick": "Brighton win 61% · Under 2.5 goals 54% · BTTS no 55%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.539
+   },
+   "builder": {
+    "best": {
+     "joint": 0.6408,
+     "fair": 1.56,
+     "legs": [
+      {
+       "label": "Brighton shots on target over 2.5",
+       "prob": 0.9197,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Brighton cards under 3.5",
+       "prob": 0.9157,
+       "source": "form",
+       "hit": "11/15",
+       "group": "cards"
+      },
+      {
+       "label": "Brighton under 3.5 goals",
+       "prob": 0.8984,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8886,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Brighton shots over 11.5",
+       "prob": 0.8575,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.755,
+     "fair": 1.32,
+     "legs": [
+      {
+       "label": "Brighton shots on target over 2.5",
+       "prob": 0.9197,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Brighton cards under 3.5",
+       "prob": 0.9157,
+       "source": "form",
+       "hit": "11/15",
+       "group": "cards"
+      },
+      {
+       "label": "Brighton under 3.5 goals",
+       "prob": 0.8984,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Newcastle cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.7145,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Brighton corners over 3.5",
+     "hit": "13/15",
+     "prob": 0.7944,
+     "stat": "corners",
+     "direction": "over",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "13/15",
+     "prob": 0.6843,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "13/15",
+     "prob": 0.8744,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Brighton most corners",
+     "prob": 0.6356
+    },
+    {
+     "label": "Newcastle most corners",
+     "prob": 0.2769
+    },
+    {
+     "label": "Brighton most cards",
+     "prob": 0.2104
+    },
+    {
+     "label": "Newcastle most cards",
+     "prob": 0.6024
+    }
+   ],
+   "form": {
+    "home": "LWWLW",
+    "away": "DDLWL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "22:05",
+   "home": "Crystal Palace",
+   "away": "Hull",
+   "home_name": "Crystal Palace",
+   "away_name": "Hull City",
+   "probabilities": {
+    "H": 0.554,
+    "D": 0.2673,
+    "A": 0.1786
+   },
+   "expected_goals": [
+    1.549,
+    0.766
+   ],
+   "pick": "Crystal Palace win 55% · Under 2.5 goals 59% · BTTS no 57%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5921
+   },
+   "builder": {
+    "best": {
+     "joint": 0.625,
+     "fair": 1.6,
+     "legs": [
+      {
+       "label": "Crystal Palace shots over 9.5",
+       "prob": 0.9146,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8954,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.9005,
+       "source": "form",
+       "hit": "15/15",
+       "group": "sot"
+      },
+      {
+       "label": "Crystal Palace over 0.5 goals",
+       "prob": 0.7876,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Crystal Palace or draw",
+       "prob": 0.8214,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.781,
+     "fair": 1.28,
+     "legs": [
+      {
+       "label": "Crystal Palace shots over 9.5",
+       "prob": 0.9146,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8954,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.9005,
+       "source": "form",
+       "hit": "15/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "15/15",
+     "prob": 0.9005,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Match shots over 22.5",
+     "hit": "14/15",
+     "prob": 0.7957,
+     "stat": "shots",
+     "direction": "over",
+     "line": 22.5
+    },
+    {
+     "label": "Crystal Palace cards under 2.5",
+     "hit": "13/15",
+     "prob": 0.8445,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Crystal Palace corners over 2.5",
+     "hit": "13/15",
+     "prob": 0.9225,
+     "stat": "corners",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Crystal Palace most corners",
+     "prob": 0.6689
+    },
+    {
+     "label": "Hull most corners",
+     "prob": 0.2511
+    },
+    {
+     "label": "Crystal Palace most cards",
+     "prob": 0.1086
+    },
+    {
+     "label": "Hull most cards",
+     "prob": 0.7686
+    }
+   ],
+   "form": {
+    "home": "LLLLL",
+    "away": "WLDDL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "22:05",
+   "home": "Fulham",
+   "away": "Bournemouth",
+   "home_name": "Fulham",
+   "away_name": "AFC Bournemouth",
+   "probabilities": {
+    "H": 0.4629,
+    "D": 0.2663,
+    "A": 0.2708
+   },
+   "expected_goals": [
+    1.535,
+    1.118
+   ],
+   "pick": "Fulham win 46% · Under 2.5 goals 51% · BTTS yes 53%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5052
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5601,
+     "fair": 1.79,
+     "legs": [
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8949,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8865,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Bournemouth under 2.5 goals",
+       "prob": 0.8967,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8698,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Fulham corners over 3.5",
+       "prob": 0.8255,
+       "source": "form",
+       "hit": "9/12",
+       "group": "corners"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7212,
+     "fair": 1.39,
+     "legs": [
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8949,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8865,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Bournemouth under 2.5 goals",
+       "prob": 0.8967,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Bournemouth shots on target over 2.5",
+     "hit": "14/15",
+     "prob": 0.6766,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "13/15",
+     "prob": 0.7585,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Bournemouth cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.6587,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Bournemouth shots over 8.5",
+     "hit": "13/15",
+     "prob": 0.6491,
+     "stat": "shots",
+     "direction": "over",
+     "line": 8.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Fulham most corners",
+     "prob": 0.6268
+    },
+    {
+     "label": "Bournemouth most corners",
+     "prob": 0.2876
+    },
+    {
+     "label": "Fulham most cards",
+     "prob": 0.1579
+    },
+    {
+     "label": "Bournemouth most cards",
+     "prob": 0.6713
+    }
+   ],
+   "form": {
+    "home": "DDDWW",
+    "away": "WWWWW"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-29",
+   "kickoff": "22:05",
+   "home": "Sunderland",
+   "away": "Tottenham",
+   "home_name": "Sunderland",
+   "away_name": "Tottenham Hotspur",
+   "probabilities": {
+    "H": 0.4214,
+    "D": 0.316,
+    "A": 0.2626
+   },
+   "expected_goals": [
+    1.157,
+    0.852
+   ],
+   "pick": "Sunderland win 42% · Over 1.5 goals 60% · BTTS no 60%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 1.5 goals",
+    "prob": 0.6029
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5181,
+     "fair": 1.93,
+     "legs": [
+      {
+       "label": "Sunderland shots on target over 1.5",
+       "prob": 0.892,
+       "source": "form",
+       "hit": "15/15",
+       "group": "sot"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8592,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8828,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Sunderland cards under 3.5",
+       "prob": 0.8656,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Sunderland under 2.5 goals",
+       "prob": 0.8887,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6989,
+     "fair": 1.43,
+     "legs": [
+      {
+       "label": "Sunderland shots on target over 1.5",
+       "prob": 0.892,
+       "source": "form",
+       "hit": "15/15",
+       "group": "sot"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8592,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match corners under 12.5",
+       "prob": 0.8828,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Sunderland shots on target over 1.5",
+     "hit": "15/15",
+     "prob": 0.892,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Sunderland cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8656,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Tottenham cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.6454,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 12.5",
+     "hit": "13/15",
+     "prob": 0.8828,
+     "stat": "corners",
+     "direction": "under",
+     "line": 12.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Sunderland most corners",
+     "prob": 0.5194
+    },
+    {
+     "label": "Tottenham most corners",
+     "prob": 0.3824
+    },
+    {
+     "label": "Sunderland most cards",
+     "prob": 0.2253
+    },
+    {
+     "label": "Tottenham most cards",
+     "prob": 0.6092
+    }
+   ],
+   "form": {
+    "home": "DWLDL",
+    "away": "WLWWW"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-29",
+   "kickoff": "22:30",
+   "home": "Freiburg",
+   "away": "RB Leipzig",
+   "home_name": "SC Freiburg",
+   "away_name": "RB Leipzig",
+   "probabilities": {
+    "H": 0.517,
+    "D": 0.2375,
+    "A": 0.2456
+   },
+   "expected_goals": [
+    1.855,
+    1.222
+   ],
+   "pick": "Freiburg win 52% · Over 2.5 goals 59% · BTTS yes 60%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5938
+   },
+   "builder": {
+    "best": {
+     "joint": 0.628,
+     "fair": 1.59,
+     "legs": [
+      {
+       "label": "Freiburg shots on target over 3.5",
+       "prob": 0.8986,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Freiburg shots over 10.5",
+       "prob": 0.8981,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Freiburg corners over 2.5",
+       "prob": 0.8965,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Freiburg over 0.5 goals",
+       "prob": 0.8436,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8173,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7823,
+     "fair": 1.28,
+     "legs": [
+      {
+       "label": "Freiburg shots on target over 3.5",
+       "prob": 0.8986,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Freiburg shots over 10.5",
+       "prob": 0.8981,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Freiburg corners over 2.5",
+       "prob": 0.8965,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards under 4.5",
+     "hit": "14/15",
+     "prob": 0.7726,
+     "stat": "cards",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "RB Leipzig shots on target over 2.5",
+     "hit": "14/15",
+     "prob": 0.6854,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Freiburg shots on target over 3.5",
+     "hit": "13/15",
+     "prob": 0.8986,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    },
+    {
+     "label": "RB Leipzig cards under 2.5",
+     "hit": "12/15",
+     "prob": 0.748,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Freiburg most corners",
+     "prob": 0.704
+    },
+    {
+     "label": "RB Leipzig most corners",
+     "prob": 0.2141
+    },
+    {
+     "label": "Freiburg most cards",
+     "prob": 0.3028
+    },
+    {
+     "label": "RB Leipzig most cards",
+     "prob": 0.4382
+    }
+   ],
+   "form": {
+    "home": "WWWLL",
+    "away": "WWWWL"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-29",
+   "kickoff": "23:15",
+   "home": "La Coruna",
+   "away": "Barcelona",
+   "home_name": "Deportivo",
+   "away_name": "Barcelona",
+   "probabilities": {
+    "H": 0.2271,
+    "D": 0.2579,
+    "A": 0.5151
+   },
+   "expected_goals": [
+    1.009,
+    1.639
+   ],
+   "pick": "Barcelona win 52% · Under 2.5 goals 51% · BTTS yes 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5065
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4356,
+     "fair": 2.3,
+     "legs": [
+      {
+       "label": "Barcelona corners under 6.5",
+       "prob": 0.8861,
+       "source": "form",
+       "hit": "9/12",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8706,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Barcelona under 2.5 goals",
+       "prob": 0.7732,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Barcelona cards under 3.5",
+       "prob": 0.8254,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      },
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8185,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6675,
+     "fair": 1.5,
+     "legs": [
+      {
+       "label": "Barcelona corners under 6.5",
+       "prob": 0.8861,
+       "source": "form",
+       "hit": "9/12",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8706,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Barcelona under 2.5 goals",
+       "prob": 0.7732,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Barcelona cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.8254,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match shots on target over 5.5",
+     "hit": "14/15",
+     "prob": 0.9299,
+     "stat": "sot",
+     "direction": "over",
+     "line": 5.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "13/15",
+     "prob": 0.6889,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Barcelona shots over 8.5",
+     "hit": "13/15",
+     "prob": 0.7649,
+     "stat": "shots",
+     "direction": "over",
+     "line": 8.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Deportivo most corners",
+     "prob": 0.6246
+    },
+    {
+     "label": "Barcelona most corners",
+     "prob": 0.2789
+    },
+    {
+     "label": "Deportivo most cards",
+     "prob": 0.2974
+    },
+    {
+     "label": "Barcelona most cards",
+     "prob": 0.4738
+    }
+   ],
+   "form": {
+    "home": "LDWLD",
+    "away": "WWWLW"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-30",
+   "kickoff": "00:15",
+   "home": "Toulouse",
+   "away": "Rennes",
+   "home_name": "Toulouse",
+   "away_name": "Stade Rennais",
+   "probabilities": {
+    "H": 0.551,
+    "D": 0.2288,
+    "A": 0.2203
+   },
+   "expected_goals": [
+    1.956,
+    1.172
+   ],
+   "pick": "Toulouse win 55% · Over 2.5 goals 60% · BTTS yes 60%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.6049
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4506,
+     "fair": 2.22,
+     "legs": [
+      {
+       "label": "Toulouse corners over 2.5",
+       "prob": 0.9079,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Rennes under 2.5 goals",
+       "prob": 0.8855,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.7933,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Toulouse or draw",
+       "prob": 0.7797,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Toulouse cards under 3.5",
+       "prob": 0.8011,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6855,
+     "fair": 1.46,
+     "legs": [
+      {
+       "label": "Toulouse corners over 2.5",
+       "prob": 0.9079,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Rennes under 2.5 goals",
+       "prob": 0.8855,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.7933,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards over 2.5",
+     "hit": "14/15",
+     "prob": 0.7925,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Toulouse cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8011,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match shots over 19.5",
+     "hit": "13/15",
+     "prob": 0.9384,
+     "stat": "shots",
+     "direction": "over",
+     "line": 19.5
+    },
+    {
+     "label": "Rennes shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.7091,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Toulouse most corners",
+     "prob": 0.665
+    },
+    {
+     "label": "Rennes most corners",
+     "prob": 0.2499
+    },
+    {
+     "label": "Toulouse most cards",
+     "prob": 0.3676
+    },
+    {
+     "label": "Rennes most cards",
+     "prob": 0.4365
+    }
+   ],
+   "form": {
+    "home": "DWLDW",
+    "away": "DLLWL"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-30",
+   "kickoff": "00:30",
+   "home": "Hoffenheim",
+   "away": "Augsburg",
+   "home_name": "TSG Hoffenheim",
+   "away_name": "FC Augsburg",
+   "probabilities": {
+    "H": 0.5693,
+    "D": 0.2122,
+    "A": 0.2185
+   },
+   "expected_goals": [
+    2.179,
+    1.302
+   ],
+   "pick": "Hoffenheim win 57% · Under 3.5 goals 54% · BTTS yes 65%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 3.5 goals",
+    "prob": 0.5407
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5689,
+     "fair": 1.76,
+     "legs": [
+      {
+       "label": "Hoffenheim cards under 3.5",
+       "prob": 0.8901,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "Hoffenheim over 0.5 goals",
+       "prob": 0.8868,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8665,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 25.5",
+       "prob": 0.853,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Augsburg shots on target over 1.5",
+       "prob": 0.8566,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7414,
+     "fair": 1.35,
+     "legs": [
+      {
+       "label": "Hoffenheim cards under 3.5",
+       "prob": 0.8901,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "Hoffenheim over 0.5 goals",
+       "prob": 0.8868,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Over 1.5 goals",
+       "prob": 0.8665,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Augsburg cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8439,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Augsburg shots over 7.5",
+     "hit": "13/15",
+     "prob": 0.8196,
+     "stat": "shots",
+     "direction": "over",
+     "line": 7.5
+    },
+    {
+     "label": "Match shots over 25.5",
+     "hit": "13/15",
+     "prob": 0.853,
+     "stat": "shots",
+     "direction": "over",
+     "line": 25.5
+    },
+    {
+     "label": "Augsburg shots on target over 1.5",
+     "hit": "13/15",
+     "prob": 0.8566,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Hoffenheim most corners",
+     "prob": 0.787
+    },
+    {
+     "label": "Augsburg most corners",
+     "prob": 0.1477
+    },
+    {
+     "label": "Hoffenheim most cards",
+     "prob": 0.3315
+    },
+    {
+     "label": "Augsburg most cards",
+     "prob": 0.4447
+    }
+   ],
+   "form": {
+    "home": "LWLWW",
+    "away": "WLLDL"
+   }
+  },
+  {
+   "league": "epl",
+   "date": "2026-11-30",
+   "kickoff": "00:30",
+   "home": "Arsenal",
+   "away": "Man City",
+   "home_name": "Arsenal",
+   "away_name": "Manchester City",
+   "probabilities": {
+    "H": 0.5271,
+    "D": 0.276,
+    "A": 0.1969
+   },
+   "expected_goals": [
+    1.483,
+    0.803
+   ],
+   "pick": "Arsenal win 53% · Under 2.5 goals 60% · BTTS no 57%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5997
+   },
+   "builder": {
+    "best": {
+     "joint": 0.532,
+     "fair": 1.88,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8923,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8429,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Arsenal over 0.5 goals",
+       "prob": 0.7732,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Arsenal or draw",
+       "prob": 0.8031,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
+       "label": "Arsenal cards under 2.5",
+       "prob": 0.8592,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6869,
+     "fair": 1.46,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8923,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8429,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Arsenal over 0.5 goals",
+       "prob": 0.7732,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Arsenal cards under 2.5",
+     "hit": "15/15",
+     "prob": 0.8592,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Match shots over 22.5",
+     "hit": "13/15",
+     "prob": 0.6969,
+     "stat": "shots",
+     "direction": "over",
+     "line": 22.5
+    },
+    {
+     "label": "Arsenal shots on target over 3.5",
+     "hit": "13/15",
+     "prob": 0.7426,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    },
+    {
+     "label": "Match cards over 2.5",
+     "hit": "12/15",
+     "prob": 0.715,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Arsenal most corners",
+     "prob": 0.6212
+    },
+    {
+     "label": "Man City most corners",
+     "prob": 0.2904
+    },
+    {
+     "label": "Arsenal most cards",
+     "prob": 0.1381
+    },
+    {
+     "label": "Man City most cards",
+     "prob": 0.6847
+    }
+   ],
+   "form": {
+    "home": "DWWWW",
+    "away": "DLLLW"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-30",
+   "kickoff": "01:00",
+   "home": "Roma",
+   "away": "Monza",
+   "home_name": "AS Roma",
+   "away_name": "Monza",
+   "probabilities": {
+    "H": 0.7687,
+    "D": 0.1655,
+    "A": 0.0657
+   },
+   "expected_goals": [
+    2.272,
+    0.522
+   ],
+   "pick": "Roma win 77% · Over 2.5 goals 53% · BTTS no 63%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5291
+   },
+   "builder": {
+    "best": {
+     "joint": 0.6361,
+     "fair": 1.57,
+     "legs": [
+      {
+       "label": "Roma shots over 11.5",
+       "prob": 0.9064,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Roma shots on target over 3.5",
+       "prob": 0.8836,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Roma over 0.5 goals",
+       "prob": 0.8969,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Roma cards under 3.5",
+       "prob": 0.8925,
+       "source": "form",
+       "hit": "15/15",
+       "group": "cards"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.8345,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7825,
+     "fair": 1.28,
+     "legs": [
+      {
+       "label": "Roma shots over 11.5",
+       "prob": 0.9064,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Roma shots on target over 3.5",
+       "prob": 0.8836,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Roma over 0.5 goals",
+       "prob": 0.8969,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Roma cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.8925,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Monza cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.8175,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Roma shots over 11.5",
+     "hit": "13/15",
+     "prob": 0.9064,
+     "stat": "shots",
+     "direction": "over",
+     "line": 11.5
+    },
+    {
+     "label": "Roma shots on target over 3.5",
+     "hit": "13/15",
+     "prob": 0.8836,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Roma most corners",
+     "prob": 0.8286
+    },
+    {
+     "label": "Monza most corners",
+     "prob": 0.1115
+    },
+    {
+     "label": "Roma most cards",
+     "prob": 0.3214
+    },
+    {
+     "label": "Monza most cards",
+     "prob": 0.4724
+    }
+   ],
+   "form": {
+    "home": "WWWWD",
+    "away": "WLLLL"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-30",
+   "kickoff": "01:30",
+   "home": "Celta",
+   "away": "Villarreal",
+   "home_name": "Celta Vigo",
+   "away_name": "Villarreal",
+   "probabilities": {
+    "H": 0.4697,
+    "D": 0.2751,
+    "A": 0.2551
+   },
+   "expected_goals": [
+    1.468,
+    1.015
+   ],
+   "pick": "Celta Vigo win 47% · Under 2.5 goals 55% · BTTS no 50%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5483
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5317,
+     "fair": 1.88,
+     "legs": [
+      {
+       "label": "Celta shots on target over 2.5",
+       "prob": 0.9067,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Celta corners over 2.5",
+       "prob": 0.896,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8935,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Celta under 2.5 goals",
+       "prob": 0.8169,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match shots over 21.5",
+       "prob": 0.7919,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7418,
+     "fair": 1.35,
+     "legs": [
+      {
+       "label": "Celta shots on target over 2.5",
+       "prob": 0.9067,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Celta corners over 2.5",
+       "prob": 0.896,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8935,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Celta cards under 2.5",
+     "hit": "15/15",
+     "prob": 0.7691,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Celta shots on target over 2.5",
+     "hit": "13/15",
+     "prob": 0.9067,
+     "stat": "sot",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Villarreal shots on target over 1.5",
+     "hit": "13/15",
+     "prob": 0.79,
+     "stat": "sot",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Match shots on target over 6.5",
+     "hit": "13/15",
+     "prob": 0.7836,
+     "stat": "sot",
+     "direction": "over",
+     "line": 6.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Celta Vigo most corners",
+     "prob": 0.7111
+    },
+    {
+     "label": "Villarreal most corners",
+     "prob": 0.2041
+    },
+    {
+     "label": "Celta Vigo most cards",
+     "prob": 0.2315
+    },
+    {
+     "label": "Villarreal most cards",
+     "prob": 0.5641
+    }
+   ],
+   "form": {
+    "home": "LDLDW",
+    "away": "LWLWD"
+   }
+  },
+  {
+   "league": "bundesliga",
+   "date": "2026-11-30",
+   "kickoff": "02:30",
+   "home": "Dortmund",
+   "away": "Leverkusen",
+   "home_name": "Borussia Dortmund",
+   "away_name": "Bayer Leverkusen",
+   "probabilities": {
+    "H": 0.5915,
+    "D": 0.2235,
+    "A": 0.185
+   },
+   "expected_goals": [
+    1.988,
+    1.028
+   ],
+   "pick": "Dortmund win 59% · Over 2.5 goals 58% · BTTS yes 56%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5805
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4675,
+     "fair": 2.14,
+     "legs": [
+      {
+       "label": "Match corners under 14.5",
+       "prob": 0.8856,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Leverkusen cards under 3.5",
+       "prob": 0.8728,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "Dortmund under 3.5 goals",
+       "prob": 0.8593,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8125,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots on target over 7.5",
+       "prob": 0.8224,
+       "source": "form",
+       "hit": "6/8",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6639,
+     "fair": 1.51,
+     "legs": [
+      {
+       "label": "Match corners under 14.5",
+       "prob": 0.8856,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Leverkusen cards under 3.5",
+       "prob": 0.8728,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      },
+      {
+       "label": "Dortmund under 3.5 goals",
+       "prob": 0.8593,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Leverkusen corners over 2.5",
+     "hit": "13/15",
+     "prob": 0.5727,
+     "stat": "corners",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Match corners under 14.5",
+     "hit": "13/15",
+     "prob": 0.8856,
+     "stat": "corners",
+     "direction": "under",
+     "line": 14.5
+    },
+    {
+     "label": "Dortmund shots over 10.5",
+     "hit": "13/15",
+     "prob": 0.9279,
+     "stat": "shots",
+     "direction": "over",
+     "line": 10.5
+    },
+    {
+     "label": "Match shots over 23.5",
+     "hit": "13/15",
+     "prob": 0.7984,
+     "stat": "shots",
+     "direction": "over",
+     "line": 23.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Dortmund most corners",
+     "prob": 0.7947
+    },
+    {
+     "label": "Bayer Leverkusen most corners",
+     "prob": 0.1435
+    },
+    {
+     "label": "Dortmund most cards",
+     "prob": 0.4274
+    },
+    {
+     "label": "Bayer Leverkusen most cards",
+     "prob": 0.339
+    }
+   ],
+   "form": {
+    "home": "WWDWD",
+    "away": "WWLLW"
+   }
+  },
+  {
+   "league": "ligue_1",
+   "date": "2026-11-30",
+   "kickoff": "03:45",
+   "home": "Lyon",
+   "away": "Monaco",
+   "home_name": "Lyon",
+   "away_name": "AS Monaco",
+   "probabilities": {
+    "H": 0.6316,
+    "D": 0.2203,
+    "A": 0.1481
+   },
+   "expected_goals": [
+    1.962,
+    0.84
+   ],
+   "pick": "Lyon win 63% · Over 2.5 goals 53% · BTTS no 51%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 2.5 goals",
+    "prob": 0.5311
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5819,
+     "fair": 1.72,
+     "legs": [
+      {
+       "label": "Monaco corners under 7.5",
+       "prob": 0.8985,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8984,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.846,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Lyon over 0.5 goals",
+       "prob": 0.8595,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Lyon or draw",
+       "prob": 0.8519,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7115,
+     "fair": 1.41,
+     "legs": [
+      {
+       "label": "Monaco corners under 7.5",
+       "prob": 0.8985,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots over 20.5",
+       "prob": 0.8984,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Match shots on target over 6.5",
+       "prob": 0.846,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Monaco cards under 3.5",
+     "hit": "14/15",
+     "prob": 0.7725,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Monaco corners under 7.5",
+     "hit": "13/15",
+     "prob": 0.8985,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "13/15",
+     "prob": 0.6621,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    },
+    {
+     "label": "Match shots over 20.5",
+     "hit": "13/15",
+     "prob": 0.8984,
+     "stat": "shots",
+     "direction": "over",
+     "line": 20.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Lyon most corners",
+     "prob": 0.6076
+    },
+    {
+     "label": "Monaco most corners",
+     "prob": 0.3053
+    },
+    {
+     "label": "Lyon most cards",
+     "prob": 0.1919
+    },
+    {
+     "label": "Monaco most cards",
+     "prob": 0.6068
+    }
+   ],
+   "form": {
+    "home": "WLWLW",
+    "away": "DDLDL"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-11-30",
+   "kickoff": "03:45",
+   "home": "Como",
+   "away": "Juventus",
+   "home_name": "Como",
+   "away_name": "Juventus",
+   "probabilities": {
+    "H": 0.4576,
+    "D": 0.2916,
+    "A": 0.2508
+   },
+   "expected_goals": [
+    1.338,
+    0.919
+   ],
+   "pick": "Como win 46% · Under 2.5 goals 61% · BTTS no 55%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.6074
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5807,
+     "fair": 1.72,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8889,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.897,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Como corners over 2.5",
+       "prob": 0.9025,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Match shots on target over 5.5",
+       "prob": 0.8468,
+       "source": "form",
+       "hit": "11/15",
+       "group": "sot"
+      },
+      {
+       "label": "Como cards under 2.5",
+       "prob": 0.8341,
+       "source": "form",
+       "hit": "12/15",
+       "group": "cards"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7522,
+     "fair": 1.33,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8889,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.897,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Como corners over 2.5",
+       "prob": 0.9025,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Juventus cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.8373,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Como shots on target over 3.5",
+     "hit": "14/15",
+     "prob": 0.7528,
+     "stat": "sot",
+     "direction": "over",
+     "line": 3.5
+    },
+    {
+     "label": "Como corners over 2.5",
+     "hit": "13/15",
+     "prob": 0.9025,
+     "stat": "corners",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Como shots over 12.5",
+     "hit": "13/15",
+     "prob": 0.8105,
+     "stat": "shots",
+     "direction": "over",
+     "line": 12.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Como most corners",
+     "prob": 0.7055
+    },
+    {
+     "label": "Juventus most corners",
+     "prob": 0.2144
+    },
+    {
+     "label": "Como most cards",
+     "prob": 0.2517
+    },
+    {
+     "label": "Juventus most cards",
+     "prob": 0.5089
+    }
+   ],
+   "form": {
+    "home": "WLWWW",
+    "away": "WDWLW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-11-30",
+   "kickoff": "04:00",
+   "home": "Sociedad",
+   "away": "Sevilla",
+   "home_name": "Real Sociedad",
+   "away_name": "Sevilla",
+   "probabilities": {
+    "H": 0.5656,
+    "D": 0.25,
+    "A": 0.1844
+   },
+   "expected_goals": [
+    1.704,
+    0.869
+   ],
+   "pick": "Real Sociedad win 57% · Under 2.5 goals 53% · BTTS no 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5252
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5259,
+     "fair": 1.9,
+     "legs": [
+      {
+       "label": "Sociedad shots over 8.5",
+       "prob": 0.9183,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Sociedad cards under 3.5",
+       "prob": 0.8782,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Sevilla corners under 5.5",
+       "prob": 0.8645,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      },
+      {
+       "label": "Under 4.5 goals",
+       "prob": 0.8812,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Sevilla under 1.5 goals",
+       "prob": 0.7837,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7151,
+     "fair": 1.4,
+     "legs": [
+      {
+       "label": "Sociedad shots over 8.5",
+       "prob": 0.9183,
+       "source": "form",
+       "hit": "13/15",
+       "group": "shots"
+      },
+      {
+       "label": "Sociedad cards under 3.5",
+       "prob": 0.8782,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Sevilla corners under 5.5",
+       "prob": 0.8645,
+       "source": "form",
+       "hit": "12/15",
+       "group": "corners"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Sociedad cards under 3.5",
+     "hit": "13/15",
+     "prob": 0.8782,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match corners under 13.5",
+     "hit": "13/15",
+     "prob": 0.8629,
+     "stat": "corners",
+     "direction": "under",
+     "line": 13.5
+    },
+    {
+     "label": "Sociedad shots over 8.5",
+     "hit": "13/15",
+     "prob": 0.9183,
+     "stat": "shots",
+     "direction": "over",
+     "line": 8.5
+    },
+    {
+     "label": "Match shots over 22.5",
+     "hit": "13/15",
+     "prob": 0.6391,
+     "stat": "shots",
+     "direction": "over",
+     "line": 22.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Real Sociedad most corners",
+     "prob": 0.7596
+    },
+    {
+     "label": "Sevilla most corners",
+     "prob": 0.1705
+    },
+    {
+     "label": "Real Sociedad most cards",
+     "prob": 0.1901
+    },
+    {
+     "label": "Sevilla most cards",
+     "prob": 0.6402
+    }
+   ],
+   "form": {
+    "home": "LWLWW",
+    "away": "DDLWL"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-12-01",
+   "kickoff": "01:30",
+   "home": "Lecce",
+   "away": "Atalanta",
+   "home_name": "Lecce",
+   "away_name": "Atalanta",
+   "probabilities": {
+    "H": 0.2439,
+    "D": 0.279,
+    "A": 0.4771
+   },
+   "expected_goals": [
+    0.957,
+    1.443
+   ],
+   "pick": "Atalanta win 48% · Under 2.5 goals 57% · BTTS no 52%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.5698
+   },
+   "builder": {
+    "best": {
+     "joint": 0.4808,
+     "fair": 2.08,
+     "legs": [
+      {
+       "label": "Match corners under 13.5",
+       "prob": 0.9076,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Lecce shots on target over 2.5",
+       "prob": 0.8621,
+       "source": "form",
+       "hit": "10/12",
+       "group": "sot"
+      },
+      {
+       "label": "Match cards under 5.5",
+       "prob": 0.8486,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
+       "label": "Atalanta under 2.5 goals",
+       "prob": 0.8231,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Under 3.5 goals",
+       "prob": 0.7788,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.656,
+     "fair": 1.52,
+     "legs": [
+      {
+       "label": "Match corners under 13.5",
+       "prob": 0.9076,
+       "source": "form",
+       "hit": "13/15",
+       "group": "corners"
+      },
+      {
+       "label": "Lecce shots on target over 2.5",
+       "prob": 0.8621,
+       "source": "form",
+       "hit": "10/12",
+       "group": "sot"
+      },
+      {
+       "label": "Match cards under 5.5",
+       "prob": 0.8486,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Lecce cards under 3.5",
+     "hit": "15/15",
+     "prob": 0.9304,
+     "stat": "cards",
+     "direction": "under",
+     "line": 3.5
+    },
+    {
+     "label": "Match cards under 5.5",
+     "hit": "13/15",
+     "prob": 0.8486,
+     "stat": "cards",
+     "direction": "under",
+     "line": 5.5
+    },
+    {
+     "label": "Atalanta cards over 1.5",
+     "hit": "13/15",
+     "prob": 0.5536,
+     "stat": "cards",
+     "direction": "over",
+     "line": 1.5
+    },
+    {
+     "label": "Lecce corners under 6.5",
+     "hit": "13/15",
+     "prob": 0.5881,
+     "stat": "corners",
+     "direction": "under",
+     "line": 6.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Lecce most corners",
+     "prob": 0.7408
+    },
+    {
+     "label": "Atalanta most corners",
+     "prob": 0.1812
+    },
+    {
+     "label": "Lecce most cards",
+     "prob": 0.2775
+    },
+    {
+     "label": "Atalanta most cards",
+     "prob": 0.4919
+    }
+   ],
+   "form": {
+    "home": "LDLLL",
+    "away": "DWLDD"
+   }
+  },
+  {
+   "league": "serie_a",
+   "date": "2026-12-01",
+   "kickoff": "03:45",
+   "home": "Cagliari",
+   "away": "Milan",
+   "home_name": "Cagliari",
+   "away_name": "AC Milan",
+   "probabilities": {
+    "H": 0.2087,
+    "D": 0.2842,
+    "A": 0.5071
+   },
+   "expected_goals": [
+    0.812,
+    1.419
+   ],
+   "pick": "AC Milan win 51% · Under 2.5 goals 61% · BTTS no 57%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Under 2.5 goals",
+    "prob": 0.6145
+   },
+   "builder": {
+    "best": {
+     "joint": 0.5659,
+     "fair": 1.77,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8864,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Milan shots on target over 1.5",
+       "prob": 0.8965,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Cagliari shots over 7.5",
+       "prob": 0.8996,
+       "source": "form",
+       "hit": "11/15",
+       "group": "shots"
+      },
+      {
+       "label": "Milan over 0.5 goals",
+       "prob": 0.758,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Milan or draw",
+       "prob": 0.7913,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.7358,
+     "fair": 1.36,
+     "legs": [
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8864,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Milan shots on target over 1.5",
+       "prob": 0.8965,
+       "source": "form",
+       "hit": "12/15",
+       "group": "sot"
+      },
+      {
+       "label": "Cagliari shots over 7.5",
+       "prob": 0.8996,
+       "source": "form",
+       "hit": "11/15",
+       "group": "shots"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match shots on target over 6.5",
+     "hit": "14/15",
+     "prob": 0.7205,
+     "stat": "sot",
+     "direction": "over",
+     "line": 6.5
+    },
+    {
+     "label": "Cagliari cards under 2.5",
+     "hit": "12/15",
+     "prob": 0.8315,
+     "stat": "cards",
+     "direction": "under",
+     "line": 2.5
+    },
+    {
+     "label": "Cagliari corners under 7.5",
+     "hit": "12/15",
+     "prob": 0.8247,
+     "stat": "corners",
+     "direction": "under",
+     "line": 7.5
+    },
+    {
+     "label": "Match corners under 11.5",
+     "hit": "12/15",
+     "prob": 0.791,
+     "stat": "corners",
+     "direction": "under",
+     "line": 11.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Cagliari most corners",
+     "prob": 0.5463
+    },
+    {
+     "label": "AC Milan most corners",
+     "prob": 0.356
+    },
+    {
+     "label": "Cagliari most cards",
+     "prob": 0.2759
+    },
+    {
+     "label": "AC Milan most cards",
+     "prob": 0.4878
+    }
+   ],
+   "form": {
+    "home": "LWLLL",
+    "away": "WWWLW"
+   }
+  },
+  {
+   "league": "la_liga",
+   "date": "2026-12-01",
+   "kickoff": "04:00",
+   "home": "Espanol",
+   "away": "Getafe",
+   "home_name": "Espanyol",
+   "away_name": "Getafe",
+   "probabilities": {
+    "H": 0.5299,
+    "D": 0.2871,
+    "A": 0.183
+   },
+   "expected_goals": [
+    1.401,
+    0.709
+   ],
+   "pick": "Espanyol win 53% · Over 1.5 goals 63% · BTTS no 61%",
+   "elo_source": "ClubElo",
+   "xg_used": true,
+   "main_total": {
+    "label": "Over 1.5 goals",
+    "prob": 0.629
+   },
+   "builder": {
+    "best": {
+     "joint": 0.593,
+     "fair": 1.69,
+     "legs": [
+      {
+       "label": "Espanol shots on target over 2.5",
+       "prob": 0.9129,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8727,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.8425,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      },
+      {
+       "label": "Espanol over 0.5 goals",
+       "prob": 0.7537,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Espanol or draw",
+       "prob": 0.817,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.731,
+     "fair": 1.37,
+     "legs": [
+      {
+       "label": "Espanol shots on target over 2.5",
+       "prob": 0.9129,
+       "source": "form",
+       "hit": "13/15",
+       "group": "sot"
+      },
+      {
+       "label": "Over 0.5 goals",
+       "prob": 0.8727,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match shots over 19.5",
+       "prob": 0.8425,
+       "source": "form",
+       "hit": "12/15",
+       "group": "shots"
+      }
+     ]
+    }
+   },
+   "form_notes": [
+    {
+     "label": "Match cards over 2.5",
+     "hit": "14/15",
+     "prob": 0.8658,
+     "stat": "cards",
+     "direction": "over",
+     "line": 2.5
+    },
+    {
+     "label": "Espanol corners under 8.5",
+     "hit": "13/15",
+     "prob": 0.8221,
+     "stat": "corners",
+     "direction": "under",
+     "line": 8.5
+    },
+    {
+     "label": "Getafe corners under 4.5",
+     "hit": "13/15",
+     "prob": 0.6949,
+     "stat": "corners",
+     "direction": "under",
+     "line": 4.5
+    },
+    {
+     "label": "Match corners under 14.5",
+     "hit": "13/15",
+     "prob": 0.9316,
+     "stat": "corners",
+     "direction": "under",
+     "line": 14.5
+    }
+   ],
+   "most": [
+    {
+     "label": "Espanyol most corners",
+     "prob": 0.6639
+    },
+    {
+     "label": "Getafe most corners",
+     "prob": 0.2487
+    },
+    {
+     "label": "Espanyol most cards",
+     "prob": 0.2414
+    },
+    {
+     "label": "Getafe most cards",
+     "prob": 0.599
+    }
+   ],
+   "form": {
+    "home": "WDWLL",
+    "away": "LLWLD"
+   }
+  }
+ ],
+ "warnings": [],
+ "record": {
+  "n": 0
+ }
+}
