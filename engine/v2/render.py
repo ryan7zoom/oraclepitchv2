@@ -160,6 +160,12 @@ def _match_html(card: dict) -> str:
     notes = "".join(
         f'<div class="note-line"><span class="h">{escape(n.hit_text)}</span>'
         f'<span>{escape(n.label)}</span></div>' for n in card["notes"])
+    team_notes = "".join(
+        f'<div class="note-line"><span class="h">{escape(n.hit_text)}</span>'
+        f'<span>{escape(n.label)}</span></div>' for n in card.get("team_form", []))
+    match_notes = "".join(
+        f'<div class="note-line"><span class="h">{escape(n.hit_text)}</span>'
+        f'<span>{escape(n.label)}</span></div>' for n in card.get("match_form", []))
     best = card["builder"]["best"]
     safe = card["builder"]["safe"]
     markets = card["markets"]
@@ -178,7 +184,10 @@ def _match_html(card: dict) -> str:
   <div class="pick"><b>{escape(pick)}</b><br>
    Main total: {escape(main.label)} at {_pct(main.prob)} &middot; fair {_money(main.fair)}</div>
   <div class="sec">Form says <span style="font-weight:500;text-transform:none;letter-spacing:0">(history, not model)</span></div>
-  {notes or '<div class="small">No qualifying form note for this match.</div>'}
+  <div class="two">
+   <div><div class="small"><b>Team form</b></div>{team_notes or notes or '<div class="small">No qualifying team note.</div>'}</div>
+   <div><div class="small"><b>Match total form</b></div>{match_notes or '<div class="small">No qualifying match note.</div>'}</div>
+  </div>
   <div class="sec">Bet builder</div>
   {_builder_html(best, f"Best {len(best.legs)}-leg same-game builder") if best.legs else '<div class="small">No qualifying builder for this match.</div>'}
   {_builder_html(safe, "Safer 3-leg version") if safe.legs and best.legs and len(safe.legs) < len(best.legs) else ""}
@@ -241,7 +250,7 @@ def render(cards: List[dict], generated_at: datetime, data_through: str,
 <div class="head"><div><h1>OraclePitch</h1>
 <p class="sub">Top five leagues &middot; model v2 &middot; {escape(model_source)} &middot; data through {escape(data_through)}</p></div>
 <button id="theme">Dark mode</button></div>
-<p class="note">Probabilities are the model's chance of each market. The builder's joint chance comes from a correlated simulation of the same match. Ratings (ClubElo and xG) refresh weekly; results, odds and injuries refresh daily. Form notes are historical hit rates, not model output, and are shown as <b>9/10</b>.</p>
+<p class="note">Probabilities are the model's chance of each market. The builder's joint chance comes from a correlated simulation of the same match. Ratings (ClubElo and xG) refresh weekly; results, odds and injuries refresh daily. Form lines are generated around this match's expected count (a 25-shot match sits near 24.5; a 20-shot match near 19.5) and are labelled team or match total. They are historical hit rates, not model output, and are shown as <b>9/10</b>.</p>
 {rec}
 {bt}
 <div class="chips">{chips}</div>

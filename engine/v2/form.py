@@ -9,6 +9,7 @@ These are deliberately NOT probabilities from the model. They are shown as
 legs, but they never change the 1X2/goals numbers.
 """
 
+import math
 from dataclasses import dataclass
 from datetime import date
 from typing import Dict, List, Optional, Sequence
@@ -20,17 +21,37 @@ from engine.v2.sim import Sim
 
 TARGET_RATE = 0.80
 MIN_RATE = 0.70
+MAX_UNDER_RATE = 0.85       # don't show a 15/15 Under as a trend
 MIN_GAMES = 8
 WINDOWS = (15, 12, 10, 8)
 
-TEAM_CORNERS = [x + 0.5 for x in range(2, 11)]
-TOTAL_CORNERS = [x + 0.5 for x in range(8, 16)]
-TEAM_SHOTS = [x + 0.5 for x in range(7, 22)]
-TEAM_SOT = [x + 0.5 for x in range(1, 10)]
-TOTAL_SHOTS = [x + 0.5 for x in range(16, 33)]
-TOTAL_SOT = [x + 0.5 for x in range(5, 15)]
-TOTAL_CARDS = [x + 0.5 for x in range(2, 6)]
-TEAM_CARDS = [x + 0.5 for x in range(1, 5)]
+# A ladder is generated around THIS match's expected count, not a universal
+# floor. Match totals sit near the expected total; team totals sit near that
+# team's expected count. The low factor is deliberately close to the mean so
+# a 25-shot match does not get a 19.5 line.
+LADDER_FACTORS = {
+    ("shots", "total"): (0.96, 1.20),
+    ("shots", "team"): (0.80, 1.30),
+    ("sot", "total"): (1.00, 1.40),
+    ("sot", "team"): (0.75, 1.50),
+    ("corners", "total"): (0.90, 1.30),
+    ("corners", "team"): (0.80, 1.55),
+    ("cards", "total"): (0.60, 1.50),
+    ("cards", "team"): (0.60, 1.60),
+}
+
+
+def ladder(center: float, stat: str, subject: str) -> List[float]:
+    """Half-goal lines around the expected count for this fixture/team."""
+    kind = "total" if subject == "total" else "team"
+    lo_f, hi_f = LADDER_FACTORS[(stat, kind)]
+    center = max(1.0, center)
+    start = max(0.5, math.floor(center * lo_f) + 0.5)
+    if stat == "sot" and subject == "total":
+        start = max(8.5, start)      # the book's match-SOT ladder starts at 8.5
+    end = max(start + 3.0, math.ceil(center * hi_f) + 0.5)
+    n = int(round((end - start) / 0.5)) + 1
+    return [start + 0.5 * i for i in range(n)]
 
 
 @dataclass
@@ -95,77 +116,109 @@ def _values(book: TeamBook, league: str, team: str, stat: str, as_of: date,
     return out
 
 
-def _best(values: Sequence[float], lines: Sequence[float], directions: Sequence[str]):
-    best = None
+def _best(values: Sequence[float], lines: Sequence[float], direction: str):
+    """The line a bookmaker actually offers, chosen for a useful hit rate.
+
+    Over:  the lowest line that clears 70% (bookmaker ladder starts at 24.5 /
+           8.5 for match shots / SOT, so we never show 19.5 or 5.5).
+    Under: the highest line that still clears 70% but does not become pure
+           chalk (e.g. Under 13.5, not Under 15.5 at 15/15).
+    If nothing clears the filter, show the closest bookmaker line anyway.
+    """
     n = len(values)
     if n < MIN_GAMES:
         return None
-    for line in lines:
-        for direction in directions:
-            hits = sum(1 for v in values if (v > line if direction == "over" else v <= line))
-            rate = hits / n
-            if rate < MIN_RATE:
+    ordered = sorted(lines) if direction == "over" else sorted(lines, reverse=True)
+    fallback = None
+    for line in ordered:
+        hits = sum(1 for v in values if (v > line if direction == "over" else v <= line))
+        rate = hits / n
+        if rate < MIN_RATE or (direction == "under" and rate > MAX_UNDER_RATE):
+            if direction == "under" and rate > MAX_UNDER_RATE:
                 continue
-            # keep one fixed window: the longest one that still clears 70%
-            win = None
-            for w in WINDOWS:
-                if w > n:
-                    continue
+            if fallback is None or abs(rate - TARGET_RATE) < abs(fallback[0] - TARGET_RATE):
+                w = min(10, n)
                 hw = sum(1 for v in values[:w] if (v > line if direction == "over" else v <= line))
-                if hw / w >= MIN_RATE:
-                    win = (hw, w, hw / w)
-                    break
-            if win is None:
+                fallback = (rate, line, hw, w)
+            continue
+        win = None
+        for w in WINDOWS:
+            if w > n:
                 continue
-            cand = (abs(win[2] - TARGET_RATE), win[2], win[1], line, direction, win[0])
-            if best is None or cand < best:
-                best = cand
-    if best is None:
+            hw = sum(1 for v in values[:w] if (v > line if direction == "over" else v <= line))
+            if hw / w >= MIN_RATE:
+                win = (hw, w, hw / w)
+                break
+        if win is not None:
+            if direction == "over" or win[2] <= MAX_UNDER_RATE:
+                return line, direction, win[0], win[1], win[2]
+            continue
+        if direction == "under":
+            continue
+        if fallback is None or abs(rate - TARGET_RATE) < abs(fallback[0] - TARGET_RATE):
+            w = min(10, n)
+            hw = sum(1 for v in values[:w] if (v > line if direction == "over" else v <= line))
+            fallback = (rate, line, hw, w)
+    if direction == "under":
         return None
-    _, rate, window, line, direction, hits = best
-    return line, direction, hits, window, rate
+    if fallback is not None:
+        _, line, hits, window = fallback
+        return line, direction, hits, window, hits / window
+    return None
+
+
+def _means(sim: Sim) -> Dict[str, Dict[str, float]]:
+    out = {}
+    for stat, (h, a) in {"corners": ("c_h", "c_a"), "shots": ("s_h", "s_a"),
+                         "sot": ("t_h", "t_a"), "cards": ("yc_h", "yc_a")}.items():
+        hv, av = sim.column(h), sim.column(a)
+        out[stat] = {"home": float(hv.mean()), "away": float(av.mean()),
+                     "total": float((hv + av).mean())}
+    return out
 
 
 def candidates(book: TeamBook, league: str, home: str, away: str, as_of: date,
                sim: Sim) -> List[FormCandidate]:
     """Every qualifying form note for one fixture, with simulated probability."""
     out = []
+    means = _means(sim)
     specs = [
-        ("corners", "home", home, TEAM_CORNERS, ("over", "under")),
-        ("corners", "away", away, TEAM_CORNERS, ("over", "under")),
-        ("corners", "total", "", TOTAL_CORNERS, ("over", "under")),
-        ("shots", "home", home, TEAM_SHOTS, ("over",)),
-        ("shots", "away", away, TEAM_SHOTS, ("over",)),
-        ("shots", "total", "", TOTAL_SHOTS, ("over",)),
-        ("sot", "home", home, TEAM_SOT, ("over",)),
-        ("sot", "away", away, TEAM_SOT, ("over",)),
-        ("sot", "total", "", TOTAL_SOT, ("over",)),
-        ("cards", "total", "", TOTAL_CARDS, ("over", "under")),
-        ("cards", "home", home, TEAM_CARDS, ("over", "under")),
-        ("cards", "away", away, TEAM_CARDS, ("over", "under")),
+        ("corners", "home", home, ("over", "under")),
+        ("corners", "away", away, ("over", "under")),
+        ("corners", "total", "", ("over", "under")),
+        ("shots", "home", home, ("over",)),
+        ("shots", "away", away, ("over",)),
+        ("shots", "total", "", ("over",)),
+        ("sot", "home", home, ("over",)),
+        ("sot", "away", away, ("over",)),
+        ("sot", "total", "", ("over",)),
+        ("cards", "total", "", ("over", "under")),
+        ("cards", "home", home, ("over", "under")),
+        ("cards", "away", away, ("over", "under")),
     ]
-    for stat, subject, team, lines, directions in specs:
+    for stat, subject, team, directions in specs:
         if subject == "total":
             vals = _total_values(book, league, home, away, stat, as_of)
         else:
             vals = _values(book, league, team, stat, as_of, subject)
+        lines = ladder(means[stat][subject], stat, subject)
         # for total, values are one per match the two teams played separately; this is
         # only a rough form sample. Use matches in the league involving either side.
-        best = _best(vals, lines, directions)
-        if not best:
-            continue
-        line, direction, hits, window, rate = best
-        name = team if subject != "total" else "Match"
-        label_stat = {"corners": "corners", "shots": "shots", "sot": "shots on target",
-                      "cards": "cards"}[stat]
-        if subject == "total":
-            label = f"Match {label_stat} {direction} {line:g}"
-        else:
-            label = f"{name} {label_stat} {direction} {line:g}"
-        c = FormCandidate(stat, subject, direction, line, hits, window, rate, 0.0,
-                          label, team)
-        c.prob = sim.probability(c.mask(sim))
-        if 0.52 <= c.prob <= 0.94:
+        for direction in directions:
+            best = _best(vals, lines, direction)
+            if not best:
+                continue
+            line, direction, hits, window, rate = best
+            name = team if subject != "total" else "Match"
+            label_stat = {"corners": "corners", "shots": "shots", "sot": "shots on target",
+                          "cards": "cards"}[stat]
+            if subject == "total":
+                label = f"Match total {label_stat} {direction} {line:g}"
+            else:
+                label = f"{name} team {label_stat} {direction} {line:g}"
+            c = FormCandidate(stat, subject, direction, line, hits, window, rate, 0.0,
+                              label, team)
+            c.prob = sim.probability(c.mask(sim))
             out.append(c)
     # one candidate per (stat, subject, direction), best rate
     best_by = {}
@@ -195,17 +248,28 @@ def _total_values(book: TeamBook, league: str, home: str, away: str,
     return out[:40]
 
 
-def notes(book: TeamBook, league: str, home: str, away: str, as_of: date,
-          sim: Sim, limit: int = 4) -> List[FormCandidate]:
+def grouped(book: TeamBook, league: str, home: str, away: str, as_of: date,
+            sim: Sim):
+    """(team form, match form), each line already labelled with its scope."""
     cs = candidates(book, league, home, away, as_of, sim)
-    picked = []
-    used = set()
+    team, match = {}, {}
     for c in cs:
-        k = (c.stat, c.subject)
-        if k in used:
-            continue
-        used.add(k)
-        picked.append(c)
-        if len(picked) == limit:
-            break
-    return picked
+        if c.subject == "total":
+            match.setdefault(c.stat, c)
+        elif c.stat == "corners":
+            team.setdefault((c.subject, c.stat, c.direction), c)
+        else:
+            team.setdefault((c.subject, c.stat), c)
+    order = {"home": 0, "away": 1}
+    stat_order = {"corners": 0, "shots": 1, "sot": 2, "cards": 3}
+    team_list = sorted(team.values(), key=lambda c: (order.get(c.subject, 9),
+                                                     stat_order.get(c.stat, 9),
+                                                     c.direction))
+    match_list = sorted(match.values(), key=lambda c: stat_order.get(c.stat, 9))
+    return team_list, match_list
+
+
+def notes(book: TeamBook, league: str, home: str, away: str, as_of: date,
+          sim: Sim, limit: int = 12) -> List[FormCandidate]:
+    team, match = grouped(book, league, home, away, as_of, sim)
+    return (team + match)[:limit]

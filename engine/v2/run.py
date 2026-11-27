@@ -71,7 +71,8 @@ def _card(fx: Fixture, book: TeamBook, power: Power, model: goals.GoalModel,
     sm = sim.simulate(pred, stats, corr, n=n_sim, seed=zlib.crc32(fx.key.encode()) % (2**32))
     ms = markets.build(pred)
     form_cands = form.candidates(book, fx.league, fx.home, fx.away, fx.date, sm)
-    notes = form.notes(book, fx.league, fx.home, fx.away, fx.date, sm, limit=4)
+    team_form, match_form = form.grouped(book, fx.league, fx.home, fx.away, fx.date, sm)
+    notes = team_form + match_form
     slips = builder.build(pred, ms, form_cands, sm, max_legs=5)
     r = pred.result()
     return {
@@ -88,6 +89,8 @@ def _card(fx: Fixture, book: TeamBook, power: Power, model: goals.GoalModel,
         "main_total": markets.main_total(pred),
         "builder": slips,
         "notes": notes,
+        "team_form": team_form,
+        "match_form": match_form,
         "most": _most(sm, fx.home, fx.away),
         "form": {"home": _form(book.points(fx.league, fx.home, fx.date)),
                  "away": _form(book.points(fx.league, fx.away, fx.date))},
@@ -110,8 +113,14 @@ def _as_dict(card: dict) -> dict:
         "builder": {"best": card["builder"]["best"].to_dict(),
                     "safe": card["builder"]["safe"].to_dict()},
         "form_notes": [{"label": n.label, "hit": n.hit_text, "prob": round(n.prob, 4),
+                        "stat": n.stat, "direction": n.direction, "line": n.line,
+                        "subject": n.subject} for n in card["notes"]],
+        "team_form": [{"label": n.label, "hit": n.hit_text, "prob": round(n.prob, 4),
+                       "stat": n.stat, "direction": n.direction, "line": n.line,
+                       "subject": n.subject} for n in card["team_form"]],
+        "match_form": [{"label": n.label, "hit": n.hit_text, "prob": round(n.prob, 4),
                         "stat": n.stat, "direction": n.direction, "line": n.line}
-                       for n in card["notes"]],
+                       for n in card["match_form"]],
         "most": [{"label": x["label"], "prob": round(x["prob"], 4)} for x in card["most"]],
         "form": card["form"],
     }

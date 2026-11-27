@@ -88,6 +88,13 @@ class TestV2(unittest.TestCase):
         self.assertLessEqual(importance(40, 2.0), 1.0)
         self.assertGreater(importance(30, 0.5), 0.5)
 
+    def test_form_ladders_are_match_specific(self):
+        low = form.ladder(20, "shots", "total")
+        high = form.ladder(28, "shots", "total")
+        self.assertLess(min(low), min(high))
+        self.assertGreaterEqual(min(low), 0.5)
+        self.assertIn(8.5, form.ladder(8.0, "sot", "total"))
+
     def test_render_contains_prediction_and_builder(self):
         p = self.model.predict("epl", "Alpha", "Beta")
         sm = sim.simulate(p, self.book.expected("epl", "Alpha", "Beta", self.as_of),

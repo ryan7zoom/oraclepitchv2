@@ -62,8 +62,8 @@ def _total_markets(pred: GoalPrediction) -> List[Market]:
     out = []
     for line in TOTAL_LINES:
         over = pred.total_over(line)
-        out.append(Market(f"tot:O{line}", f"Over {line:g} goals", "goals", "total", "over", line, over))
-        out.append(Market(f"tot:U{line}", f"Under {line:g} goals", "goals", "total", "under", line, 1 - over))
+        out.append(Market(f"tot:O{line}", f"Match total over {line:g} goals", "goals", "total", "over", line, over))
+        out.append(Market(f"tot:U{line}", f"Match total under {line:g} goals", "goals", "total", "under", line, 1 - over))
     return out
 
 

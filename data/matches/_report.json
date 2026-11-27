@@ -1,11 +1,8 @@
 {
-  "run_at": "2026-11-27T07:48:48.097341+00:00",
+  "run_at": "2026-11-27T06:48:23.793470+00:00",
   "epl": {
     "errors": [],
     "odds_rows": 0,
-    "espn_filled": 0,
-    "espn_created": 0,
-    "unmatched_espn_names": [],
     "rows_total": 2010,
     "latest_match": "2026-11-23",
     "coverage_last_2_seasons_pct": {
@@ -23,10 +20,7 @@
   },
   "la_liga": {
     "errors": [],
-    "odds_rows": 0,
-    "espn_filled": 0,
-    "espn_created": 0,
-    "unmatched_espn_names": [],
+    "odds_rows": 2029,
     "rows_total": 2029,
     "latest_match": "2026-11-23",
     "coverage_last_2_seasons_pct": {
@@ -44,10 +38,7 @@
   },
   "bundesliga": {
     "errors": [],
-    "odds_rows": 0,
-    "espn_filled": 0,
-    "espn_created": 0,
-    "unmatched_espn_names": [],
+    "odds_rows": 1620,
     "rows_total": 1620,
     "latest_match": "2026-11-22",
     "coverage_last_2_seasons_pct": {
@@ -65,10 +56,7 @@
   },
   "serie_a": {
     "errors": [],
-    "odds_rows": 0,
-    "espn_filled": 0,
-    "espn_created": 0,
-    "unmatched_espn_names": [],
+    "odds_rows": 2020,
     "rows_total": 2020,
     "latest_match": "2026-11-23",
     "coverage_last_2_seasons_pct": {
@@ -86,10 +74,7 @@
   },
   "ligue_1": {
     "errors": [],
-    "odds_rows": 0,
-    "espn_filled": 0,
-    "espn_created": 0,
-    "unmatched_espn_names": [],
+    "odds_rows": 1777,
     "rows_total": 1777,
     "latest_match": "2026-11-22",
     "coverage_last_2_seasons_pct": {
@@ -104,6 +89,5 @@
       "xg_h": 24.4
     },
     "offsides_missing_last_2_seasons": 1
-  },
-  "_espn_requests_used": 50
+  }
 }

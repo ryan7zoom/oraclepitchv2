@@ -6,7 +6,7 @@ Each match gets:
 
 1. a model probability for 1X2, double chance, both teams to score, match totals and team totals;
 2. a correlated same-game builder built from those markets plus selected corners/shots/cards form legs;
-3. historical form notes for corners, shots, shots on target and cards (shown as `9/10`, never presented as model probabilities);
+3. historical form notes for corners, shots, shots on target and cards (shown as `9/10`, never presented as model probabilities). Lines are generated around each match's expected count, not a fixed global floor, and every note is labelled **team** or **match total**;
 4. the full model market list, with standalone Asian handicaps at the very bottom.
 
 No Champions League. No handicaps inside the builder.
