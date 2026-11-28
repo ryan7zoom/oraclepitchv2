@@ -33,6 +33,7 @@ SLUGS = {
     "bundesliga": "ger.1",
     "serie_a": "ita.1",
     "ligue_1": "fra.1",
+    "saudi": "ksa.1",
 }
 
 # ESPN team-statistic name -> our field stem (<stem>_h / <stem>_a)
@@ -69,6 +70,7 @@ class EspnClient:
     def __init__(self, budget: int, delay: float = 0.25, session=None):
         self.budget = budget
         self.used = 0
+        self.last_ok = True
         self.delay = delay
         self.session = session or http.make_session()
 
@@ -76,15 +78,18 @@ class EspnClient:
         if self.used >= self.budget:
             raise BudgetExhausted()
         self.used += 1
+        self.last_ok = False
         time.sleep(self.delay)
         r = http.get(self.session, url)
         if r.status_code != 200:
             logger.warning(f"ESPN HTTP {r.status_code}: {url} {r.text[:120]!r}")
             return None
         try:
-            return r.json()
+            data = r.json()
         except ValueError:
             return None
+        self.last_ok = True
+        return data
 
     def scoreboard(self, league: str, day) -> list:
         data = self._get_json(f"{BASE}/{SLUGS[league]}/scoreboard?dates={day:%Y%m%d}")

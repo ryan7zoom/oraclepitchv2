@@ -151,6 +151,31 @@ def _builder_html(slip, title: str) -> str:
             f'Fair price {_money(slip.fair)}. Model legs: {slip.model_legs}/{len(slip.legs)}.</div></div>')
 
 
+def _shapes_html(sh) -> str:
+    if not sh:
+        return ""
+
+    def rows(group):
+        out = []
+        for x in sh["shapes"]:
+            if x.group != group:
+                continue
+            tag = "" if x.source == "model" else " <span class='small'>(form)</span>"
+            out.append(f"<tr><td>{escape(x.label)}{tag}</td><td>{_pct(x.prob)}</td><td>{_money(x.fair)}</td></tr>")
+        return "".join(out)
+
+    head = "<tr><th>Pick</th><th>Chance</th><th>Fair price</th></tr>"
+    return (f'<div class="sec">Safe-style picks</div>'
+            f'<div class="small">Favourite: <b>{escape(sh["favourite"])}</b> ({_pct(sh["fav_win_prob"])} to win). '
+            f'Underdog: <b>{escape(sh["underdog"])}</b>. Compare the fair price with your bookmaker: '
+            f'take it only if the bookmaker pays more.</div>'
+            f'<div class="two"><div><div class="small"><b>Favourite</b></div><table>{head}{rows("favourite")}</table></div>'
+            + (f'<div><div class="small"><b>Underdog</b> (shots and corners come from form, not the model)</div>'
+               f'<table>{head}{rows("underdog")}</table></div></div>' if sh.get("underdog_shown", True) else
+               '<div><div class="small"><b>Underdog</b></div>'
+               '<div class="small">Hidden: this league does not have enough shots and corner data yet.</div></div></div>'))
+
+
 def _match_html(card: dict) -> str:
     p = card["pred"]
     home, away = display(card["home"]), display(card["away"])
@@ -188,9 +213,11 @@ def _match_html(card: dict) -> str:
    <div><div class="small"><b>Team form</b></div>{team_notes or notes or '<div class="small">No qualifying team note.</div>'}</div>
    <div><div class="small"><b>Match total form</b></div>{match_notes or '<div class="small">No qualifying match note.</div>'}</div>
   </div>
-  <div class="sec">Bet builder</div>
+  {_shapes_html(card.get("shapes"))}
+  <details class="hc"><summary style="cursor:pointer;color:var(--mute);font-size:12px;margin-top:12px">Bet builder (old style: goals, corners, cards)</summary>
   {_builder_html(best, f"Best {len(best.legs)}-leg same-game builder") if best.legs else '<div class="small">No qualifying builder for this match.</div>'}
   {_builder_html(safe, "Safer 3-leg version") if safe.legs and best.legs and len(safe.legs) < len(best.legs) else ""}
+  </details>
   <div class="sec">Most corners / most cards</div>
   {_most_table(card.get('most', []))}
  </div>

@@ -94,6 +94,25 @@ ALIASES = {
 }
 
 
+# Leagues with no football-data.co.uk name list: ESPN's own spelling is the
+# canonical name. Only exact (normalised) matches and explicit aliases merge two
+# spellings, so two different clubs are never fused by a fuzzy rule.
+OPEN_LEAGUES = {"saudi"}
+
+ALIASES["saudi"] = {
+    "al akhdoud": "Al Okhdood",
+    "al qadasiya": "Al Qadsiah",
+    "al qadisiyah": "Al Qadsiah",
+    "al kawkab": "Al Kawkab",
+    "neom": "Neom SC",
+    "al ahli saudi": "Al Ahli",
+    "al ahli jeddah": "Al Ahli",
+    "al hazm": "Al Hazem",
+    "al taawon": "Al Taawoun",
+    "al-taawoun": "Al Taawoun",
+}
+
+
 class TeamResolver:
     def __init__(self, league: str, canonical_names):
         self.league = league
@@ -101,6 +120,18 @@ class TeamResolver:
         self._norm = {c: norm(c) for c in self.canon}
         self._cache = {}
         self.unmatched = set()
+        self.new_names = set()      # open leagues: names seen for the first time
+
+    def lookup(self, name: str) -> Optional[str]:
+        """Resolve without ever registering a new name (used for other sources)."""
+        n = norm(name)
+        alias = ALIASES.get(self.league, {}).get(n)
+        if alias in self.canon:
+            return alias
+        for c, cn in self._norm.items():
+            if cn == n:
+                return c
+        return None
 
     def resolve(self, name: str) -> Optional[str]:
         if name not in self._cache:
@@ -112,6 +143,16 @@ class TeamResolver:
 
     def _resolve(self, name: str) -> Optional[str]:
         n = norm(name)
+        if self.league in OPEN_LEAGUES:
+            found = self.lookup(name)
+            if found is not None:
+                return found
+            alias = ALIASES.get(self.league, {}).get(n)
+            canonical = alias or name.strip()
+            self.canon.add(canonical)
+            self._norm[canonical] = norm(canonical)
+            self.new_names.add(canonical)
+            return canonical
         alias = ALIASES.get(self.league, {}).get(n)
         if alias in self.canon:
             return alias

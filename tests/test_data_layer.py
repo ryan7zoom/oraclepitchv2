@@ -231,3 +231,11 @@ class TestUpdate(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+def test_football_data_keeps_fractional_xg():
+    from engine.data.football_data import parse_csv
+    text = ("Date,HomeTeam,AwayTeam,FTHG,FTAG,HxG,AxG\n"
+            "22/11/2026,Werder Bremen,Hamburg,4,0,1.87,0.64\n")
+    m = parse_csv(text, "bundesliga", 2026)[0]
+    assert m.xg_h == 1.87 and m.xg_a == 0.64

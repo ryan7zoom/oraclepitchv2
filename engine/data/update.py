@@ -25,7 +25,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
 import config
-from engine.data import football_data, odds
+from engine.data import football_data, fotmob, odds
 from engine.data.espn import BudgetExhausted, EspnClient, SLUGS
 from engine.data.http import make_session
 from engine.data.model import STAT_FIELDS, Match, season_of
@@ -55,8 +55,28 @@ def update_football_data(store: Store, league: str, today, session, full: bool, 
         logger.info(f"[{league}] football-data {season}: {len(matches)} matches")
 
 
+def _scanned_path(league: str) -> str:
+    return os.path.join(config.MATCH_DATA_DIR, f"_espn_scanned_{league}.json")
+
+
+def _load_scanned(league: str) -> set:
+    try:
+        with open(_scanned_path(league), encoding="utf-8") as f:
+            return set(json.load(f).get("days", []))
+    except (OSError, ValueError):
+        return set()
+
+
+def _save_scanned(league: str, days: set) -> None:
+    os.makedirs(config.MATCH_DATA_DIR, exist_ok=True)
+    with open(_scanned_path(league), "w", encoding="utf-8") as f:
+        json.dump({"days": sorted(days)}, f)
+
+
 def update_espn(store: Store, league: str, today, espn, report: dict) -> None:
     resolver = TeamResolver(league, store.names())
+    only = league in config.ESPN_ONLY_LEAGUES
+    scanned = _load_scanned(league) if only else set()
     first_season = season_of(today) - (config.OFFSIDES_SEASONS - 1)
 
     fill = config.ESPN_FILL_OFFSIDES
@@ -67,12 +87,21 @@ def update_espn(store: Store, league: str, today, espn, report: dict) -> None:
             need_by_date[m.date].append(m)
 
     recent = {today - timedelta(days=k) for k in range(config.ESPN_RECENT_DAYS)}
-    dates = sorted(set(need_by_date) | recent, reverse=True)
+    backfill = set()
+    if only:
+        # No football-data file: walk back through ESPN's daily scoreboards, newest
+        # first, skipping the Jun-Jul off-season and days already scanned.
+        for k in range(config.ESPN_RECENT_DAYS, config.ESPN_BACKFILL_DAYS):
+            d = today - timedelta(days=k)
+            if d.month not in (6, 7) and d.isoformat() not in scanned:
+                backfill.add(d)
+    dates = sorted(set(need_by_date) | recent | backfill, reverse=True)
     created = filled = 0
 
     try:
         for d in dates:
             events = espn.scoreboard(league, d)
+            day_ok = getattr(espn, "last_ok", True)
             touched = set()
             for ev in events:
                 if not ev.completed or ev.home_score is None or ev.away_score is None:
@@ -89,7 +118,10 @@ def update_espn(store: Store, league: str, today, espn, report: dict) -> None:
                 if stats is None:
                     if row is not None:
                         row.espn_tried += 1
-                    continue
+                        continue
+                    if not only:
+                        continue
+                    stats = {}      # ESPN-only league: keep the result even with no team stats
                 if row is not None:
                     store.fill_from_espn(row, stats, ev.ht)
                     row.espn_id = ev.id
@@ -107,12 +139,23 @@ def update_espn(store: Store, league: str, today, espn, report: dict) -> None:
             for m in need_by_date.get(d, []):
                 if id(m) not in touched:
                     m.espn_tried += 1
+            if only and day_ok and d < today - timedelta(days=config.ESPN_RECENT_DAYS):
+                scanned.add(d.isoformat())
     except BudgetExhausted:
         logger.info(f"[{league}] ESPN request budget used up - will continue next run")
         report["budget_exhausted"] = True
+    finally:
+        if only:
+            _save_scanned(league, scanned)
 
     report["espn_filled"], report["espn_created"] = filled, created
     report["unmatched_espn_names"] = sorted(resolver.unmatched)
+    if only:
+        report["new_team_names"] = sorted(resolver.new_names)
+        report["backfill_days_left"] = sum(
+            1 for k in range(config.ESPN_RECENT_DAYS, config.ESPN_BACKFILL_DAYS)
+            if (today - timedelta(days=k)).month not in (6, 7)
+            and (today - timedelta(days=k)).isoformat() not in scanned)
     if resolver.unmatched:
         logger.warning(f"[{league}] ESPN names not matched: {sorted(resolver.unmatched)}")
 
@@ -128,7 +171,16 @@ def build_report(store: Store, today, report: dict) -> None:
     report["offsides_missing_last_2_seasons"] = sum(m.needs_offsides for m in rows)
 
 
-def run(today, leagues, budget: int, full: bool, use_espn: bool, espn=None, use_odds: bool = True) -> dict:
+def update_fotmob_xg(store: Store, league: str, today, report: dict, client=None) -> None:
+    if league not in config.FOTMOB_XG_LEAGUES:
+        return
+    client = client or fotmob.FotmobClient(budget=config.FOTMOB_MAX_REQUESTS)
+    resolver = TeamResolver(league, store.names())
+    fotmob.fill_xg(store, league, today, client, resolver, report)
+
+
+def run(today, leagues, budget: int, full: bool, use_espn: bool, espn=None, use_odds: bool = True,
+        use_fotmob: bool = False, fotmob_client=None) -> dict:
     session = make_session()
     if use_espn and espn is None:
         espn = EspnClient(budget=budget, session=session)
@@ -138,8 +190,10 @@ def run(today, leagues, budget: int, full: bool, use_espn: bool, espn=None, use_
         report = {"errors": []}
         store = Store(league, os.path.join(config.MATCH_DATA_DIR, f"{league}.csv"))
         store.load()
-        update_football_data(store, league, today, session, full, report)
-        if use_odds:
+        only = league in config.ESPN_ONLY_LEAGUES
+        if not only:
+            update_football_data(store, league, today, session, full, report)
+        if use_odds and not only:
             try:
                 report["odds_rows"] = odds.update(
                     league, range(current - config.DATA_SEASONS_BACK, current + 1), session)
@@ -148,6 +202,12 @@ def run(today, leagues, budget: int, full: bool, use_espn: bool, espn=None, use_
                 report["errors"].append(f"odds: {e}")
         if use_espn:
             update_espn(store, league, today, espn, report)
+        if use_fotmob and only:
+            try:
+                update_fotmob_xg(store, league, today, report, client=fotmob_client)
+            except Exception as e:      # xG is optional: never fatal
+                logger.warning(f"[{league}] FotMob xG failed: {e}")
+                report["errors"].append(f"fotmob: {e}")
         build_report(store, today, report)
         store.save()
         full_report[league] = report
@@ -165,6 +225,11 @@ def print_summary(full_report: dict) -> None:
               f"offsides_missing(last 2 seasons)={r.get('offsides_missing_last_2_seasons')} "
               f"espn_filled={r.get('espn_filled')} espn_new={r.get('espn_created')}")
         print(f"    coverage %: {r.get('coverage_last_2_seasons_pct')}")
+        if r.get("backfill_days_left") is not None:
+            print(f"    history backfill: {r['backfill_days_left']} days still to scan "
+                  f"(run again if this is not 0); team names: {r.get('new_team_names')}")
+        if r.get("fotmob_status"):
+            print(f"    FotMob xG: filled={r.get('fotmob_xg_filled')} status={r['fotmob_status']}")
         if r.get("unmatched_espn_names"):
             print(f"    UNMATCHED ESPN NAMES: {r['unmatched_espn_names']}")
         for e in r["errors"]:
@@ -179,6 +244,7 @@ def main():
     p.add_argument("--full", action="store_true", help="refetch every football-data season")
     p.add_argument("--no-espn", action="store_true")
     p.add_argument("--no-odds", action="store_true")
+    p.add_argument("--no-fotmob", action="store_true", help="skip the optional FotMob xG step")
     p.add_argument("--today", default=None, help="YYYY-MM-DD (testing); default: today (UTC)")
     args = p.parse_args()
 
@@ -187,7 +253,7 @@ def main():
     leagues = args.leagues.split(",") if args.leagues else list(SLUGS)
 
     full_report = run(today, leagues, args.espn_budget, args.full, not args.no_espn,
-                      use_odds=not args.no_odds)
+                      use_odds=not args.no_odds, use_fotmob=not args.no_fotmob)
     os.makedirs(config.MATCH_DATA_DIR, exist_ok=True)
     with open(os.path.join(config.MATCH_DATA_DIR, "_report.json"), "w") as f:
         json.dump({"run_at": datetime.now(timezone.utc).isoformat(), **full_report}, f, indent=2)

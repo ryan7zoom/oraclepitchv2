@@ -18,7 +18,7 @@ from datetime import date, datetime, timedelta, timezone
 from typing import Dict, List
 
 from engine.trends.names import display
-from engine.v2 import MODEL_VERSION, builder, form, goals, ledger, markets, ratings, render, sim
+from engine.v2 import MODEL_VERSION, builder, form, goals, ledger, markets, ratings, render, shapes, sim
 from engine.v2.features import LEAGUES, TeamBook
 from engine.v2.fixtures import Fixture, fetch as fetch_fixtures, from_json, league_name
 from engine.v2.injuries import InjuryBook
@@ -64,6 +64,16 @@ def _most(sm, home: str, away: str) -> list:
     return out
 
 
+def _has_team_stats(book: TeamBook, league: str, as_of) -> bool:
+    """Enough shots-on-target and corner data to trust underdog shots/corners picks."""
+    ms = [m for m in book.raw.get(league, []) if m.finished and (as_of - m.date).days <= 365]
+    if len(ms) < 30:
+        return False
+    ok = sum(1 for m in ms if m.sot_h is not None and m.sot_a is not None
+             and m.co_h is not None and m.co_a is not None)
+    return ok / len(ms) >= 0.5
+
+
 def _card(fx: Fixture, book: TeamBook, power: Power, model: goals.GoalModel,
           corr, n_sim: int) -> dict:
     pred = model.predict(fx.league, fx.home, fx.away)
@@ -74,6 +84,8 @@ def _card(fx: Fixture, book: TeamBook, power: Power, model: goals.GoalModel,
     team_form, match_form = form.grouped(book, fx.league, fx.home, fx.away, fx.date, sm)
     notes = team_form + match_form
     slips = builder.build(pred, ms, form_cands, sm, max_legs=5)
+    safe_shapes = shapes.build(pred, sm, display(fx.home), display(fx.away),
+                               include_underdog=_has_team_stats(book, fx.league, fx.date))
     r = pred.result()
     return {
         "league": fx.league,
@@ -88,6 +100,7 @@ def _card(fx: Fixture, book: TeamBook, power: Power, model: goals.GoalModel,
         "markets": ms,
         "main_total": markets.main_total(pred),
         "builder": slips,
+        "shapes": safe_shapes,
         "notes": notes,
         "team_form": team_form,
         "match_form": match_form,

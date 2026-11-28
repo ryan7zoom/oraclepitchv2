@@ -162,7 +162,7 @@ class GoalModel:
         pred = GoalPrediction(
             league=league, home=home, away=away, lam_h=lh, lam_a=la, grid=grid,
             total=total_model, supremacy=sup, sup_model=sup_model,
-            sup_elo=sup_elo, xg_used=xg_used, elo_source=self.power.source,
+            sup_elo=sup_elo, xg_used=xg_used, elo_source=self.power.source_for(league),
         )
         self._cache[key] = pred
         return pred

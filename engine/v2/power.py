@@ -219,6 +219,11 @@ class LocalElo:
         return float(intercept), float(np.clip(slope, 0.10, 0.70))
 
 
+# Leagues ClubElo does not cover reliably: always rated from their own results,
+# so one league never mixes two rating scales.
+LOCAL_ONLY_LEAGUES = {"saudi"}
+
+
 class Power:
     def __init__(self, book: TeamBook, as_of: date, use_clubelo: bool = True,
                  auto_fetch: bool = True):
@@ -236,7 +241,7 @@ class Power:
         self.hfa, self.slope = self.local.fit_hfa_slope(as_of)
 
     def rating(self, team: str, league: str) -> Optional[float]:
-        if self.clubelo:
+        if self.clubelo and league not in LOCAL_ONLY_LEAGUES:
             v = self.clubelo.get(team)
             if v is not None:
                 return v
@@ -245,6 +250,9 @@ class Power:
     @property
     def source(self) -> str:
         return self.clubelo.source if self.clubelo else "local Elo"
+
+    def source_for(self, league: str) -> str:
+        return "local Elo" if league in LOCAL_ONLY_LEAGUES else self.source
 
     def expected_supremacy(self, home: str, away: str, league: str) -> Optional[float]:
         rh, ra = self.rating(home, league), self.rating(away, league)

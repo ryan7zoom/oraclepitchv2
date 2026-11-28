@@ -8,7 +8,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from engine.data.model import Match
-from engine.v2 import builder, form, goals, markets, render, sim
+from engine.v2 import builder, form, goals, markets, render, shapes, sim
 from engine.v2.features import TeamBook
 from engine.v2.injuries import InjuryBook
 from engine.v2.injuries_fpl import importance
@@ -78,6 +78,32 @@ class TestV2(unittest.TestCase):
         self.assertLessEqual(best.joint, min(l.prob for l in best.legs) + 1e-6)
         groups = [l.group for l in best.legs]
         self.assertEqual(len(groups), len(set(groups)))
+
+    def test_safe_shapes_are_consistent_and_rendered(self):
+        p = self.model.predict("epl", "Alpha", "Beta")
+        sm = sim.simulate(p, self.book.expected("epl", "Alpha", "Beta", self.as_of),
+                          sim.estimate_corr(self.book, "epl", self.as_of), n=4000, seed=3)
+        sh = shapes.build(p, sm, "Alpha", "Beta")
+        by = {x.label: x.prob for x in sh["shapes"]}
+        fav = sh["favourite"]
+        # adding a goals-under leg can only lower the chance; a wider under is easier
+        self.assertLessEqual(by[f"{fav} double chance + under 5.5 goals"], by[f"{fav} double chance"] + 1e-9)
+        self.assertLessEqual(by[f"{fav} double chance + under 4.5 goals"],
+                             by[f"{fav} double chance + under 5.5 goals"] + 1e-9)
+        self.assertLessEqual(by[f"{fav} to win"], by[f"{fav} double chance"] + 1e-9)
+        self.assertEqual({x.group for x in sh["shapes"]}, {"favourite", "underdog"})
+        ms = markets.build(p)
+        cands = form.candidates(self.book, "epl", "Alpha", "Beta", self.as_of, sm)
+        card = {"league": "epl", "date": "2026-10-02", "kickoff": "20:00",
+                "home": "Alpha", "away": "Beta", "pred": p, "markets": ms,
+                "main_total": markets.main_total(p), "builder": builder.build(p, ms, cands, sm),
+                "shapes": sh, "notes": [], "most": [], "pick": "Alpha win",
+                "form": {"home": "WWDLW", "away": "LDWLL"}}
+        html = render.render([card], __import__("datetime").datetime(2026, 10, 1),
+                             "2026-09-30", "local Elo", [])
+        self.assertIn("Safe-style picks", html)
+        self.assertIn("double chance + under 5.5 goals", html)
+        self.assertNotIn("All model markets", html)
 
     def test_injury_factor_neutral_without_file(self):
         ib = InjuryBook([])

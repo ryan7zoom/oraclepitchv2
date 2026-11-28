@@ -93,3 +93,20 @@ ESPN_RECENT_DAYS = 10
 # add matches football-data.co.uk has not posted yet (a few requests a day).
 # Set True to resume the offsides backfill.
 ESPN_FILL_OFFSIDES = False
+
+
+# ---------------------------------------------------------------------------
+# Leagues with no football-data.co.uk file. ESPN is their only match source,
+# so team names are taken as ESPN spells them and history is backfilled from
+# ESPN's daily scoreboards over several runs (skipping the Jun-Jul off-season).
+# ---------------------------------------------------------------------------
+ESPN_ONLY_LEAGUES = {"saudi"}
+
+# How far back the first backfill reaches (days). About two seasons.
+ESPN_BACKFILL_DAYS = 600
+
+# Optional xG from FotMob for those leagues (unofficial endpoint, best effort).
+# If FotMob refuses the request the run carries on without xG.
+FOTMOB_XG_LEAGUES = {"saudi": "KSA"}      # league key -> FotMob country code
+FOTMOB_MAX_REQUESTS = 60                  # per run (day lists + match pages)
+FOTMOB_MAX_TRIES = 2                      # per match, then left alone

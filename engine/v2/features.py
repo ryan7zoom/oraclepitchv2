@@ -23,9 +23,9 @@ import numpy as np
 from engine.data.model import Match
 from engine.data.store import Store
 
-LEAGUES = ["epl", "la_liga", "bundesliga", "serie_a", "ligue_1"]
+LEAGUES = ["epl", "la_liga", "bundesliga", "serie_a", "ligue_1", "saudi"]
 LEAGUE_NAMES = {"epl": "Premier League", "la_liga": "La Liga", "bundesliga": "Bundesliga",
-                "serie_a": "Serie A", "ligue_1": "Ligue 1"}
+                "serie_a": "Serie A", "ligue_1": "Ligue 1", "saudi": "Saudi Pro League"}
 
 STAT_COLS = {
     "goals": ("ft_h", "ft_a"),
