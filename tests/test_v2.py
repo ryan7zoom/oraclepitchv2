@@ -3,6 +3,8 @@
 import os
 import sys
 import unittest
+
+import numpy as np
 from datetime import date, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -79,19 +81,19 @@ class TestV2(unittest.TestCase):
         groups = [l.group for l in best.legs]
         self.assertEqual(len(groups), len(set(groups)))
 
-    def test_safe_shapes_are_consistent_and_rendered(self):
+    def test_safe_builder_follows_the_rules_and_renders(self):
         p = self.model.predict("epl", "Alpha", "Beta")
         sm = sim.simulate(p, self.book.expected("epl", "Alpha", "Beta", self.as_of),
                           sim.estimate_corr(self.book, "epl", self.as_of), n=4000, seed=3)
         sh = shapes.build(p, sm, "Alpha", "Beta")
-        by = {x.label: x.prob for x in sh["shapes"]}
-        fav = sh["favourite"]
-        # adding a goals-under leg can only lower the chance; a wider under is easier
-        self.assertLessEqual(by[f"{fav} double chance + under 5.5 goals"], by[f"{fav} double chance"] + 1e-9)
-        self.assertLessEqual(by[f"{fav} double chance + under 4.5 goals"],
-                             by[f"{fav} double chance + under 5.5 goals"] + 1e-9)
-        self.assertLessEqual(by[f"{fav} to win"], by[f"{fav} double chance"] + 1e-9)
-        self.assertEqual({x.group for x in sh["shapes"]}, {"favourite", "underdog"})
+        pick = sh["pick"]
+        self.assertGreaterEqual(len(pick.legs), shapes.MIN_LEGS)
+        self.assertLessEqual(len(pick.legs), shapes.MAX_LEGS)
+        slots = [l.slot for l in pick.legs]
+        self.assertEqual(len(slots), len(set(slots)))          # no conflicting legs
+        self.assertLessEqual(pick.joint, min(l.prob for l in pick.legs) + 1e-9)
+        if pick.floor_met:
+            self.assertGreaterEqual(pick.fair, shapes.MIN_FAIR - 1e-9)
         ms = markets.build(p)
         cands = form.candidates(self.book, "epl", "Alpha", "Beta", self.as_of, sm)
         card = {"league": "epl", "date": "2026-10-02", "kickoff": "20:00",
@@ -101,9 +103,58 @@ class TestV2(unittest.TestCase):
                 "form": {"home": "WWDLW", "away": "LDWLL"}}
         html = render.render([card], __import__("datetime").datetime(2026, 10, 1),
                              "2026-09-30", "local Elo", [])
-        self.assertIn("Safe-style picks", html)
-        self.assertIn("double chance + under 5.5 goals", html)
+        self.assertIn("Safe-style builder", html)
+        for l in pick.legs:
+            self.assertIn(l.label, html)
+        self.assertIn("Fair price", html)
         self.assertNotIn("All model markets", html)
+        self.assertIn("backdrop-filter", html)
+
+    def test_safe_builder_picks_highest_chance_above_the_price_floor(self):
+        class Stub:
+            home, away = "Home", "Away"
+            def result(self):
+                return {"H": 0.62, "D": 0.24, "A": 0.14}
+        rng = np.random.default_rng(11)
+        n = 12000
+        data = np.zeros((n, len(sim.VARS)), dtype=np.uint16)
+        for name, lam in (("g_h", 1.9), ("g_a", 0.9), ("c_a", 3.5), ("s_a", 9.0), ("t_a", 3.2)):
+            data[:, sim.VARS.index(name)] = rng.poisson(lam, n)
+        sm = sim.Sim(data, 0)
+        sh = shapes.build(Stub(), sm, "Home", "Away")
+        pick = sh["pick"]
+        self.assertTrue(pick.floor_met)
+        self.assertGreaterEqual(pick.fair, 1.20 - 1e-9)
+        # never two legs of the same kind
+        labels = " ".join(l.label for l in pick.legs)
+        self.assertLessEqual(labels.count("Under"), 1)
+        self.assertFalse("double chance" in labels and "to win" in labels)
+        # no two-leg alternative with a price above the floor beats it by more than the tie margin
+        fav = sh["favourite"]
+        gh, ga = sm.column("g_h"), sm.column("g_a")
+        tot = gh + ga
+        for ln in shapes.UNDER_LINES:
+            for res in (gh >= ga, gh > ga):
+                j = sm.joint([res, tot <= ln])
+                if j <= shapes.MAX_JOINT:
+                    self.assertLessEqual(j, pick.joint + shapes.TIE + 1e-9)
+
+    def test_safe_builder_has_no_price_cap(self):
+        # an even match has no safe 80%+ builder: the best builder is simply the
+        # highest-chance one, and a long price is not penalised or capped
+        class Even:
+            home, away = "Home", "Away"
+            def result(self):
+                return {"H": 0.36, "D": 0.28, "A": 0.36}
+        rng = np.random.default_rng(5)
+        n = 12000
+        data = np.zeros((n, len(sim.VARS)), dtype=np.uint16)
+        for name, lam in (("g_h", 1.1), ("g_a", 1.1), ("c_a", 4.0), ("s_a", 10.0), ("t_a", 3.5)):
+            data[:, sim.VARS.index(name)] = rng.poisson(lam, n)
+        pick = shapes.build(Even(), sim.Sim(data, 0), "Home", "Away")["pick"]
+        self.assertGreaterEqual(len(pick.legs), 2)
+        self.assertGreater(pick.joint, 0)
+        self.assertGreaterEqual(pick.fair, 1.20 - 1e-9)
 
     def test_injury_factor_neutral_without_file(self):
         ib = InjuryBook([])

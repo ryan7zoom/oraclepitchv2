@@ -136,6 +136,8 @@ def _as_dict(card: dict) -> dict:
                        for n in card["match_form"]],
         "most": [{"label": x["label"], "prob": round(x["prob"], 4)} for x in card["most"]],
         "form": card["form"],
+        "safe_builder": (card["shapes"]["pick"].to_dict()
+                         if card.get("shapes") and card["shapes"].get("pick") else None),
     }
 
 

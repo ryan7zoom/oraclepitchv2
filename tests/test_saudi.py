@@ -240,9 +240,11 @@ class TestSaudiModel(unittest.TestCase):
         sm = sim.simulate(p, book.expected("saudi", "Al Hilal", "Al Nassr", as_of),
                           sim.estimate_corr(book, "saudi", as_of), n=2000, seed=1)
         hidden = shapes.build(p, sm, "Al Hilal", "Al Nassr", include_underdog=False)
-        self.assertEqual({s.group for s in hidden["shapes"]}, {"favourite"})
+        self.assertEqual({l.side for l in hidden["pick"].legs}, {"favourite"})
+        self.assertFalse(hidden["underdog_shown"])
         shown = shapes.build(p, sm, "Al Hilal", "Al Nassr")
-        self.assertEqual({s.group for s in shown["shapes"]}, {"favourite", "underdog"})
+        self.assertTrue(shown["underdog_shown"])
+        self.assertGreaterEqual(len(shown["pick"].legs), 2)
 
 
 if __name__ == "__main__":
