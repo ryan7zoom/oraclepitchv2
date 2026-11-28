@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T13:41:10.160358+00:00",
+ "generated_at": "2026-11-28T14:00:15.685855+00:00",
  "model_version": "2.0.0",
  "model_source": "ClubElo",
  "xg_snapshot_date": "2026-11-28",
@@ -12,359 +12,6 @@
   "saudi": "2026-11-27"
  },
  "fixtures": [
-  {
-   "league": "serie_a",
-   "date": "2026-11-28",
-   "kickoff": "22:00",
-   "home": "Frosinone",
-   "away": "Parma",
-   "home_name": "Frosinone",
-   "away_name": "Parma",
-   "probabilities": {
-    "H": 0.5982,
-    "D": 0.2234,
-    "A": 0.1784
-   },
-   "expected_goals": [
-    1.981,
-    0.993
-   ],
-   "pick": "Frosinone win 60% · Match total over 2.5 goals 57% · BTTS yes 55%",
-   "elo_source": "ClubElo",
-   "xg_used": true,
-   "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5711
-   },
-   "builder": {
-    "best": {
-     "joint": 0.4063,
-     "fair": 2.46,
-     "legs": [
-      {
-       "label": "Frosinone over 0.5 goals",
-       "prob": 0.8621,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Frosinone or draw",
-       "prob": 0.8216,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      },
-      {
-       "label": "Match total over 1.5 goals",
-       "prob": 0.802,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Match total cards under 4.5",
-       "prob": 0.7985,
-       "source": "form",
-       "hit": "11/15",
-       "group": "cards"
-      },
-      {
-       "label": "Frosinone most corners",
-       "prob": 0.8357,
-       "source": "form",
-       "hit": "",
-       "group": "most_corners"
-      }
-     ]
-    },
-    "safe": {
-     "joint": 0.6723,
-     "fair": 1.49,
-     "legs": [
-      {
-       "label": "Frosinone over 0.5 goals",
-       "prob": 0.8621,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Frosinone or draw",
-       "prob": 0.8216,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      },
-      {
-       "label": "Match total over 1.5 goals",
-       "prob": 0.802,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      }
-     ]
-    }
-   },
-   "form_notes": [
-    {
-     "label": "Frosinone team corners over 6.5",
-     "hit": "6/10",
-     "prob": 0.6837,
-     "stat": "corners",
-     "direction": "over",
-     "line": 6.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team corners under 9.5",
-     "hit": "11/15",
-     "prob": 0.6262,
-     "stat": "corners",
-     "direction": "under",
-     "line": 9.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team shots over 18.5",
-     "hit": "5/10",
-     "prob": 0.7147,
-     "stat": "shots",
-     "direction": "over",
-     "line": 18.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team shots on target over 5.5",
-     "hit": "6/10",
-     "prob": 0.6787,
-     "stat": "sot",
-     "direction": "over",
-     "line": 5.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team cards over 0.5",
-     "hit": "6/10",
-     "prob": 0.6503,
-     "stat": "cards",
-     "direction": "over",
-     "line": 0.5,
-     "subject": "home"
-    },
-    {
-     "label": "Parma team corners over 2.5",
-     "hit": "6/10",
-     "prob": 0.6349,
-     "stat": "corners",
-     "direction": "over",
-     "line": 2.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team shots over 7.5",
-     "hit": "4/10",
-     "prob": 0.6745,
-     "stat": "shots",
-     "direction": "over",
-     "line": 7.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team shots on target over 2.5",
-     "hit": "6/10",
-     "prob": 0.6041,
-     "stat": "sot",
-     "direction": "over",
-     "line": 2.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team cards over 1.5",
-     "hit": "3/10",
-     "prob": 0.5477,
-     "stat": "cards",
-     "direction": "over",
-     "line": 1.5,
-     "subject": "away"
-    },
-    {
-     "label": "Match total corners over 10.5",
-     "hit": "9/10",
-     "prob": 0.6338,
-     "stat": "corners",
-     "direction": "over",
-     "line": 10.5,
-     "subject": "total"
-    },
-    {
-     "label": "Match total shots over 31.5",
-     "hit": "6/10",
-     "prob": 0.5449,
-     "stat": "shots",
-     "direction": "over",
-     "line": 31.5,
-     "subject": "total"
-    },
-    {
-     "label": "Match total shots on target over 10.5",
-     "hit": "7/10",
-     "prob": 0.4587,
-     "stat": "sot",
-     "direction": "over",
-     "line": 10.5,
-     "subject": "total"
-    },
-    {
-     "label": "Match total cards under 4.5",
-     "hit": "11/15",
-     "prob": 0.7985,
-     "stat": "cards",
-     "direction": "under",
-     "line": 4.5,
-     "subject": "total"
-    }
-   ],
-   "team_form": [
-    {
-     "label": "Frosinone team corners over 6.5",
-     "hit": "6/10",
-     "prob": 0.6837,
-     "stat": "corners",
-     "direction": "over",
-     "line": 6.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team corners under 9.5",
-     "hit": "11/15",
-     "prob": 0.6262,
-     "stat": "corners",
-     "direction": "under",
-     "line": 9.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team shots over 18.5",
-     "hit": "5/10",
-     "prob": 0.7147,
-     "stat": "shots",
-     "direction": "over",
-     "line": 18.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team shots on target over 5.5",
-     "hit": "6/10",
-     "prob": 0.6787,
-     "stat": "sot",
-     "direction": "over",
-     "line": 5.5,
-     "subject": "home"
-    },
-    {
-     "label": "Frosinone team cards over 0.5",
-     "hit": "6/10",
-     "prob": 0.6503,
-     "stat": "cards",
-     "direction": "over",
-     "line": 0.5,
-     "subject": "home"
-    },
-    {
-     "label": "Parma team corners over 2.5",
-     "hit": "6/10",
-     "prob": 0.6349,
-     "stat": "corners",
-     "direction": "over",
-     "line": 2.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team shots over 7.5",
-     "hit": "4/10",
-     "prob": 0.6745,
-     "stat": "shots",
-     "direction": "over",
-     "line": 7.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team shots on target over 2.5",
-     "hit": "6/10",
-     "prob": 0.6041,
-     "stat": "sot",
-     "direction": "over",
-     "line": 2.5,
-     "subject": "away"
-    },
-    {
-     "label": "Parma team cards over 1.5",
-     "hit": "3/10",
-     "prob": 0.5477,
-     "stat": "cards",
-     "direction": "over",
-     "line": 1.5,
-     "subject": "away"
-    }
-   ],
-   "match_form": [
-    {
-     "label": "Match total corners over 10.5",
-     "hit": "9/10",
-     "prob": 0.6338,
-     "stat": "corners",
-     "direction": "over",
-     "line": 10.5
-    },
-    {
-     "label": "Match total shots over 31.5",
-     "hit": "6/10",
-     "prob": 0.5449,
-     "stat": "shots",
-     "direction": "over",
-     "line": 31.5
-    },
-    {
-     "label": "Match total shots on target over 10.5",
-     "hit": "7/10",
-     "prob": 0.4587,
-     "stat": "sot",
-     "direction": "over",
-     "line": 10.5
-    },
-    {
-     "label": "Match total cards under 4.5",
-     "hit": "11/15",
-     "prob": 0.7985,
-     "stat": "cards",
-     "direction": "under",
-     "line": 4.5
-    }
-   ],
-   "most": [
-    {
-     "label": "Frosinone most corners",
-     "prob": 0.8357
-    },
-    {
-     "label": "Parma most corners",
-     "prob": 0.114
-    },
-    {
-     "label": "Frosinone most cards",
-     "prob": 0.2148
-    },
-    {
-     "label": "Parma most cards",
-     "prob": 0.5497
-    }
-   ],
-   "form": {
-    "home": "LLWWD",
-    "away": "LLWDL"
-   }
-  },
   {
    "league": "saudi",
    "date": "2026-11-28",
@@ -716,6 +363,27 @@
    "form": {
     "home": "DWLWD",
     "away": "WWWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8301,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Al Ettifaq 8+ shots",
+      "prob": 0.8865,
+      "fair": 1.13,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Al Ettifaq 2+ corners",
+      "prob": 0.9087,
+      "fair": 1.1,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -979,6 +647,27 @@
    "form": {
     "home": "DLDDL",
     "away": "LLWLW"
+   },
+   "safe_builder": {
+    "joint": 0.8063,
+    "fair": 1.24,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Köln to score",
+      "prob": 0.8406,
+      "fair": 1.19,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9656,
+      "fair": 1.04,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -1332,6 +1021,27 @@
    "form": {
     "home": "LWLLW",
     "away": "DWDWW"
+   },
+   "safe_builder": {
+    "joint": 0.825,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Bayern Munich to score",
+      "prob": 0.8901,
+      "fair": 1.12,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Hamburg 2+ shots on target",
+      "prob": 0.9296,
+      "fair": 1.08,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -1703,6 +1413,27 @@
    "form": {
     "home": "LLLLW",
     "away": "LLDDD"
+   },
+   "safe_builder": {
+    "joint": 0.7709,
+    "fair": 1.3,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Mainz to score",
+      "prob": 0.8899,
+      "fair": 1.12,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.8808,
+      "fair": 1.14,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -1984,6 +1715,27 @@
    "form": {
     "home": "LDDWD",
     "away": "DLLDL"
+   },
+   "safe_builder": {
+    "joint": 0.8206,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Paderborn to score",
+      "prob": 0.8528,
+      "fair": 1.17,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9677,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -2265,6 +2017,27 @@
    "form": {
     "home": "WWLDD",
     "away": "WLWLL"
+   },
+   "safe_builder": {
+    "joint": 0.8206,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Leeds to score",
+      "prob": 0.8728,
+      "fair": 1.15,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9478,
+      "fair": 1.06,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -2636,6 +2409,27 @@
    "form": {
     "home": "LDLLD",
     "away": "WLWDL"
+   },
+   "safe_builder": {
+    "joint": 0.8183,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9741,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Brentford 2+ corners",
+      "prob": 0.8412,
+      "fair": 1.19,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -2899,6 +2693,27 @@
    "form": {
     "home": "LLLDL",
     "away": "LDWWL"
+   },
+   "safe_builder": {
+    "joint": 0.8133,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8362,
+      "fair": 1.2,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Malaga 2+ corners",
+      "prob": 0.972,
+      "fair": 1.03,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -3252,6 +3067,34 @@
    "form": {
     "home": "LLLDL",
     "away": "DLLWW"
+   },
+   "safe_builder": {
+    "joint": 0.8264,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9188,
+      "fair": 1.09,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Angers 2+ shots on target",
+      "prob": 0.9425,
+      "fair": 1.06,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Angers 2+ corners",
+      "prob": 0.955,
+      "fair": 1.05,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -3605,6 +3448,27 @@
    "form": {
     "home": "LDLLW",
     "away": "WDWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8317,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8775,
+      "fair": 1.14,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Torino 2+ corners",
+      "prob": 0.9473,
+      "fair": 1.06,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -3958,6 +3822,27 @@
    "form": {
     "home": "DWWLL",
     "away": "WDWLW"
+   },
+   "safe_builder": {
+    "joint": 0.7781,
+    "fair": 1.29,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9453,
+      "fair": 1.06,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Eintracht Frankfurt 7+ shots",
+      "prob": 0.8257,
+      "fair": 1.21,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -4293,6 +4178,34 @@
    "form": {
     "home": "LLDDL",
     "away": "DDDWW"
+   },
+   "safe_builder": {
+    "joint": 0.8289,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9236,
+      "fair": 1.08,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Ipswich 8+ shots",
+      "prob": 0.9618,
+      "fair": 1.04,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Ipswich 2+ corners",
+      "prob": 0.9203,
+      "fair": 1.09,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -4646,6 +4559,27 @@
    "form": {
     "home": "DLLWD",
     "away": "WLWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8201,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8568,
+      "fair": 1.17,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Elche 8+ shots",
+      "prob": 0.9583,
+      "fair": 1.04,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -5017,6 +4951,34 @@
    "form": {
     "home": "WLWWW",
     "away": "DLLDL"
+   },
+   "safe_builder": {
+    "joint": 0.8244,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Al Ahli double chance",
+      "prob": 0.9028,
+      "fair": 1.11,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Al Ahli to score",
+      "prob": 0.932,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9451,
+      "fair": 1.06,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -5388,6 +5350,27 @@
    "form": {
     "home": "LLLLL",
     "away": "LLWLL"
+   },
+   "safe_builder": {
+    "joint": 0.8028,
+    "fair": 1.25,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9133,
+      "fair": 1.09,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Strasbourg 2+ shots on target",
+      "prob": 0.8868,
+      "fair": 1.13,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -5651,6 +5634,27 @@
    "form": {
     "home": "WDLDL",
     "away": "LWWDD"
+   },
+   "safe_builder": {
+    "joint": 0.8021,
+    "fair": 1.25,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9249,
+      "fair": 1.08,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Lille 2+ corners",
+      "prob": 0.867,
+      "fair": 1.15,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -6004,6 +6008,27 @@
    "form": {
     "home": "LWWWL",
     "away": "WLWDL"
+   },
+   "safe_builder": {
+    "joint": 0.8332,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Nice to score",
+      "prob": 0.8588,
+      "fair": 1.16,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9743,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -6357,6 +6382,27 @@
    "form": {
     "home": "WWWWW",
     "away": "DWLDW"
+   },
+   "safe_builder": {
+    "joint": 0.8219,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Paris Saint-Germain to score",
+      "prob": 0.8863,
+      "fair": 1.13,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9356,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -6728,6 +6774,27 @@
    "form": {
     "home": "DWLWW",
     "away": "WLWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8277,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Inter double chance",
+      "prob": 0.8898,
+      "fair": 1.12,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9346,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -7099,6 +7166,27 @@
    "form": {
     "home": "WWWWW",
     "away": "WDLDL"
+   },
+   "safe_builder": {
+    "joint": 0.8107,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Real Madrid double chance",
+      "prob": 0.9154,
+      "fair": 1.09,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.8914,
+      "fair": 1.12,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -7452,6 +7540,27 @@
    "form": {
     "home": "DLLDL",
     "away": "LDWDL"
+   },
+   "safe_builder": {
+    "joint": 0.8151,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8269,
+      "fair": 1.21,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Udinese 7+ shots",
+      "prob": 0.9863,
+      "fair": 1.01,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -7805,6 +7914,27 @@
    "form": {
     "home": "LWWLL",
     "away": "WWLWW"
+   },
+   "safe_builder": {
+    "joint": 0.829,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Liverpool 2+ shots on target",
+      "prob": 0.9008,
+      "fair": 1.11,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Liverpool 2+ corners",
+      "prob": 0.9098,
+      "fair": 1.1,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -8140,6 +8270,27 @@
    "form": {
     "home": "WLWLD",
     "away": "WDLLW"
+   },
+   "safe_builder": {
+    "joint": 0.8239,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Valencia to score",
+      "prob": 0.8498,
+      "fair": 1.18,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.974,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -8493,6 +8644,27 @@
    "form": {
     "home": "DLLDW",
     "away": "LWWWW"
+   },
+   "safe_builder": {
+    "joint": 0.824,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9328,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Marseille 2+ corners",
+      "prob": 0.8844,
+      "fair": 1.13,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -8846,6 +9018,34 @@
    "form": {
     "home": "LLLLL",
     "away": "WDLWD"
+   },
+   "safe_builder": {
+    "joint": 0.8323,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9339,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Sassuolo 2+ shots on target",
+      "prob": 0.9147,
+      "fair": 1.09,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Sassuolo 7+ shots",
+      "prob": 0.9577,
+      "fair": 1.04,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -9199,6 +9399,27 @@
    "form": {
     "home": "LWWLW",
     "away": "DDLWL"
+   },
+   "safe_builder": {
+    "joint": 0.8023,
+    "fair": 1.25,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Brighton to score",
+      "prob": 0.8163,
+      "fair": 1.23,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9861,
+      "fair": 1.01,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -9480,6 +9701,27 @@
    "form": {
     "home": "LLLLL",
     "away": "WLDDL"
+   },
+   "safe_builder": {
+    "joint": 0.8287,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9902,
+      "fair": 1.01,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Hull 2+ shots on target",
+      "prob": 0.8382,
+      "fair": 1.19,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -9833,6 +10075,27 @@
    "form": {
     "home": "DDDWW",
     "away": "WWWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8249,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9739,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Bournemouth 2+ shots on target",
+      "prob": 0.8497,
+      "fair": 1.18,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -10204,6 +10467,27 @@
    "form": {
     "home": "DWLDL",
     "away": "WLWWW"
+   },
+   "safe_builder": {
+    "joint": 0.8303,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.9365,
+      "fair": 1.07,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Tottenham 2+ corners",
+      "prob": 0.888,
+      "fair": 1.13,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -10557,6 +10841,27 @@
    "form": {
     "home": "WWWLL",
     "away": "WWWWL"
+   },
+   "safe_builder": {
+    "joint": 0.8144,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Freiburg to score",
+      "prob": 0.8696,
+      "fair": 1.15,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9448,
+      "fair": 1.06,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -10838,6 +11143,34 @@
    "form": {
     "home": "LDWLD",
     "away": "WWWLW"
+   },
+   "safe_builder": {
+    "joint": 0.8321,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9217,
+      "fair": 1.08,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Deportivo 7+ shots",
+      "prob": 0.9363,
+      "fair": 1.07,
+      "side": "underdog",
+      "source": "form"
+     },
+     {
+      "label": "Deportivo 2+ corners",
+      "prob": 0.9494,
+      "fair": 1.05,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -11191,6 +11524,27 @@
    "form": {
     "home": "DWLDW",
     "away": "DLLWL"
+   },
+   "safe_builder": {
+    "joint": 0.8232,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9423,
+      "fair": 1.06,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Rennes 2+ shots on target",
+      "prob": 0.8781,
+      "fair": 1.14,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -11562,6 +11916,27 @@
    "form": {
     "home": "LWLWW",
     "away": "WLLDL"
+   },
+   "safe_builder": {
+    "joint": 0.8325,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Hoffenheim to score",
+      "prob": 0.9195,
+      "fair": 1.09,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.913,
+      "fair": 1.1,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -11933,6 +12308,27 @@
    "form": {
     "home": "DWWWW",
     "away": "DLLLW"
+   },
+   "safe_builder": {
+    "joint": 0.7921,
+    "fair": 1.26,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.9008,
+      "fair": 1.11,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Man City 2+ corners",
+      "prob": 0.8811,
+      "fair": 1.13,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -12304,6 +12700,27 @@
    "form": {
     "home": "WWWWD",
     "away": "WLLLL"
+   },
+   "safe_builder": {
+    "joint": 0.8269,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Roma to score",
+      "prob": 0.9203,
+      "fair": 1.09,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9066,
+      "fair": 1.1,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -12639,6 +13056,27 @@
    "form": {
     "home": "LDLDW",
     "away": "LWLWD"
+   },
+   "safe_builder": {
+    "joint": 0.7819,
+    "fair": 1.28,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Celta Vigo to score",
+      "prob": 0.807,
+      "fair": 1.24,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.9749,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -12992,6 +13430,27 @@
    "form": {
     "home": "WWDWD",
     "away": "WWLLW"
+   },
+   "safe_builder": {
+    "joint": 0.7659,
+    "fair": 1.31,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Dortmund to score",
+      "prob": 0.8838,
+      "fair": 1.13,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.8819,
+      "fair": 1.13,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -13363,6 +13822,27 @@
    "form": {
     "home": "WLWLW",
     "away": "DDLDL"
+   },
+   "safe_builder": {
+    "joint": 0.8167,
+    "fair": 1.22,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9114,
+      "fair": 1.1,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Monaco 2+ corners",
+      "prob": 0.8961,
+      "fair": 1.12,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -13716,6 +14196,27 @@
    "form": {
     "home": "WLWWW",
     "away": "WDWLW"
+   },
+   "safe_builder": {
+    "joint": 0.8129,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.989,
+      "fair": 1.01,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Juventus 2+ corners",
+      "prob": 0.8219,
+      "fair": 1.22,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -14087,6 +14588,27 @@
    "form": {
     "home": "LWLWW",
     "away": "DDLWL"
+   },
+   "safe_builder": {
+    "joint": 0.8147,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Real Sociedad to score",
+      "prob": 0.8407,
+      "fair": 1.19,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Under 6.5 goals",
+      "prob": 0.974,
+      "fair": 1.03,
+      "side": "favourite",
+      "source": "model"
+     }
+    ]
    }
   },
   {
@@ -14422,6 +14944,27 @@
    "form": {
     "home": "LDLLL",
     "away": "DWLDD"
+   },
+   "safe_builder": {
+    "joint": 0.833,
+    "fair": 1.2,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8629,
+      "fair": 1.16,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Lecce 8+ shots",
+      "prob": 0.967,
+      "fair": 1.03,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -14775,6 +15318,27 @@
    "form": {
     "home": "LWLLL",
     "away": "WWWLW"
+   },
+   "safe_builder": {
+    "joint": 0.829,
+    "fair": 1.21,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 4.5 goals",
+      "prob": 0.8878,
+      "fair": 1.13,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Cagliari 2+ corners",
+      "prob": 0.9327,
+      "fair": 1.07,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   },
   {
@@ -15128,6 +15692,27 @@
    "form": {
     "home": "WDWLL",
     "away": "LLWLD"
+   },
+   "safe_builder": {
+    "joint": 0.8113,
+    "fair": 1.23,
+    "floor_met": true,
+    "legs": [
+     {
+      "label": "Under 5.5 goals",
+      "prob": 0.9637,
+      "fair": 1.04,
+      "side": "favourite",
+      "source": "model"
+     },
+     {
+      "label": "Getafe 2+ corners",
+      "prob": 0.8425,
+      "fair": 1.19,
+      "side": "underdog",
+      "source": "form"
+     }
+    ]
    }
   }
  ],
