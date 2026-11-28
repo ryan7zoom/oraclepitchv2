@@ -1,13 +1,13 @@
 {
-  "run_at": "2026-11-27T08:19:37.124922+00:00",
+  "run_at": "2026-11-28T02:45:30.660762+00:00",
   "epl": {
     "errors": [],
     "odds_rows": 0,
     "espn_filled": 0,
-    "espn_created": 0,
+    "espn_created": 1,
     "unmatched_espn_names": [],
-    "rows_total": 2010,
-    "latest_match": "2026-11-23",
+    "rows_total": 2011,
+    "latest_match": "2026-11-27",
     "coverage_last_2_seasons_pct": {
       "ft_h": 100.0,
       "ht_h": 100.0,
@@ -25,10 +25,10 @@
     "errors": [],
     "odds_rows": 0,
     "espn_filled": 0,
-    "espn_created": 0,
+    "espn_created": 1,
     "unmatched_espn_names": [],
-    "rows_total": 2029,
-    "latest_match": "2026-11-23",
+    "rows_total": 2030,
+    "latest_match": "2026-11-27",
     "coverage_last_2_seasons_pct": {
       "ft_h": 100.0,
       "ht_h": 100.0,
@@ -46,10 +46,10 @@
     "errors": [],
     "odds_rows": 0,
     "espn_filled": 0,
-    "espn_created": 0,
+    "espn_created": 1,
     "unmatched_espn_names": [],
-    "rows_total": 1620,
-    "latest_match": "2026-11-22",
+    "rows_total": 1621,
+    "latest_match": "2026-11-27",
     "coverage_last_2_seasons_pct": {
       "ft_h": 100.0,
       "ht_h": 100.0,
@@ -67,10 +67,10 @@
     "errors": [],
     "odds_rows": 0,
     "espn_filled": 0,
-    "espn_created": 0,
+    "espn_created": 1,
     "unmatched_espn_names": [],
-    "rows_total": 2020,
-    "latest_match": "2026-11-23",
+    "rows_total": 2021,
+    "latest_match": "2026-11-27",
     "coverage_last_2_seasons_pct": {
       "ft_h": 100.0,
       "ht_h": 100.0,
@@ -88,10 +88,10 @@
     "errors": [],
     "odds_rows": 0,
     "espn_filled": 0,
-    "espn_created": 0,
+    "espn_created": 1,
     "unmatched_espn_names": [],
-    "rows_total": 1777,
-    "latest_match": "2026-11-22",
+    "rows_total": 1778,
+    "latest_match": "2026-11-27",
     "coverage_last_2_seasons_pct": {
       "ft_h": 100.0,
       "ht_h": 100.0,
@@ -105,5 +105,5 @@
     },
     "offsides_missing_last_2_seasons": 1
   },
-  "_espn_requests_used": 50
+  "_espn_requests_used": 55
 }
