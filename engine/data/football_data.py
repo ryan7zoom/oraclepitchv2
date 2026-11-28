@@ -63,6 +63,18 @@ def _int(v) -> Optional[int]:
         return None
 
 
+def _float(v) -> Optional[float]:
+    """xG is fractional (1.37). Parsing it with _int floors it, which biases every xG low by ~0.5."""
+    try:
+        v = (v or "").strip()
+        return float(v) if v != "" else None
+    except ValueError:
+        return None
+
+
+FLOAT_COLS = {"HxG", "AxG"}
+
+
 def parse_csv(text: str, league: str, season: int) -> list:
     """Finished matches only (a row needs a date, both teams and a final score)."""
     matches = []
@@ -74,7 +86,7 @@ def parse_csv(text: str, league: str, season: int) -> list:
             continue
         m = Match(league=league, season=season, date=d, home=home, away=away)
         for col, field_name in COLUMN_MAP.items():
-            setattr(m, field_name, _int(row.get(col)))
+            setattr(m, field_name, _float(row.get(col)) if col in FLOAT_COLS else _int(row.get(col)))
         if not m.finished:
             continue
         m.add_source("fd")
