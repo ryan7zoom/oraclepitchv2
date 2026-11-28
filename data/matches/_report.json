@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-28T13:30:54.208180+00:00",
+  "run_at": "2026-11-28T13:40:58.610337+00:00",
   "epl": {
     "errors": [],
     "odds_rows": 0,
@@ -108,34 +108,9 @@
   "saudi": {
     "errors": [],
     "espn_filled": 0,
-    "espn_created": 489,
+    "espn_created": 0,
     "unmatched_espn_names": [],
-    "new_team_names": [
-      "Abha",
-      "Al Ahli",
-      "Al Diriyah",
-      "Al Ettifaq",
-      "Al Faisaly",
-      "Al Fateh",
-      "Al Fayha",
-      "Al Hazem",
-      "Al Hilal",
-      "Al Ittihad",
-      "Al Khaleej",
-      "Al Kholood",
-      "Al Najma",
-      "Al Nassr",
-      "Al Okhdood",
-      "Al Orobah",
-      "Al Qadsiah",
-      "Al Raed",
-      "Al Riyadh",
-      "Al Shabab",
-      "Al Taawoun",
-      "Al Wehda",
-      "Damac",
-      "Neom SC"
-    ],
+    "new_team_names": [],
     "backfill_days_left": 1,
     "fotmob_xg_filled": 0,
     "fotmob_status": "budget used up; will continue next run",
@@ -154,5 +129,5 @@
     },
     "offsides_missing_last_2_seasons": 0
   },
-  "_espn_requests_used": 1017
+  "_espn_requests_used": 61
 }
