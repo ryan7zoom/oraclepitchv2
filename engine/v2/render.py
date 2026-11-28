@@ -193,17 +193,6 @@ def _match_html(card: dict) -> str:
   {_builder_html(safe, "Safer 3-leg version") if safe.legs and best.legs and len(safe.legs) < len(best.legs) else ""}
   <div class="sec">Most corners / most cards</div>
   {_most_table(card.get('most', []))}
-  <div class="sec">All model markets</div>
-  <div class="two">
-   {_markets_table(markets, 'result', 'Match result')}
-   {_markets_table(markets, 'dc', 'Double chance')}
-   {_markets_table(markets, 'btts', 'Both teams to score')}
-   {_markets_table(markets, 'total', 'Total goals')}
-   {_markets_table(markets, 'team', 'Team goals')}
-  </div>
-  <details class="hc"><summary style="cursor:pointer;color:var(--mute);font-size:12px;margin-top:12px">Handicaps (standalone only)</summary>
-   {_markets_table(markets, 'handicap', 'Asian handicap')}
-  </details>
  </div>
 </details>"""
 
