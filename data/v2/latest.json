@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-11-28T02:47:17.362825+00:00",
+ "generated_at": "2026-11-28T02:51:11.660010+00:00",
  "model_version": "2.0.0",
  "model_source": "ClubElo",
- "xg_snapshot_date": "2026-11-24",
+ "xg_snapshot_date": "2026-11-28",
  "data_through": {
   "epl": "2026-11-27",
   "la_liga": "2026-11-27",
@@ -20,39 +20,39 @@
    "home_name": "Real Betis",
    "away_name": "Rayo Vallecano",
    "probabilities": {
-    "H": 0.6249,
-    "D": 0.2388,
-    "A": 0.1363
+    "H": 0.6532,
+    "D": 0.2031,
+    "A": 0.1437
    },
    "expected_goals": [
-    1.753,
-    0.687
+    2.16,
+    0.917
    ],
-   "pick": "Real Betis win 62% · Match total under 2.5 goals 56% · BTTS no 58%",
+   "pick": "Real Betis win 65% · Match total over 2.5 goals 59% · BTTS yes 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5592
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5939
    },
    "builder": {
     "best": {
-     "joint": 0.5085,
-     "fair": 1.97,
+     "joint": 0.4951,
+     "fair": 2.02,
      "legs": [
       {
-       "label": "Betis under 3.5 goals",
-       "prob": 0.8987,
+       "label": "Betis over 0.5 goals",
+       "prob": 0.8846,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.899,
+       "label": "Betis or draw",
+       "prob": 0.8563,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Vallecano team corners under 6.5",
@@ -62,38 +62,38 @@
        "group": "corners"
       },
       {
-       "label": "Betis or draw",
-       "prob": 0.8637,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8167,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       },
       {
-       "label": "Vallecano team cards over 1.5",
-       "prob": 0.7824,
+       "label": "Betis most corners",
+       "prob": 0.766,
        "source": "form",
-       "hit": "12/15",
-       "group": "cards"
+       "hit": "",
+       "group": "most_corners"
       }
      ]
     },
     "safe": {
-     "joint": 0.7636,
-     "fair": 1.31,
+     "joint": 0.7136,
+     "fair": 1.4,
      "legs": [
       {
-       "label": "Betis under 3.5 goals",
-       "prob": 0.8987,
+       "label": "Betis over 0.5 goals",
+       "prob": 0.8846,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.899,
+       "label": "Betis or draw",
+       "prob": 0.8563,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Vallecano team corners under 6.5",
@@ -391,43 +391,43 @@
    "home_name": "Frosinone",
    "away_name": "Parma",
    "probabilities": {
-    "H": 0.5678,
-    "D": 0.2605,
-    "A": 0.1718
+    "H": 0.5981,
+    "D": 0.2234,
+    "A": 0.1785
    },
    "expected_goals": [
-    1.603,
-    0.765
+    1.981,
+    0.994
    ],
-   "pick": "Frosinone win 57% · Match total under 2.5 goals 58% · BTTS no 57%",
+   "pick": "Frosinone win 60% · Match total over 2.5 goals 57% · BTTS yes 55%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5781
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5711
    },
    "builder": {
     "best": {
-     "joint": 0.3658,
-     "fair": 2.73,
+     "joint": 0.4062,
+     "fair": 2.46,
      "legs": [
       {
-       "label": "Parma under 1.5 goals",
-       "prob": 0.8212,
+       "label": "Frosinone over 0.5 goals",
+       "prob": 0.862,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
        "label": "Frosinone or draw",
-       "prob": 0.8282,
+       "prob": 0.8215,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.7854,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.802,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -440,35 +440,35 @@
        "group": "cards"
       },
       {
-       "label": "Match total corners under 14.5",
-       "prob": 0.7482,
+       "label": "Frosinone most corners",
+       "prob": 0.8357,
        "source": "form",
-       "hit": "11/15",
-       "group": "corners"
+       "hit": "",
+       "group": "most_corners"
       }
      ]
     },
     "safe": {
-     "joint": 0.6386,
-     "fair": 1.57,
+     "joint": 0.6722,
+     "fair": 1.49,
      "legs": [
       {
-       "label": "Parma under 1.5 goals",
-       "prob": 0.8212,
+       "label": "Frosinone over 0.5 goals",
+       "prob": 0.862,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
        "label": "Frosinone or draw",
-       "prob": 0.8282,
+       "prob": 0.8215,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.7854,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.802,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -744,36 +744,36 @@
    "home_name": "FC Cologne",
    "away_name": "SV Elversberg",
    "probabilities": {
-    "H": 0.4631,
-    "D": 0.2693,
-    "A": 0.2676
+    "H": 0.5002,
+    "D": 0.2368,
+    "A": 0.263
    },
    "expected_goals": [
-    1.51,
-    1.089
+    1.859,
+    1.301
    ],
-   "pick": "Köln win 46% · Match total under 2.5 goals 52% · BTTS yes 52%",
+   "pick": "Köln win 50% · Match total under 3.5 goals 61% · BTTS yes 62%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5187
+    "label": "Match total under 3.5 goals",
+    "prob": 0.6114
    },
    "builder": {
     "best": {
-     "joint": 0.3118,
-     "fair": 3.21,
+     "joint": 0.3776,
+     "fair": 2.65,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8776,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8991,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "FC Koln under 2.5 goals",
-       "prob": 0.8064,
+       "label": "FC Koln under 3.5 goals",
+       "prob": 0.8816,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -787,7 +787,7 @@
       },
       {
        "label": "No draw",
-       "prob": 0.7307,
+       "prob": 0.7632,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -802,19 +802,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6598,
-     "fair": 1.52,
+     "joint": 0.7234,
+     "fair": 1.38,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8776,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8991,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "FC Koln under 2.5 goals",
-       "prob": 0.8064,
+       "label": "FC Koln under 3.5 goals",
+       "prob": 0.8816,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -1007,36 +1007,36 @@
    "home_name": "Hamburg SV",
    "away_name": "Bayern Munich",
    "probabilities": {
-    "H": 0.1869,
-    "D": 0.238,
-    "A": 0.5751
+    "H": 0.2051,
+    "D": 0.2107,
+    "A": 0.5841
    },
    "expected_goals": [
-    0.946,
-    1.826
+    1.24,
+    2.184
    ],
-   "pick": "Bayern Munich win 58% · Match total over 2.5 goals 52% · BTTS yes 52%",
+   "pick": "Bayern Munich win 58% · Match total under 3.5 goals 55% · BTTS yes 64%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5239
+    "label": "Match total under 3.5 goals",
+    "prob": 0.553
    },
    "builder": {
     "best": {
-     "joint": 0.3996,
-     "fair": 2.5,
+     "joint": 0.4412,
+     "fair": 2.27,
      "legs": [
       {
-       "label": "Bayern Munich under 3.5 goals",
-       "prob": 0.8871,
+       "label": "Bayern Munich over 0.5 goals",
+       "prob": 0.8875,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.852,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8603,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -1050,34 +1050,34 @@
       },
       {
        "label": "Bayern Munich or draw",
-       "prob": 0.8131,
+       "prob": 0.7949,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Hamburg team cards under 2.5",
-       "prob": 0.6961,
+       "label": "Bayern Munich team shots over 12.5",
+       "prob": 0.6999,
        "source": "form",
-       "hit": "11/15",
-       "group": "cards"
+       "hit": "12/15",
+       "group": "shots"
       }
      ]
     },
     "safe": {
-     "joint": 0.7317,
-     "fair": 1.37,
+     "joint": 0.7331,
+     "fair": 1.36,
      "legs": [
       {
-       "label": "Bayern Munich under 3.5 goals",
-       "prob": 0.8871,
+       "label": "Bayern Munich over 0.5 goals",
+       "prob": 0.8875,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.852,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8603,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -1360,25 +1360,25 @@
    "home_name": "Mainz",
    "away_name": "1. FC Union Berlin",
    "probabilities": {
-    "H": 0.5586,
-    "D": 0.2426,
-    "A": 0.1988
+    "H": 0.5961,
+    "D": 0.2085,
+    "A": 0.1954
    },
    "expected_goals": [
-    1.786,
-    0.976
+    2.202,
+    1.203
    ],
-   "pick": "Mainz win 56% · Match total over 2.5 goals 52% · BTTS yes 52%",
+   "pick": "Mainz win 60% · Match total under 3.5 goals 56% · BTTS yes 63%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5216
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5573
    },
    "builder": {
     "best": {
-     "joint": 0.4333,
-     "fair": 2.31,
+     "joint": 0.472,
+     "fair": 2.12,
      "legs": [
       {
        "label": "Union Berlin team corners under 5.5",
@@ -1388,22 +1388,22 @@
        "group": "corners"
       },
       {
-       "label": "Mainz under 3.5 goals",
-       "prob": 0.8935,
+       "label": "Mainz over 0.5 goals",
+       "prob": 0.8894,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8535,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8581,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
        "label": "Mainz or draw",
-       "prob": 0.8012,
+       "prob": 0.8046,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -1418,7 +1418,7 @@
      ]
     },
     "safe": {
-     "joint": 0.7438,
+     "joint": 0.7489,
      "fair": 1.34,
      "legs": [
       {
@@ -1429,15 +1429,15 @@
        "group": "corners"
       },
       {
-       "label": "Mainz under 3.5 goals",
-       "prob": 0.8935,
+       "label": "Mainz over 0.5 goals",
+       "prob": 0.8894,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8535,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8581,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -1731,39 +1731,39 @@
    "home_name": "SC Paderborn 07",
    "away_name": "Schalke 04",
    "probabilities": {
-    "H": 0.4981,
-    "D": 0.2678,
-    "A": 0.2342
+    "H": 0.5296,
+    "D": 0.2325,
+    "A": 0.2379
    },
    "expected_goals": [
-    1.545,
-    0.981
+    1.916,
+    1.226
    ],
-   "pick": "Paderborn win 50% · Match total under 2.5 goals 54% · BTTS no 50%",
+   "pick": "Paderborn win 53% · Match total over 2.5 goals 61% · BTTS yes 61%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5371
+    "label": "Match total over 2.5 goals",
+    "prob": 0.6079
    },
    "builder": {
     "best": {
-     "joint": 0.3523,
-     "fair": 2.84,
+     "joint": 0.3757,
+     "fair": 2.66,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8877,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Paderborn under 2.5 goals",
-       "prob": 0.7974,
+       "label": "Paderborn under 3.5 goals",
+       "prob": 0.872,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.7908,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Schalke 04 team corners under 5.5",
@@ -1773,38 +1773,38 @@
        "group": "corners"
       },
       {
+       "label": "No draw",
+       "prob": 0.7675,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
        "label": "Schalke 04 team cards under 2.5",
        "prob": 0.7567,
        "source": "form",
        "hit": "9/12",
        "group": "cards"
-      },
-      {
-       "label": "Paderborn or draw",
-       "prob": 0.7658,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.6593,
+     "joint": 0.6577,
      "fair": 1.52,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8877,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Paderborn under 2.5 goals",
-       "prob": 0.7974,
+       "label": "Paderborn under 3.5 goals",
+       "prob": 0.872,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.7908,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Schalke 04 team corners under 5.5",
@@ -2012,46 +2012,46 @@
    "home_name": "Leeds United",
    "away_name": "Coventry City",
    "probabilities": {
-    "H": 0.6685,
-    "D": 0.2389,
-    "A": 0.0925
+    "H": 0.6964,
+    "D": 0.2012,
+    "A": 0.1023
    },
    "expected_goals": [
-    1.665,
-    0.458
+    2.041,
+    0.647
    ],
-   "pick": "Leeds win 67% · Match total over 1.5 goals 63% · BTTS no 70%",
+   "pick": "Leeds win 70% · Match total over 2.5 goals 50% · BTTS no 58%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6308
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5034
    },
    "builder": {
     "best": {
-     "joint": 0.5509,
-     "fair": 1.82,
+     "joint": 0.4582,
+     "fair": 2.18,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8758,
+       "label": "Leeds or draw",
+       "prob": 0.8977,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Leeds over 0.5 goals",
-       "prob": 0.8109,
+       "prob": 0.8701,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7611,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8647,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       },
       {
        "label": "Leeds most corners",
@@ -2070,29 +2070,29 @@
      ]
     },
     "safe": {
-     "joint": 0.696,
-     "fair": 1.44,
+     "joint": 0.6992,
+     "fair": 1.43,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8758,
+       "label": "Leeds or draw",
+       "prob": 0.8977,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Leeds over 0.5 goals",
-       "prob": 0.8109,
+       "prob": 0.8701,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7611,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8647,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       }
      ]
     }
@@ -2293,32 +2293,32 @@
    "home_name": "Manchester United",
    "away_name": "Brentford",
    "probabilities": {
-    "H": 0.4999,
-    "D": 0.2788,
-    "A": 0.2213
+    "H": 0.5333,
+    "D": 0.2413,
+    "A": 0.2255
    },
    "expected_goals": [
-    1.457,
-    0.88
+    1.811,
+    1.106
    ],
-   "pick": "Man United win 50% · Match total under 2.5 goals 59% · BTTS no 54%",
+   "pick": "Man United win 53% · Match total over 2.5 goals 56% · BTTS yes 57%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5863
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5579
    },
    "builder": {
     "best": {
-     "joint": 0.4844,
-     "fair": 2.06,
+     "joint": 0.4319,
+     "fair": 2.32,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8972,
+       "label": "Brentford under 2.5 goals",
+       "prob": 0.8992,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "team_goals"
       },
       {
        "label": "Brentford team corners under 6.5",
@@ -2328,38 +2328,38 @@
        "group": "corners"
       },
       {
-       "label": "Man United over 0.5 goals",
-       "prob": 0.767,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8291,
        "source": "model",
        "hit": "",
-       "group": "team_goals"
+       "group": "goals"
       },
       {
        "label": "Man United or draw",
-       "prob": 0.7787,
+       "prob": 0.7745,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Man United team shots on target over 5.5",
-       "prob": 0.6767,
+       "label": "Man United team cards under 2.5",
+       "prob": 0.7386,
        "source": "form",
-       "hit": "7/10",
-       "group": "sot"
+       "hit": "11/15",
+       "group": "cards"
       }
      ]
     },
     "safe": {
-     "joint": 0.6915,
-     "fair": 1.45,
+     "joint": 0.7177,
+     "fair": 1.39,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8972,
+       "label": "Brentford under 2.5 goals",
+       "prob": 0.8992,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "team_goals"
       },
       {
        "label": "Brentford team corners under 6.5",
@@ -2369,11 +2369,11 @@
        "group": "corners"
       },
       {
-       "label": "Man United over 0.5 goals",
-       "prob": 0.767,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8291,
        "source": "model",
        "hit": "",
-       "group": "team_goals"
+       "group": "goals"
       }
      ]
     }
@@ -2664,46 +2664,46 @@
    "home_name": "Málaga",
    "away_name": "Athletic Club",
    "probabilities": {
-    "H": 0.3028,
-    "D": 0.2974,
-    "A": 0.3999
+    "H": 0.3497,
+    "D": 0.2576,
+    "A": 0.3927
    },
    "expected_goals": [
-    1.037,
-    1.233
+    1.415,
+    1.511
    ],
-   "pick": "Athletic Club win 40% · Match total under 2.5 goals 60% · BTTS no 54%",
+   "pick": "Athletic Club win 39% · Match total over 2.5 goals 56% · BTTS yes 60%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6041
+    "label": "Match total over 2.5 goals",
+    "prob": 0.56
    },
    "builder": {
     "best": {
-     "joint": 0.3373,
-     "fair": 2.96,
+     "joint": 0.33,
+     "fair": 3.03,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.89,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8276,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Ath Bilbao under 2.5 goals",
-       "prob": 0.8723,
+       "label": "Malaga under 2.5 goals",
+       "prob": 0.83,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7026,
-       "source": "model",
-       "hit": "",
-       "group": "result"
+       "label": "Match total cards over 2.5",
+       "prob": 0.7519,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
       },
       {
        "label": "Match total corners under 12.5",
@@ -2713,38 +2713,38 @@
        "group": "corners"
       },
       {
-       "label": "Match total cards over 2.5",
-       "prob": 0.7519,
-       "source": "form",
-       "hit": "13/15",
-       "group": "cards"
+       "label": "Ath Bilbao or draw",
+       "prob": 0.6503,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.5973,
-     "fair": 1.67,
+     "joint": 0.5812,
+     "fair": 1.72,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.89,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8276,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Ath Bilbao under 2.5 goals",
-       "prob": 0.8723,
+       "label": "Malaga under 2.5 goals",
+       "prob": 0.83,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7026,
-       "source": "model",
-       "hit": "",
-       "group": "result"
+       "label": "Match total cards over 2.5",
+       "prob": 0.7519,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
       }
      ]
     }
@@ -2927,39 +2927,39 @@
    "home_name": "Angers",
    "away_name": "Lens",
    "probabilities": {
-    "H": 0.2822,
-    "D": 0.2885,
-    "A": 0.4293
+    "H": 0.3404,
+    "D": 0.2557,
+    "A": 0.4038
    },
    "expected_goals": [
-    1.028,
-    1.33
+    1.406,
+    1.549
    ],
-   "pick": "Lens win 43% · Match total under 2.5 goals 58% · BTTS no 52%",
+   "pick": "Lens win 40% · Match total over 2.5 goals 57% · BTTS yes 60%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5809
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5668
    },
    "builder": {
     "best": {
-     "joint": 0.3464,
-     "fair": 2.89,
+     "joint": 0.3152,
+     "fair": 3.17,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8988,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Lens under 2.5 goals",
-       "prob": 0.8502,
+       "label": "Angers under 2.5 goals",
+       "prob": 0.832,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8227,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Angers team cards under 2.5",
@@ -2969,38 +2969,38 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.7115,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      },
-      {
        "label": "Match total corners under 12.5",
        "prob": 0.7282,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
+      },
+      {
+       "label": "Lens or draw",
+       "prob": 0.6596,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.6111,
-     "fair": 1.64,
+     "joint": 0.602,
+     "fair": 1.66,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8988,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Lens under 2.5 goals",
-       "prob": 0.8502,
+       "label": "Angers under 2.5 goals",
+       "prob": 0.832,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8227,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Angers team cards under 2.5",
@@ -3280,29 +3280,36 @@
    "home_name": "Torino",
    "away_name": "Lazio",
    "probabilities": {
-    "H": 0.2315,
-    "D": 0.3018,
-    "A": 0.4668
+    "H": 0.2704,
+    "D": 0.2638,
+    "A": 0.4658
    },
    "expected_goals": [
-    0.818,
-    1.281
+    1.133,
+    1.56
    ],
-   "pick": "Lazio win 47% · Match total over 1.5 goals 63% · BTTS no 59%",
+   "pick": "Lazio win 47% · Match total over 2.5 goals 50% · BTTS yes 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6264
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5046
    },
    "builder": {
     "best": {
-     "joint": 0.3876,
-     "fair": 2.58,
+     "joint": 0.3906,
+     "fair": 2.56,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8709,
+       "label": "Torino under 2.5 goals",
+       "prob": 0.8937,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.864,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -3315,15 +3322,8 @@
        "group": "corners"
       },
       {
-       "label": "Lazio under 2.5 goals",
-       "prob": 0.8616,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "No draw",
-       "prob": 0.6982,
+       "label": "Lazio or draw",
+       "prob": 0.7296,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -3338,12 +3338,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6693,
-     "fair": 1.49,
+     "joint": 0.7325,
+     "fair": 1.37,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8709,
+       "label": "Torino under 2.5 goals",
+       "prob": 0.8937,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.864,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -3354,13 +3361,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Lazio under 2.5 goals",
-       "prob": 0.8616,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -3633,36 +3633,36 @@
    "home_name": "VfB Stuttgart",
    "away_name": "Eintracht Frankfurt",
    "probabilities": {
-    "H": 0.5496,
-    "D": 0.2405,
-    "A": 0.2098
+    "H": 0.5717,
+    "D": 0.2109,
+    "A": 0.2174
    },
    "expected_goals": [
-    1.814,
-    1.04
+    2.196,
+    1.308
    ],
-   "pick": "Stuttgart win 55% · Match total over 2.5 goals 54% · BTTS yes 55%",
+   "pick": "Stuttgart win 57% · Match total under 3.5 goals 54% · BTTS yes 65%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5434
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5358
    },
    "builder": {
     "best": {
-     "joint": 0.4128,
-     "fair": 2.42,
+     "joint": 0.4592,
+     "fair": 2.18,
      "legs": [
       {
-       "label": "Stuttgart under 3.5 goals",
-       "prob": 0.889,
+       "label": "Stuttgart over 0.5 goals",
+       "prob": 0.8888,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8391,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8688,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -3675,35 +3675,35 @@
        "group": "cards"
       },
       {
+       "label": "Stuttgart or draw",
+       "prob": 0.7826,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
        "label": "Match total corners under 13.5",
        "prob": 0.7865,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
-      },
-      {
-       "label": "Stuttgart or draw",
-       "prob": 0.7902,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.689,
-     "fair": 1.45,
+     "joint": 0.707,
+     "fair": 1.41,
      "legs": [
       {
-       "label": "Stuttgart under 3.5 goals",
-       "prob": 0.889,
+       "label": "Stuttgart over 0.5 goals",
+       "prob": 0.8888,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8391,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8688,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -3986,29 +3986,36 @@
    "home_name": "Ipswich Town",
    "away_name": "Aston Villa",
    "probabilities": {
-    "H": 0.253,
-    "D": 0.2876,
-    "A": 0.4594
+    "H": 0.3029,
+    "D": 0.2526,
+    "A": 0.4445
    },
    "expected_goals": [
-    0.945,
-    1.367
+    1.32,
+    1.641
    ],
-   "pick": "Aston Villa win 46% · Match total under 2.5 goals 59% · BTTS no 54%",
+   "pick": "Aston Villa win 44% · Match total over 2.5 goals 57% · BTTS yes 60%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5928
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5679
    },
    "builder": {
     "best": {
-     "joint": 0.448,
-     "fair": 2.23,
+     "joint": 0.3731,
+     "fair": 2.68,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8945,
+       "label": "Ipswich under 2.5 goals",
+       "prob": 0.8525,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8218,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -4021,35 +4028,35 @@
        "group": "corners"
       },
       {
-       "label": "Aston Villa over 0.5 goals",
-       "prob": 0.7451,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
+       "label": "Match total cards under 5.5",
+       "prob": 0.7602,
+       "source": "form",
+       "hit": "7/10",
+       "group": "cards"
       },
       {
        "label": "Aston Villa or draw",
-       "prob": 0.747,
+       "prob": 0.6971,
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Aston Villa team shots on target over 2.5",
-       "prob": 0.7063,
-       "source": "form",
-       "hit": "11/15",
-       "group": "sot"
       }
      ]
     },
     "safe": {
-     "joint": 0.6287,
-     "fair": 1.59,
+     "joint": 0.6422,
+     "fair": 1.56,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8945,
+       "label": "Ipswich under 2.5 goals",
+       "prob": 0.8525,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8218,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -4060,13 +4067,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Aston Villa over 0.5 goals",
-       "prob": 0.7451,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -4321,25 +4321,25 @@
    "home_name": "Elche",
    "away_name": "Atlético Madrid",
    "probabilities": {
-    "H": 0.1908,
-    "D": 0.2839,
-    "A": 0.5253
+    "H": 0.2267,
+    "D": 0.2504,
+    "A": 0.5228
    },
    "expected_goals": [
-    0.748,
-    1.424
+    1.052,
+    1.713
    ],
-   "pick": "Atlético Madrid win 53% · Match total under 2.5 goals 63% · BTTS no 59%",
+   "pick": "Atlético Madrid win 52% · Match total over 2.5 goals 52% · BTTS yes 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6302
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5221
    },
    "builder": {
     "best": {
-     "joint": 0.5343,
-     "fair": 1.87,
+     "joint": 0.4059,
+     "fair": 2.46,
      "legs": [
       {
        "label": "Match total corners under 14.5",
@@ -4349,13 +4349,6 @@
        "group": "corners"
       },
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.88,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Elche team cards under 3.5",
        "prob": 0.8705,
        "source": "form",
@@ -4363,15 +4356,22 @@
        "group": "cards"
       },
       {
-       "label": "Ath Madrid over 0.5 goals",
-       "prob": 0.7592,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8532,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Ath Madrid under 2.5 goals",
+       "prob": 0.7539,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
        "label": "Ath Madrid or draw",
-       "prob": 0.8092,
+       "prob": 0.7733,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -4379,8 +4379,8 @@
      ]
     },
     "safe": {
-     "joint": 0.6994,
-     "fair": 1.43,
+     "joint": 0.6699,
+     "fair": 1.49,
      "legs": [
       {
        "label": "Match total corners under 14.5",
@@ -4390,18 +4390,18 @@
        "group": "corners"
       },
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.88,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Elche team cards under 3.5",
        "prob": 0.8705,
        "source": "form",
        "hit": "12/15",
        "group": "cards"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8532,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -4674,36 +4674,36 @@
    "home_name": "Le Havre AC",
    "away_name": "Strasbourg",
    "probabilities": {
-    "H": 0.3833,
-    "D": 0.2889,
-    "A": 0.3278
+    "H": 0.4173,
+    "D": 0.2516,
+    "A": 0.3311
    },
    "expected_goals": [
-    1.259,
-    1.144
+    1.612,
+    1.415
    ],
-   "pick": "Le Havre win 38% · Match total under 2.5 goals 57% · BTTS no 51%",
+   "pick": "Le Havre win 42% · Match total over 2.5 goals 58% · BTTS yes 61%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5689
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5827
    },
    "builder": {
     "best": {
-     "joint": 0.3298,
-     "fair": 3.03,
+     "joint": 0.3368,
+     "fair": 2.97,
      "legs": [
       {
        "label": "Strasbourg under 2.5 goals",
-       "prob": 0.8913,
+       "prob": 0.83,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.7781,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8108,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -4716,8 +4716,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.7111,
+       "label": "Le Havre or draw",
+       "prob": 0.6689,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -4732,19 +4732,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6292,
-     "fair": 1.59,
+     "joint": 0.6154,
+     "fair": 1.62,
      "legs": [
       {
        "label": "Strasbourg under 2.5 goals",
-       "prob": 0.8913,
+       "prob": 0.83,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.7781,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8108,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -5045,46 +5045,39 @@
    "home_name": "Le Mans",
    "away_name": "Lille",
    "probabilities": {
-    "H": 0.3369,
-    "D": 0.2981,
-    "A": 0.365
+    "H": 0.4009,
+    "D": 0.2563,
+    "A": 0.3428
    },
    "expected_goals": [
-    1.113,
-    1.17
+    1.538,
+    1.407
    ],
-   "pick": "Lille win 36% · Match total under 2.5 goals 60% · BTTS no 53%",
+   "pick": "Le Mans win 40% · Match total over 2.5 goals 56% · BTTS yes 60%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6006
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5646
    },
    "builder": {
     "best": {
-     "joint": 0.3807,
-     "fair": 2.63,
+     "joint": 0.3458,
+     "fair": 2.89,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8914,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Le Mans under 2.5 goals",
-       "prob": 0.8978,
+       "label": "Lille under 2.5 goals",
+       "prob": 0.8317,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Lille team cards under 3.5",
-       "prob": 0.7926,
-       "source": "form",
-       "hit": "12/15",
-       "group": "cards"
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8243,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Match total corners under 11.5",
@@ -5094,8 +5087,15 @@
        "group": "corners"
       },
       {
-       "label": "No draw",
-       "prob": 0.7019,
+       "label": "Match total cards under 5.5",
+       "prob": 0.7883,
+       "source": "form",
+       "hit": "11/15",
+       "group": "cards"
+      },
+      {
+       "label": "Le Mans or draw",
+       "prob": 0.6572,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -5103,29 +5103,29 @@
      ]
     },
     "safe": {
-     "joint": 0.6311,
-     "fair": 1.58,
+     "joint": 0.6017,
+     "fair": 1.66,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8914,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Le Mans under 2.5 goals",
-       "prob": 0.8978,
+       "label": "Lille under 2.5 goals",
+       "prob": 0.8317,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Lille team cards under 3.5",
-       "prob": 0.7926,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8243,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Match total corners under 11.5",
+       "prob": 0.7924,
        "source": "form",
-       "hit": "12/15",
-       "group": "cards"
+       "hit": "11/15",
+       "group": "corners"
       }
      ]
     }
@@ -5308,33 +5308,26 @@
    "home_name": "Nice",
    "away_name": "Troyes",
    "probabilities": {
-    "H": 0.5891,
-    "D": 0.2578,
-    "A": 0.1532
+    "H": 0.6106,
+    "D": 0.2242,
+    "A": 0.1651
    },
    "expected_goals": [
-    1.611,
-    0.694
+    1.95,
+    0.914
    ],
-   "pick": "Nice win 59% · Match total under 2.5 goals 59% · BTTS no 59%",
+   "pick": "Nice win 61% · Match total over 2.5 goals 55% · BTTS yes 52%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5948
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5458
    },
    "builder": {
     "best": {
-     "joint": 0.5513,
-     "fair": 1.81,
+     "joint": 0.4933,
+     "fair": 2.03,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8946,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
       {
        "label": "Match total cards under 6.5",
        "prob": 0.8942,
@@ -5343,18 +5336,18 @@
        "group": "cards"
       },
       {
-       "label": "Nice over 0.5 goals",
-       "prob": 0.8003,
+       "label": "Nice under 3.5 goals",
+       "prob": 0.866,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Nice or draw",
-       "prob": 0.8468,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8375,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       },
       {
        "label": "Nice team corners under 7.5",
@@ -5362,20 +5355,20 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
+      },
+      {
+       "label": "Nice or draw",
+       "prob": 0.8349,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.7146,
-     "fair": 1.4,
+     "joint": 0.7252,
+     "fair": 1.38,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8946,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
       {
        "label": "Match total cards under 6.5",
        "prob": 0.8942,
@@ -5384,11 +5377,18 @@
        "group": "cards"
       },
       {
-       "label": "Nice over 0.5 goals",
-       "prob": 0.8003,
+       "label": "Nice under 3.5 goals",
+       "prob": 0.866,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8375,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -5661,46 +5661,46 @@
    "home_name": "Paris Saint-Germain",
    "away_name": "Lorient",
    "probabilities": {
-    "H": 0.6889,
-    "D": 0.2249,
-    "A": 0.0862
+    "H": 0.7065,
+    "D": 0.193,
+    "A": 0.1005
    },
    "expected_goals": [
-    1.76,
-    0.461
+    2.128,
+    0.673
    ],
-   "pick": "Paris Saint-Germain win 69% · Match total under 2.5 goals 62% · BTTS no 69%",
+   "pick": "Paris Saint-Germain win 71% · Match total over 2.5 goals 53% · BTTS no 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6172
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5307
    },
    "builder": {
     "best": {
-     "joint": 0.4887,
+     "joint": 0.4868,
      "fair": 2.05,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8871,
+       "label": "Paris SG or draw",
+       "prob": 0.8995,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Paris SG over 0.5 goals",
-       "prob": 0.8279,
+       "prob": 0.8809,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7751,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.7734,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       },
       {
        "label": "Paris SG team shots on target over 5.5",
@@ -5719,29 +5719,29 @@
      ]
     },
     "safe": {
-     "joint": 0.7242,
-     "fair": 1.38,
+     "joint": 0.7121,
+     "fair": 1.4,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8871,
+       "label": "Paris SG or draw",
+       "prob": 0.8995,
        "source": "model",
        "hit": "",
-       "group": "goals"
+       "group": "result"
       },
       {
        "label": "Paris SG over 0.5 goals",
-       "prob": 0.8279,
+       "prob": 0.8809,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.7751,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.7734,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "goals"
       }
      ]
     }
@@ -6014,25 +6014,25 @@
    "home_name": "Internazionale",
    "away_name": "Genoa",
    "probabilities": {
-    "H": 0.6941,
-    "D": 0.2194,
-    "A": 0.0864
+    "H": 0.7076,
+    "D": 0.1913,
+    "A": 0.1011
    },
    "expected_goals": [
-    1.806,
-    0.478
+    2.152,
+    0.687
    ],
-   "pick": "Inter win 69% · Match total under 2.5 goals 60% · BTTS no 68%",
+   "pick": "Inter win 71% · Match total over 2.5 goals 54% · BTTS no 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6003
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5398
    },
    "builder": {
     "best": {
-     "joint": 0.5946,
-     "fair": 1.68,
+     "joint": 0.586,
+     "fair": 1.71,
      "legs": [
       {
        "label": "Match total cards under 5.5",
@@ -6040,20 +6040,6 @@
        "source": "form",
        "hit": "11/15",
        "group": "cards"
-      },
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8937,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Inter over 0.5 goals",
-       "prob": 0.8358,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       },
       {
        "label": "Genoa team corners under 4.5",
@@ -6063,17 +6049,31 @@
        "group": "corners"
       },
       {
-       "label": "No draw",
-       "prob": 0.7806,
+       "label": "Inter over 0.5 goals",
+       "prob": 0.8838,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Inter or draw",
+       "prob": 0.8989,
        "source": "model",
        "hit": "",
        "group": "result"
+      },
+      {
+       "label": "Match total over 1.5 goals",
+       "prob": 0.7798,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     },
     "safe": {
-     "joint": 0.7624,
-     "fair": 1.31,
+     "joint": 0.7207,
+     "fair": 1.39,
      "legs": [
       {
        "label": "Match total cards under 5.5",
@@ -6083,15 +6083,15 @@
        "group": "cards"
       },
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8937,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
+       "label": "Genoa team corners under 4.5",
+       "prob": 0.8928,
+       "source": "form",
+       "hit": "6/8",
+       "group": "corners"
       },
       {
        "label": "Inter over 0.5 goals",
-       "prob": 0.8358,
+       "prob": 0.8838,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -6385,25 +6385,25 @@
    "home_name": "Real Madrid",
    "away_name": "Alavés",
    "probabilities": {
-    "H": 0.7439,
-    "D": 0.1836,
-    "A": 0.0725
+    "H": 0.7685,
+    "D": 0.1539,
+    "A": 0.0776
    },
    "expected_goals": [
-    2.099,
-    0.504
+    2.536,
+    0.699
    ],
-   "pick": "Real Madrid win 74% · Match total under 2.5 goals 52% · BTTS no 65%",
+   "pick": "Real Madrid win 77% · Match total under 3.5 goals 59% · BTTS no 53%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5176
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5947
    },
    "builder": {
     "best": {
-     "joint": 0.5773,
-     "fair": 1.73,
+     "joint": 0.5483,
+     "fair": 1.82,
      "legs": [
       {
        "label": "Alaves team corners under 5.5",
@@ -6413,25 +6413,18 @@
        "group": "corners"
       },
       {
-       "label": "Real Madrid over 0.5 goals",
-       "prob": 0.8774,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8906,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Real Madrid under 4.5 goals",
+       "prob": 0.8864,
        "source": "model",
        "hit": "",
        "group": "team_goals"
-      },
-      {
-       "label": "No draw",
-       "prob": 0.8164,
-       "source": "model",
-       "hit": "",
-       "group": "result"
-      },
-      {
-       "label": "Real Madrid most corners",
-       "prob": 0.8442,
-       "source": "form",
-       "hit": "",
-       "group": "most_corners"
       },
       {
        "label": "Match total cards under 6.5",
@@ -6439,12 +6432,19 @@
        "source": "form",
        "hit": "12/15",
        "group": "cards"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.8461,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.7033,
-     "fair": 1.42,
+     "joint": 0.7795,
+     "fair": 1.28,
      "legs": [
       {
        "label": "Alaves team corners under 5.5",
@@ -6454,18 +6454,18 @@
        "group": "corners"
       },
       {
-       "label": "Real Madrid over 0.5 goals",
-       "prob": 0.8774,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8906,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Real Madrid under 4.5 goals",
+       "prob": 0.8864,
        "source": "model",
        "hit": "",
        "group": "team_goals"
-      },
-      {
-       "label": "No draw",
-       "prob": 0.8164,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       }
      ]
     }
@@ -6756,36 +6756,36 @@
    "home_name": "Udinese",
    "away_name": "Fiorentina",
    "probabilities": {
-    "H": 0.3391,
-    "D": 0.2959,
-    "A": 0.3649
+    "H": 0.3584,
+    "D": 0.2558,
+    "A": 0.3858
    },
    "expected_goals": [
-    1.13,
-    1.182
+    1.452,
+    1.514
    ],
-   "pick": "Fiorentina win 36% · Match total under 2.5 goals 59% · BTTS no 52%",
+   "pick": "Fiorentina win 39% · Match total over 2.5 goals 57% · BTTS yes 60%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5929
+    "label": "Match total over 2.5 goals",
+    "prob": 0.569
    },
    "builder": {
     "best": {
-     "joint": 0.3507,
-     "fair": 2.85,
+     "joint": 0.2986,
+     "fair": 3.35,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8943,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.821,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
        "label": "Udinese under 2.5 goals",
-       "prob": 0.8944,
+       "prob": 0.8208,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -6798,8 +6798,8 @@
        "group": "corners"
       },
       {
-       "label": "No draw",
-       "prob": 0.7041,
+       "label": "Fiorentina or draw",
+       "prob": 0.6416,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -6814,19 +6814,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6351,
-     "fair": 1.57,
+     "joint": 0.5867,
+     "fair": 1.7,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8943,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.821,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
        "label": "Udinese under 2.5 goals",
-       "prob": 0.8944,
+       "prob": 0.8208,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -7109,33 +7109,26 @@
    "home_name": "Everton",
    "away_name": "Liverpool",
    "probabilities": {
-    "H": 0.3763,
-    "D": 0.3087,
-    "A": 0.315
+    "H": 0.4058,
+    "D": 0.2679,
+    "A": 0.3263
    },
    "expected_goals": [
-    1.131,
-    1.011
+    1.448,
+    1.275
    ],
-   "pick": "Everton win 38% · Match total over 1.5 goals 64% · BTTS no 56%",
+   "pick": "Everton win 41% · Match total over 2.5 goals 51% · BTTS yes 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6377
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5121
    },
    "builder": {
     "best": {
-     "joint": 0.4587,
-     "fair": 2.18,
+     "joint": 0.4326,
+     "fair": 2.31,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8758,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
       {
        "label": "Match total corners under 12.5",
        "prob": 0.8856,
@@ -7144,11 +7137,18 @@
        "group": "corners"
       },
       {
-       "label": "Everton under 2.5 goals",
-       "prob": 0.8941,
+       "label": "Liverpool under 2.5 goals",
+       "prob": 0.8628,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8594,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Match total cards under 6.5",
@@ -7158,8 +7158,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.6913,
+       "label": "Everton or draw",
+       "prob": 0.6737,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -7167,16 +7167,9 @@
      ]
     },
     "safe": {
-     "joint": 0.6938,
-     "fair": 1.44,
+     "joint": 0.7097,
+     "fair": 1.41,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8758,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
       {
        "label": "Match total corners under 12.5",
        "prob": 0.8856,
@@ -7185,11 +7178,18 @@
        "group": "corners"
       },
       {
-       "label": "Everton under 2.5 goals",
-       "prob": 0.8941,
+       "label": "Liverpool under 2.5 goals",
+       "prob": 0.8628,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8594,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -7462,53 +7462,46 @@
    "home_name": "Valencia",
    "away_name": "Osasuna",
    "probabilities": {
-    "H": 0.575,
-    "D": 0.2638,
-    "A": 0.1612
+    "H": 0.582,
+    "D": 0.2318,
+    "A": 0.1862
    },
    "expected_goals": [
-    1.569,
-    0.706
+    1.893,
+    0.981
    ],
-   "pick": "Valencia win 58% · Match total under 2.5 goals 60% · BTTS no 59%",
+   "pick": "Valencia win 58% · Match total over 2.5 goals 55% · BTTS yes 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6027
+    "label": "Match total over 2.5 goals",
+    "prob": 0.548
    },
    "builder": {
     "best": {
-     "joint": 0.4405,
-     "fair": 2.27,
+     "joint": 0.3539,
+     "fair": 2.83,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8915,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Valencia over 0.5 goals",
-       "prob": 0.7917,
+       "label": "Valencia under 3.5 goals",
+       "prob": 0.8758,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8359,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
        "label": "Valencia or draw",
-       "prob": 0.8388,
+       "prob": 0.8138,
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Valencia most corners",
-       "prob": 0.818,
-       "source": "form",
-       "hit": "",
-       "group": "most_corners"
       },
       {
        "label": "Match total cards over 2.5",
@@ -7516,30 +7509,37 @@
        "source": "form",
        "hit": "15/15",
        "group": "cards"
+      },
+      {
+       "label": "Match total corners under 11.5",
+       "prob": 0.6984,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
       }
      ]
     },
     "safe": {
-     "joint": 0.7305,
-     "fair": 1.37,
+     "joint": 0.649,
+     "fair": 1.54,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8915,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Valencia over 0.5 goals",
-       "prob": 0.7917,
+       "label": "Valencia under 3.5 goals",
+       "prob": 0.8758,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8359,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
        "label": "Valencia or draw",
-       "prob": 0.8388,
+       "prob": 0.8138,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -7797,46 +7797,46 @@
    "home_name": "AJ Auxerre",
    "away_name": "Marseille",
    "probabilities": {
-    "H": 0.3456,
-    "D": 0.2986,
-    "A": 0.3559
+    "H": 0.3964,
+    "D": 0.2609,
+    "A": 0.3427
    },
    "expected_goals": [
-    1.129,
-    1.149
+    1.49,
+    1.371
    ],
-   "pick": "Marseille win 36% · Match total under 2.5 goals 60% · BTTS no 53%",
+   "pick": "Auxerre win 40% · Match total over 2.5 goals 54% · BTTS yes 58%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6018
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5449
    },
    "builder": {
     "best": {
-     "joint": 0.4039,
-     "fair": 2.48,
+     "joint": 0.3582,
+     "fair": 2.79,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8909,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Auxerre under 2.5 goals",
-       "prob": 0.8946,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
       {
        "label": "Marseille team corners under 6.5",
        "prob": 0.8451,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
+      },
+      {
+       "label": "Marseille under 2.5 goals",
+       "prob": 0.8406,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8381,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Auxerre team cards over 0.5",
@@ -7846,8 +7846,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.7014,
+       "label": "Auxerre or draw",
+       "prob": 0.6573,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -7855,29 +7855,29 @@
      ]
     },
     "safe": {
-     "joint": 0.6715,
-     "fair": 1.49,
+     "joint": 0.6516,
+     "fair": 1.53,
      "legs": [
-      {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8909,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Auxerre under 2.5 goals",
-       "prob": 0.8946,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
       {
        "label": "Marseille team corners under 6.5",
        "prob": 0.8451,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
+      },
+      {
+       "label": "Marseille under 2.5 goals",
+       "prob": 0.8406,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8381,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -8150,29 +8150,36 @@
    "home_name": "Sassuolo",
    "away_name": "Napoli",
    "probabilities": {
-    "H": 0.1958,
-    "D": 0.2756,
-    "A": 0.5286
+    "H": 0.2315,
+    "D": 0.2445,
+    "A": 0.524
    },
    "expected_goals": [
-    0.8,
-    1.487
+    1.11,
+    1.776
    ],
-   "pick": "Napoli win 53% · Match total under 2.5 goals 60% · BTTS no 57%",
+   "pick": "Napoli win 52% · Match total over 2.5 goals 55% · BTTS yes 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5995
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5507
    },
    "builder": {
     "best": {
-     "joint": 0.4669,
-     "fair": 2.14,
+     "joint": 0.4143,
+     "fair": 2.41,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8924,
+       "label": "Sassuolo under 2.5 goals",
+       "prob": 0.8983,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8341,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -8185,35 +8192,35 @@
        "group": "corners"
       },
       {
-       "label": "Napoli over 0.5 goals",
-       "prob": 0.7739,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
        "label": "Napoli or draw",
-       "prob": 0.8042,
+       "prob": 0.7685,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Napoli team shots on target over 3.5",
-       "prob": 0.6583,
+       "label": "Napoli team cards under 2.5",
+       "prob": 0.7294,
        "source": "form",
-       "hit": "8/10",
-       "group": "sot"
+       "hit": "12/15",
+       "group": "cards"
       }
      ]
     },
     "safe": {
-     "joint": 0.6865,
-     "fair": 1.46,
+     "joint": 0.71,
+     "fair": 1.41,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8924,
+       "label": "Sassuolo under 2.5 goals",
+       "prob": 0.8983,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8341,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -8224,13 +8231,6 @@
        "source": "form",
        "hit": "11/15",
        "group": "corners"
-      },
-      {
-       "label": "Napoli over 0.5 goals",
-       "prob": 0.7739,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -8503,29 +8503,29 @@
    "home_name": "Brighton & Hove Albion",
    "away_name": "Newcastle United",
    "probabilities": {
-    "H": 0.5295,
-    "D": 0.2872,
-    "A": 0.1834
+    "H": 0.5531,
+    "D": 0.2488,
+    "A": 0.1981
    },
    "expected_goals": [
-    1.401,
-    0.71
+    1.723,
+    0.938
    ],
-   "pick": "Brighton win 53% · Match total over 1.5 goals 63% · BTTS no 61%",
+   "pick": "Brighton win 55% · Match total under 2.5 goals 50% · BTTS yes 51%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6291
+    "label": "Match total under 2.5 goals",
+    "prob": 0.5032
    },
    "builder": {
     "best": {
-     "joint": 0.4771,
-     "fair": 2.1,
+     "joint": 0.3558,
+     "fair": 2.81,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8728,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8687,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -8538,35 +8538,35 @@
        "group": "corners"
       },
       {
-       "label": "Brighton over 0.5 goals",
-       "prob": 0.7536,
+       "label": "Brighton under 2.5 goals",
+       "prob": 0.7511,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
+       "label": "Brighton team cards over 0.5",
+       "prob": 0.7674,
+       "source": "form",
+       "hit": "13/15",
+       "group": "cards"
+      },
+      {
        "label": "Brighton or draw",
-       "prob": 0.8166,
+       "prob": 0.8019,
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Brighton team shots on target over 4.5",
-       "prob": 0.6937,
-       "source": "form",
-       "hit": "8/10",
-       "group": "sot"
       }
      ]
     },
     "safe": {
-     "joint": 0.6402,
-     "fair": 1.56,
+     "joint": 0.6292,
+     "fair": 1.59,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8728,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8687,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -8579,8 +8579,8 @@
        "group": "corners"
       },
       {
-       "label": "Brighton over 0.5 goals",
-       "prob": 0.7536,
+       "label": "Brighton under 2.5 goals",
+       "prob": 0.7511,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -8856,36 +8856,36 @@
    "home_name": "Crystal Palace",
    "away_name": "Hull City",
    "probabilities": {
-    "H": 0.5039,
-    "D": 0.3077,
-    "A": 0.1883
+    "H": 0.5292,
+    "D": 0.2651,
+    "A": 0.2057
    },
    "expected_goals": [
-    1.265,
-    0.661
+    1.574,
+    0.886
    ],
-   "pick": "Crystal Palace win 50% · Match total over 1.5 goals 58% · BTTS no 65%",
+   "pick": "Crystal Palace win 53% · Match total under 2.5 goals 55% · BTTS no 53%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.5796
+    "label": "Match total under 2.5 goals",
+    "prob": 0.5543
    },
    "builder": {
     "best": {
-     "joint": 0.3905,
-     "fair": 2.56,
+     "joint": 0.3484,
+     "fair": 2.87,
      "legs": [
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.8703,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8966,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
        "label": "Crystal Palace under 2.5 goals",
-       "prob": 0.8651,
+       "prob": 0.7902,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -8899,7 +8899,7 @@
       },
       {
        "label": "Crystal Palace or draw",
-       "prob": 0.8117,
+       "prob": 0.7943,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -8914,19 +8914,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6657,
-     "fair": 1.5,
+     "joint": 0.6228,
+     "fair": 1.61,
      "legs": [
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.8703,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8966,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
        "label": "Crystal Palace under 2.5 goals",
-       "prob": 0.8651,
+       "prob": 0.7902,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -9137,39 +9137,39 @@
    "home_name": "Fulham",
    "away_name": "AFC Bournemouth",
    "probabilities": {
-    "H": 0.4209,
-    "D": 0.2904,
-    "A": 0.2886
+    "H": 0.4508,
+    "D": 0.2551,
+    "A": 0.2941
    },
    "expected_goals": [
-    1.306,
-    1.035
+    1.624,
+    1.272
    ],
-   "pick": "Fulham win 42% · Match total under 2.5 goals 59% · BTTS no 52%",
+   "pick": "Fulham win 45% · Match total over 2.5 goals 55% · BTTS yes 58%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5851
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5531
    },
    "builder": {
     "best": {
-     "joint": 0.3985,
-     "fair": 2.51,
+     "joint": 0.4065,
+     "fair": 2.46,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8973,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Fulham under 2.5 goals",
-       "prob": 0.8557,
+       "label": "Bournemouth under 2.5 goals",
+       "prob": 0.8636,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8324,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Bournemouth team corners under 6.5",
@@ -9186,8 +9186,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.7096,
+       "label": "Fulham or draw",
+       "prob": 0.7059,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -9195,22 +9195,22 @@
      ]
     },
     "safe": {
-     "joint": 0.6291,
-     "fair": 1.59,
+     "joint": 0.6407,
+     "fair": 1.56,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8973,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Fulham under 2.5 goals",
-       "prob": 0.8557,
+       "label": "Bournemouth under 2.5 goals",
+       "prob": 0.8636,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8324,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       },
       {
        "label": "Bournemouth team corners under 6.5",
@@ -9490,53 +9490,46 @@
    "home_name": "Sunderland",
    "away_name": "Tottenham Hotspur",
    "probabilities": {
-    "H": 0.3553,
-    "D": 0.3572,
-    "A": 0.2876
+    "H": 0.4088,
+    "D": 0.3022,
+    "A": 0.2889
    },
    "expected_goals": [
-    0.892,
-    0.771
+    1.217,
+    0.978
    ],
-   "pick": "Draw 36% · Match total over 1.5 goals 50% · BTTS no 68%",
+   "pick": "Sunderland win 41% · Match total under 2.5 goals 62% · BTTS no 55%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.5017
+    "label": "Match total under 2.5 goals",
+    "prob": 0.6241
    },
    "builder": {
     "best": {
-     "joint": 0.4047,
-     "fair": 2.47,
+     "joint": 0.4098,
+     "fair": 2.44,
      "legs": [
+      {
+       "label": "Match total over 0.5 goals",
+       "prob": 0.882,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Sunderland under 2.5 goals",
+       "prob": 0.8759,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
       {
        "label": "Tottenham team corners under 6.5",
        "prob": 0.8452,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Tottenham under 1.5 goals",
-       "prob": 0.819,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 2.5 goals",
-       "prob": 0.7669,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Not both teams score",
-       "prob": 0.6763,
-       "source": "model",
-       "hit": "",
-       "group": "btts"
       },
       {
        "label": "Match total cards over 2.5",
@@ -9544,33 +9537,40 @@
        "source": "form",
        "hit": "12/15",
        "group": "cards"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.6978,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.6042,
-     "fair": 1.66,
+     "joint": 0.6506,
+     "fair": 1.54,
      "legs": [
+      {
+       "label": "Match total over 0.5 goals",
+       "prob": 0.882,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Sunderland under 2.5 goals",
+       "prob": 0.8759,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
       {
        "label": "Tottenham team corners under 6.5",
        "prob": 0.8452,
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Tottenham under 1.5 goals",
-       "prob": 0.819,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 2.5 goals",
-       "prob": 0.7669,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
       }
      ]
     }
@@ -9861,25 +9861,25 @@
    "home_name": "SC Freiburg",
    "away_name": "RB Leipzig",
    "probabilities": {
-    "H": 0.4972,
-    "D": 0.2522,
-    "A": 0.2506
+    "H": 0.516,
+    "D": 0.2224,
+    "A": 0.2617
    },
    "expected_goals": [
-    1.69,
-    1.137
+    2.05,
+    1.424
    ],
-   "pick": "Freiburg win 50% · Match total over 2.5 goals 54% · BTTS yes 56%",
+   "pick": "Freiburg win 52% · Match total under 3.5 goals 54% · BTTS yes 67%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5368
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5423
    },
    "builder": {
     "best": {
-     "joint": 0.4738,
-     "fair": 2.11,
+     "joint": 0.4957,
+     "fair": 2.02,
      "legs": [
       {
        "label": "RB Leipzig team corners under 6.5",
@@ -9889,18 +9889,18 @@
        "group": "corners"
       },
       {
-       "label": "RB Leipzig under 2.5 goals",
-       "prob": 0.8929,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8435,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8658,
        "source": "model",
        "hit": "",
        "group": "goals"
+      },
+      {
+       "label": "Freiburg over 0.5 goals",
+       "prob": 0.8713,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
       },
       {
        "label": "Freiburg team cards under 2.5",
@@ -9910,17 +9910,17 @@
        "group": "cards"
       },
       {
-       "label": "Freiburg or draw",
-       "prob": 0.7494,
+       "label": "Both teams score",
+       "prob": 0.666,
        "source": "model",
        "hit": "",
-       "group": "result"
+       "group": "btts"
       }
      ]
     },
     "safe": {
-     "joint": 0.73,
-     "fair": 1.37,
+     "joint": 0.7471,
+     "fair": 1.34,
      "legs": [
       {
        "label": "RB Leipzig team corners under 6.5",
@@ -9930,18 +9930,18 @@
        "group": "corners"
       },
       {
-       "label": "RB Leipzig under 2.5 goals",
-       "prob": 0.8929,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8435,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8658,
        "source": "model",
        "hit": "",
        "group": "goals"
+      },
+      {
+       "label": "Freiburg over 0.5 goals",
+       "prob": 0.8713,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
       }
      ]
     }
@@ -10214,25 +10214,25 @@
    "home_name": "Deportivo",
    "away_name": "Barcelona",
    "probabilities": {
-    "H": 0.2042,
-    "D": 0.2713,
-    "A": 0.5245
+    "H": 0.2349,
+    "D": 0.2403,
+    "A": 0.5248
    },
    "expected_goals": [
-    0.851,
-    1.521
+    1.154,
+    1.823
    ],
-   "pick": "Barcelona win 52% · Match total under 2.5 goals 58% · BTTS no 55%",
+   "pick": "Barcelona win 52% · Match total over 2.5 goals 57% · BTTS yes 58%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5772
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5715
    },
    "builder": {
     "best": {
-     "joint": 0.4332,
-     "fair": 2.31,
+     "joint": 0.4865,
+     "fair": 2.06,
      "legs": [
       {
        "label": "Match total corners under 13.5",
@@ -10242,6 +10242,20 @@
        "group": "corners"
       },
       {
+       "label": "La Coruna under 2.5 goals",
+       "prob": 0.8893,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8192,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
        "label": "Match total cards under 6.5",
        "prob": 0.8788,
        "source": "form",
@@ -10249,22 +10263,8 @@
        "group": "cards"
       },
       {
-       "label": "Barcelona under 2.5 goals",
-       "prob": 0.8036,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.7847,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Barcelona or draw",
-       "prob": 0.7958,
+       "prob": 0.7651,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -10272,8 +10272,8 @@
      ]
     },
     "safe": {
-     "joint": 0.6368,
-     "fair": 1.57,
+     "joint": 0.7003,
+     "fair": 1.43,
      "legs": [
       {
        "label": "Match total corners under 13.5",
@@ -10283,18 +10283,18 @@
        "group": "corners"
       },
       {
-       "label": "Match total cards under 6.5",
-       "prob": 0.8788,
-       "source": "form",
-       "hit": "12/15",
-       "group": "cards"
-      },
-      {
-       "label": "Barcelona under 2.5 goals",
-       "prob": 0.8036,
+       "label": "La Coruna under 2.5 goals",
+       "prob": 0.8893,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8192,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
       }
      ]
     }
@@ -10495,39 +10495,46 @@
    "home_name": "Toulouse",
    "away_name": "Stade Rennais",
    "probabilities": {
-    "H": 0.4888,
-    "D": 0.2579,
-    "A": 0.2534
+    "H": 0.5425,
+    "D": 0.2192,
+    "A": 0.2382
    },
    "expected_goals": [
-    1.63,
-    1.11
+    2.091,
+    1.341
    ],
-   "pick": "Toulouse win 49% · Match total over 2.5 goals 52% · BTTS yes 54%",
+   "pick": "Toulouse win 54% · Match total under 3.5 goals 55% · BTTS yes 65%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5161
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5512
    },
    "builder": {
     "best": {
-     "joint": 0.3933,
-     "fair": 2.54,
+     "joint": 0.3984,
+     "fair": 2.51,
      "legs": [
       {
-       "label": "Rennes under 2.5 goals",
-       "prob": 0.8984,
+       "label": "Toulouse over 0.5 goals",
+       "prob": 0.8765,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8569,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8614,
        "source": "model",
        "hit": "",
        "group": "goals"
+      },
+      {
+       "label": "Toulouse or draw",
+       "prob": 0.7618,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       },
       {
        "label": "Match total cards over 2.5",
@@ -10535,13 +10542,6 @@
        "source": "form",
        "hit": "14/15",
        "group": "cards"
-      },
-      {
-       "label": "Toulouse or draw",
-       "prob": 0.7466,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       },
       {
        "label": "Match total corners under 12.5",
@@ -10553,29 +10553,29 @@
      ]
     },
     "safe": {
-     "joint": 0.6532,
-     "fair": 1.53,
+     "joint": 0.6502,
+     "fair": 1.54,
      "legs": [
       {
-       "label": "Rennes under 2.5 goals",
-       "prob": 0.8984,
+       "label": "Toulouse over 0.5 goals",
+       "prob": 0.8765,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8569,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8614,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Match total cards over 2.5",
-       "prob": 0.7957,
-       "source": "form",
-       "hit": "14/15",
-       "group": "cards"
+       "label": "Toulouse or draw",
+       "prob": 0.7618,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     }
@@ -10848,25 +10848,25 @@
    "home_name": "TSG Hoffenheim",
    "away_name": "FC Augsburg",
    "probabilities": {
-    "H": 0.5447,
-    "D": 0.2297,
-    "A": 0.2256
+    "H": 0.6423,
+    "D": 0.184,
+    "A": 0.1737
    },
    "expected_goals": [
-    1.947,
-    1.191
+    2.547,
+    1.292
    ],
-   "pick": "Hoffenheim win 54% · Match total over 2.5 goals 61% · BTTS yes 60%",
+   "pick": "Hoffenheim win 64% · Match total over 3.5 goals 53% · BTTS yes 67%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.607
+    "label": "Match total over 3.5 goals",
+    "prob": 0.5343
    },
    "builder": {
     "best": {
-     "joint": 0.3792,
-     "fair": 2.64,
+     "joint": 0.4363,
+     "fair": 2.29,
      "legs": [
       {
        "label": "Augsburg team corners under 6.5",
@@ -10876,22 +10876,22 @@
        "group": "corners"
       },
       {
-       "label": "Augsburg under 2.5 goals",
-       "prob": 0.8815,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.7916,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8994,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Hoffenheim or draw",
-       "prob": 0.7744,
+       "label": "Hoffenheim under 4.5 goals",
+       "prob": 0.8849,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "No draw",
+       "prob": 0.816,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -10906,8 +10906,8 @@
      ]
     },
     "safe": {
-     "joint": 0.6897,
-     "fair": 1.45,
+     "joint": 0.7224,
+     "fair": 1.38,
      "legs": [
       {
        "label": "Augsburg team corners under 6.5",
@@ -10917,18 +10917,18 @@
        "group": "corners"
       },
       {
-       "label": "Augsburg under 2.5 goals",
-       "prob": 0.8815,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.7916,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8994,
        "source": "model",
        "hit": "",
        "group": "goals"
+      },
+      {
+       "label": "Hoffenheim under 4.5 goals",
+       "prob": 0.8849,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
       }
      ]
     }
@@ -11219,29 +11219,29 @@
    "home_name": "Arsenal",
    "away_name": "Manchester City",
    "probabilities": {
-    "H": 0.472,
-    "D": 0.3097,
-    "A": 0.2183
+    "H": 0.5058,
+    "D": 0.2683,
+    "A": 0.2259
    },
    "expected_goals": [
-    1.238,
-    0.749
+    1.543,
+    0.947
    ],
-   "pick": "Arsenal win 47% · Match total over 1.5 goals 60% · BTTS no 62%",
+   "pick": "Arsenal win 51% · Match total under 2.5 goals 55% · BTTS no 51%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.5967
+    "label": "Match total under 2.5 goals",
+    "prob": 0.5464
    },
    "builder": {
     "best": {
-     "joint": 0.3862,
-     "fair": 2.59,
+     "joint": 0.3561,
+     "fair": 2.81,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8565,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8925,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -11255,34 +11255,34 @@
       },
       {
        "label": "Arsenal under 2.5 goals",
-       "prob": 0.8712,
+       "prob": 0.798,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "No draw",
-       "prob": 0.6903,
+       "label": "Match total cards under 5.5",
+       "prob": 0.7476,
+       "source": "form",
+       "hit": "11/15",
+       "group": "cards"
+      },
+      {
+       "label": "Arsenal or draw",
+       "prob": 0.7741,
        "source": "model",
        "hit": "",
        "group": "result"
-      },
-      {
-       "label": "Not both teams score",
-       "prob": 0.6194,
-       "source": "model",
-       "hit": "",
-       "group": "btts"
       }
      ]
     },
     "safe": {
-     "joint": 0.6447,
-     "fair": 1.55,
+     "joint": 0.6705,
+     "fair": 1.49,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8565,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8925,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -11296,7 +11296,7 @@
       },
       {
        "label": "Arsenal under 2.5 goals",
-       "prob": 0.8712,
+       "prob": 0.798,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -11590,43 +11590,43 @@
    "home_name": "AS Roma",
    "away_name": "Monza",
    "probabilities": {
-    "H": 0.7586,
-    "D": 0.1793,
-    "A": 0.0622
+    "H": 0.7547,
+    "D": 0.162,
+    "A": 0.0832
    },
    "expected_goals": [
-    2.087,
-    0.439
+    2.451,
+    0.703
    ],
-   "pick": "Roma win 76% · Match total under 2.5 goals 54% · BTTS no 68%",
+   "pick": "Roma win 75% · Match total over 2.5 goals 61% · BTTS no 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5372
+    "label": "Match total over 2.5 goals",
+    "prob": 0.6102
    },
    "builder": {
     "best": {
-     "joint": 0.462,
-     "fair": 2.16,
+     "joint": 0.4918,
+     "fair": 2.03,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8877,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8999,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Roma under 3.5 goals",
-       "prob": 0.8412,
+       "label": "Roma under 4.5 goals",
+       "prob": 0.8977,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
        "label": "No draw",
-       "prob": 0.8207,
+       "prob": 0.838,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -11639,35 +11639,35 @@
        "group": "most_corners"
       },
       {
-       "label": "Not both teams score",
-       "prob": 0.6849,
-       "source": "model",
-       "hit": "",
-       "group": "btts"
+       "label": "Match total corners under 12.5",
+       "prob": 0.7888,
+       "source": "form",
+       "hit": "11/15",
+       "group": "corners"
       }
      ]
     },
     "safe": {
-     "joint": 0.66,
-     "fair": 1.52,
+     "joint": 0.7228,
+     "fair": 1.38,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8877,
+       "label": "Match total under 5.5 goals",
+       "prob": 0.8999,
        "source": "model",
        "hit": "",
        "group": "goals"
       },
       {
-       "label": "Roma under 3.5 goals",
-       "prob": 0.8412,
+       "label": "Roma under 4.5 goals",
+       "prob": 0.8977,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
        "label": "No draw",
-       "prob": 0.8207,
+       "prob": 0.838,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -11961,29 +11961,36 @@
    "home_name": "Celta Vigo",
    "away_name": "Villarreal",
    "probabilities": {
-    "H": 0.4421,
-    "D": 0.2954,
-    "A": 0.2625
+    "H": 0.4847,
+    "D": 0.2546,
+    "A": 0.2607
    },
    "expected_goals": [
-    1.298,
-    0.937
+    1.659,
+    1.159
    ],
-   "pick": "Celta Vigo win 44% · Match total under 2.5 goals 61% · BTTS no 55%",
+   "pick": "Celta Vigo win 48% · Match total over 2.5 goals 53% · BTTS yes 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6133
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5348
    },
    "builder": {
     "best": {
-     "joint": 0.398,
-     "fair": 2.51,
+     "joint": 0.4084,
+     "fair": 2.45,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8865,
+       "label": "Villarreal under 2.5 goals",
+       "prob": 0.8883,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8449,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -11994,13 +12001,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Celta under 2.5 goals",
-       "prob": 0.8575,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       },
       {
        "label": "Celta team cards over 0.5",
@@ -12010,8 +12010,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.7046,
+       "label": "Celta or draw",
+       "prob": 0.7393,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -12019,12 +12019,19 @@
      ]
     },
     "safe": {
-     "joint": 0.6523,
-     "fair": 1.53,
+     "joint": 0.6907,
+     "fair": 1.45,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8865,
+       "label": "Villarreal under 2.5 goals",
+       "prob": 0.8883,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8449,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -12035,13 +12042,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Celta under 2.5 goals",
-       "prob": 0.8575,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -12296,36 +12296,36 @@
    "home_name": "Borussia Dortmund",
    "away_name": "Bayer Leverkusen",
    "probabilities": {
-    "H": 0.562,
-    "D": 0.2416,
-    "A": 0.1964
+    "H": 0.5881,
+    "D": 0.211,
+    "A": 0.201
    },
    "expected_goals": [
-    1.795,
-    0.971
+    2.175,
+    1.214
    ],
-   "pick": "Dortmund win 56% · Match total over 2.5 goals 52% · BTTS yes 52%",
+   "pick": "Dortmund win 59% · Match total under 3.5 goals 56% · BTTS yes 63%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 2.5 goals",
-    "prob": 0.5225
+    "label": "Match total under 3.5 goals",
+    "prob": 0.5607
    },
    "builder": {
     "best": {
-     "joint": 0.4552,
-     "fair": 2.2,
+     "joint": 0.4881,
+     "fair": 2.05,
      "legs": [
       {
-       "label": "Dortmund under 3.5 goals",
-       "prob": 0.892,
+       "label": "Dortmund over 0.5 goals",
+       "prob": 0.8864,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8529,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8564,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -12338,35 +12338,35 @@
        "group": "cards"
       },
       {
+       "label": "Dortmund or draw",
+       "prob": 0.799,
+       "source": "model",
+       "hit": "",
+       "group": "result"
+      },
+      {
        "label": "Match total corners under 13.5",
        "prob": 0.8297,
        "source": "form",
        "hit": "11/15",
        "group": "corners"
-      },
-      {
-       "label": "Dortmund or draw",
-       "prob": 0.8036,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.7261,
-     "fair": 1.38,
+     "joint": 0.7124,
+     "fair": 1.4,
      "legs": [
       {
-       "label": "Dortmund under 3.5 goals",
-       "prob": 0.892,
+       "label": "Dortmund over 0.5 goals",
+       "prob": 0.8864,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8529,
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8564,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -12649,75 +12649,48 @@
    "home_name": "Lyon",
    "away_name": "AS Monaco",
    "probabilities": {
-    "H": 0.5734,
-    "D": 0.252,
-    "A": 0.1746
+    "H": 0.6114,
+    "D": 0.2156,
+    "A": 0.1729
    },
    "expected_goals": [
-    1.678,
-    0.815
+    2.067,
+    1.015
    ],
-   "pick": "Lyon win 57% · Match total under 2.5 goals 55% · BTTS no 54%",
+   "pick": "Lyon win 61% · Match total over 2.5 goals 59% · BTTS yes 56%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5456
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5949
    },
    "builder": {
     "best": {
-     "joint": 0.4955,
+     "joint": 0.4946,
      "fair": 2.02,
      "legs": [
       {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8921,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
-       "label": "Lyon team cards under 2.5",
-       "prob": 0.8578,
-       "source": "form",
-       "hit": "12/15",
-       "group": "cards"
-      },
-      {
-       "label": "Monaco under 1.5 goals",
-       "prob": 0.8034,
+       "label": "Lyon over 0.5 goals",
+       "prob": 0.8735,
        "source": "model",
        "hit": "",
        "group": "team_goals"
       },
       {
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8176,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
        "label": "Lyon or draw",
-       "prob": 0.8254,
+       "prob": 0.8271,
        "source": "model",
        "hit": "",
        "group": "result"
       },
       {
-       "label": "Monaco team corners under 6.5",
-       "prob": 0.8254,
-       "source": "form",
-       "hit": "11/15",
-       "group": "corners"
-      }
-     ]
-    },
-    "safe": {
-     "joint": 0.6553,
-     "fair": 1.53,
-     "legs": [
-      {
-       "label": "Match total under 4.5 goals",
-       "prob": 0.8921,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Lyon team cards under 2.5",
        "prob": 0.8578,
        "source": "form",
@@ -12725,11 +12698,38 @@
        "group": "cards"
       },
       {
-       "label": "Monaco under 1.5 goals",
-       "prob": 0.8034,
+       "label": "Lyon team shots on target over 4.5",
+       "prob": 0.7293,
+       "source": "form",
+       "hit": "7/10",
+       "group": "sot"
+      }
+     ]
+    },
+    "safe": {
+     "joint": 0.6809,
+     "fair": 1.47,
+     "legs": [
+      {
+       "label": "Lyon over 0.5 goals",
+       "prob": 0.8735,
        "source": "model",
        "hit": "",
        "group": "team_goals"
+      },
+      {
+       "label": "Match total over 1.5 goals",
+       "prob": 0.8176,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
+      {
+       "label": "Lyon or draw",
+       "prob": 0.8271,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     }
@@ -13020,26 +13020,33 @@
    "home_name": "Como",
    "away_name": "Juventus",
    "probabilities": {
-    "H": 0.4405,
-    "D": 0.3105,
-    "A": 0.249
+    "H": 0.4654,
+    "D": 0.2728,
+    "A": 0.2618
    },
    "expected_goals": [
-    1.207,
-    0.835
+    1.483,
+    1.05
    ],
-   "pick": "Como win 44% · Match total over 1.5 goals 61% · BTTS no 60%",
+   "pick": "Como win 47% · Match total under 2.5 goals 54% · BTTS yes 51%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6118
+    "label": "Match total under 2.5 goals",
+    "prob": 0.5355
    },
    "builder": {
     "best": {
-     "joint": 0.4376,
-     "fair": 2.29,
+     "joint": 0.3911,
+     "fair": 2.56,
      "legs": [
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8868,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
       {
        "label": "Match total corners under 13.5",
        "prob": 0.8863,
@@ -13048,15 +13055,8 @@
        "group": "corners"
       },
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8637,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Como under 2.5 goals",
-       "prob": 0.878,
+       "prob": 0.8131,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -13069,8 +13069,8 @@
        "group": "cards"
       },
       {
-       "label": "No draw",
-       "prob": 0.6895,
+       "label": "Como or draw",
+       "prob": 0.7382,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -13078,9 +13078,16 @@
      ]
     },
     "safe": {
-     "joint": 0.6745,
-     "fair": 1.48,
+     "joint": 0.6907,
+     "fair": 1.45,
      "legs": [
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8868,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
       {
        "label": "Match total corners under 13.5",
        "prob": 0.8863,
@@ -13089,15 +13096,8 @@
        "group": "corners"
       },
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8637,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Como under 2.5 goals",
-       "prob": 0.878,
+       "prob": 0.8131,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -13373,29 +13373,36 @@
    "home_name": "Real Sociedad",
    "away_name": "Sevilla",
    "probabilities": {
-    "H": 0.5352,
-    "D": 0.2701,
-    "A": 0.1947
+    "H": 0.566,
+    "D": 0.2343,
+    "A": 0.1997
    },
    "expected_goals": [
-    1.531,
-    0.819
+    1.877,
+    1.032
    ],
-   "pick": "Real Sociedad win 54% · Match total under 2.5 goals 58% · BTTS no 56%",
+   "pick": "Real Sociedad win 57% · Match total over 2.5 goals 56% · BTTS yes 55%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.5829
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5563
    },
    "builder": {
     "best": {
-     "joint": 0.4806,
-     "fair": 2.08,
+     "joint": 0.4363,
+     "fair": 2.29,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8986,
+       "label": "Sociedad under 3.5 goals",
+       "prob": 0.8785,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8302,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -13406,20 +13413,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Sociedad over 0.5 goals",
-       "prob": 0.7836,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Sociedad or draw",
-       "prob": 0.8053,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       },
       {
        "label": "Match total cards over 2.5",
@@ -13427,16 +13420,30 @@
        "source": "form",
        "hit": "14/15",
        "group": "cards"
+      },
+      {
+       "label": "Sociedad or draw",
+       "prob": 0.8003,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.6752,
-     "fair": 1.48,
+     "joint": 0.697,
+     "fair": 1.43,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8986,
+       "label": "Sociedad under 3.5 goals",
+       "prob": 0.8785,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8302,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -13447,13 +13454,6 @@
        "source": "form",
        "hit": "12/15",
        "group": "corners"
-      },
-      {
-       "label": "Sociedad over 0.5 goals",
-       "prob": 0.7836,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -13744,29 +13744,36 @@
    "home_name": "Lecce",
    "away_name": "Atalanta",
    "probabilities": {
-    "H": 0.2249,
-    "D": 0.2942,
-    "A": 0.4809
+    "H": 0.2661,
+    "D": 0.2591,
+    "A": 0.4747
    },
    "expected_goals": [
-    0.827,
-    1.338
+    1.148,
+    1.609
    ],
-   "pick": "Atalanta win 48% · Match total under 2.5 goals 63% · BTTS no 58%",
+   "pick": "Atalanta win 47% · Match total over 2.5 goals 52% · BTTS yes 55%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total under 2.5 goals",
-    "prob": 0.6321
+    "label": "Match total over 2.5 goals",
+    "prob": 0.5201
    },
    "builder": {
     "best": {
-     "joint": 0.4568,
-     "fair": 2.19,
+     "joint": 0.4293,
+     "fair": 2.33,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8789,
+       "label": "Lecce under 2.5 goals",
+       "prob": 0.8906,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8544,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -13777,20 +13784,6 @@
        "source": "form",
        "hit": "11/15",
        "group": "corners"
-      },
-      {
-       "label": "Atalanta over 0.5 goals",
-       "prob": 0.7377,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
-       "label": "Atalanta or draw",
-       "prob": 0.7751,
-       "source": "model",
-       "hit": "",
-       "group": "result"
       },
       {
        "label": "Match total cards over 1.5",
@@ -13798,16 +13791,30 @@
        "source": "form",
        "hit": "11/15",
        "group": "cards"
+      },
+      {
+       "label": "Atalanta or draw",
+       "prob": 0.7339,
+       "source": "model",
+       "hit": "",
+       "group": "result"
       }
      ]
     },
     "safe": {
-     "joint": 0.6389,
-     "fair": 1.57,
+     "joint": 0.6899,
+     "fair": 1.45,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8789,
+       "label": "Lecce under 2.5 goals",
+       "prob": 0.8906,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8544,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -13818,13 +13825,6 @@
        "source": "form",
        "hit": "11/15",
        "group": "corners"
-      },
-      {
-       "label": "Atalanta over 0.5 goals",
-       "prob": 0.7377,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
       }
      ]
     }
@@ -14079,29 +14079,29 @@
    "home_name": "Cagliari",
    "away_name": "AC Milan",
    "probabilities": {
-    "H": 0.2028,
-    "D": 0.3027,
-    "A": 0.4945
+    "H": 0.2294,
+    "D": 0.2642,
+    "A": 0.5064
    },
    "expected_goals": [
-    0.724,
-    1.291
+    0.983,
+    1.579
    ],
-   "pick": "AC Milan win 49% · Match total over 1.5 goals 60% · BTTS no 62%",
+   "pick": "AC Milan win 51% · Match total under 2.5 goals 53% · BTTS yes 50%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.6041
+    "label": "Match total under 2.5 goals",
+    "prob": 0.528
    },
    "builder": {
     "best": {
-     "joint": 0.4909,
-     "fair": 2.04,
+     "joint": 0.3942,
+     "fair": 2.54,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8604,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8827,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -14114,6 +14114,13 @@
        "group": "corners"
       },
       {
+       "label": "Milan under 2.5 goals",
+       "prob": 0.7887,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
+      },
+      {
        "label": "Milan team cards under 3.5",
        "prob": 0.8505,
        "source": "form",
@@ -14121,15 +14128,8 @@
        "group": "cards"
       },
       {
-       "label": "Milan over 0.5 goals",
-       "prob": 0.725,
-       "source": "model",
-       "hit": "",
-       "group": "team_goals"
-      },
-      {
        "label": "Milan or draw",
-       "prob": 0.7972,
+       "prob": 0.7706,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -14137,12 +14137,12 @@
      ]
     },
     "safe": {
-     "joint": 0.6503,
-     "fair": 1.54,
+     "joint": 0.6537,
+     "fair": 1.53,
      "legs": [
       {
-       "label": "Match total over 0.5 goals",
-       "prob": 0.8604,
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8827,
        "source": "model",
        "hit": "",
        "group": "goals"
@@ -14155,11 +14155,11 @@
        "group": "corners"
       },
       {
-       "label": "Milan team cards under 3.5",
-       "prob": 0.8505,
-       "source": "form",
-       "hit": "11/15",
-       "group": "cards"
+       "label": "Milan under 2.5 goals",
+       "prob": 0.7887,
+       "source": "model",
+       "hit": "",
+       "group": "team_goals"
       }
      ]
     }
@@ -14432,26 +14432,33 @@
    "home_name": "Espanyol",
    "away_name": "Getafe",
    "probabilities": {
-    "H": 0.4951,
-    "D": 0.3098,
-    "A": 0.1951
+    "H": 0.544,
+    "D": 0.2624,
+    "A": 0.1935
    },
    "expected_goals": [
-    1.25,
-    0.676
+    1.595,
+    0.849
    ],
-   "pick": "Espanyol win 50% · Match total over 1.5 goals 58% · BTTS no 64%",
+   "pick": "Espanyol win 54% · Match total under 2.5 goals 56% · BTTS no 54%",
    "elo_source": "ClubElo",
    "xg_used": true,
    "main_total": {
-    "label": "Match total over 1.5 goals",
-    "prob": 0.5797
+    "label": "Match total under 2.5 goals",
+    "prob": 0.5583
    },
    "builder": {
     "best": {
-     "joint": 0.4455,
-     "fair": 2.24,
+     "joint": 0.4106,
+     "fair": 2.44,
      "legs": [
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8985,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
       {
        "label": "Match total corners under 13.5",
        "prob": 0.8908,
@@ -14460,15 +14467,8 @@
        "group": "corners"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.8703,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Espanol under 2.5 goals",
-       "prob": 0.8686,
+       "prob": 0.7846,
        "source": "model",
        "hit": "",
        "group": "team_goals"
@@ -14482,7 +14482,7 @@
       },
       {
        "label": "Espanol or draw",
-       "prob": 0.8049,
+       "prob": 0.8065,
        "source": "model",
        "hit": "",
        "group": "result"
@@ -14490,9 +14490,16 @@
      ]
     },
     "safe": {
-     "joint": 0.7272,
-     "fair": 1.38,
+     "joint": 0.6796,
+     "fair": 1.47,
      "legs": [
+      {
+       "label": "Match total under 4.5 goals",
+       "prob": 0.8985,
+       "source": "model",
+       "hit": "",
+       "group": "goals"
+      },
       {
        "label": "Match total corners under 13.5",
        "prob": 0.8908,
@@ -14501,15 +14508,8 @@
        "group": "corners"
       },
       {
-       "label": "Match total under 3.5 goals",
-       "prob": 0.8703,
-       "source": "model",
-       "hit": "",
-       "group": "goals"
-      },
-      {
        "label": "Espanol under 2.5 goals",
-       "prob": 0.8686,
+       "prob": 0.7846,
        "source": "model",
        "hit": "",
        "group": "team_goals"
